@@ -6,7 +6,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="fc7f3c0e-d315-4a52-ab5c-eac462a8b378"
-      targetConnections="06da8bad-c3c8-4bad-8abc-f34461413a97 121be5ba-ff2c-49ea-b659-6a03c7975990 76a2e4a2-7af6-42dc-9cbd-d4ebe8aea08e">
+      targetConnections="06da8bad-c3c8-4bad-8abc-f34461413a97 121be5ba-ff2c-49ea-b659-6a03c7975990 76a2e4a2-7af6-42dc-9cbd-d4ebe8aea08e b658cc8f-669d-459e-be9e-785341f9e70a">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="fbb9899d-88ac-478b-aa94-1b3f4224b3d8"
@@ -61,8 +61,7 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="8e856c8e-7239-428b-a015-8dea2e900e0b"
-      targetConnections="1fdafc64-c068-4531-85c7-1bdf381c24cc">
+      id="8e856c8e-7239-428b-a015-8dea2e900e0b">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="53d70f56-e5d8-414c-bea3-53c7392b40a9"
@@ -308,20 +307,6 @@
           xsi:type="archimate:AssignmentRelationship"
           href="AssignmentRelationship_27c8eec2-008f-4366-86fc-030b76eb70e7.xml#27c8eec2-008f-4366-86fc-030b76eb70e7"/>
     </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="1fdafc64-c068-4531-85c7-1bdf381c24cc"
-        source="ebdb0a4d-a5d7-4548-839e-d18173127e18"
-        target="8e856c8e-7239-428b-a015-8dea2e900e0b">
-      <bendpoints
-          startX="180"
-          startY="-3"
-          endX="-24"
-          endY="-219"/>
-      <archimateRelationship
-          xsi:type="archimate:AssignmentRelationship"
-          href="AssignmentRelationship_21384564-dc4b-4a71-8b4a-f807c79a25a3.xml#21384564-dc4b-4a71-8b4a-f807c79a25a3"/>
-    </sourceConnections>
     <bounds
         x="36"
         y="360"
@@ -550,7 +535,33 @@
         xsi:type="archimate:ApplicationComponent"
         href="ApplicationComponent_2e2da735-1b90-47c9-87ce-b38dd7cad38d.xml#2e2da735-1b90-47c9-87ce-b38dd7cad38d"/>
   </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="379e2183-8e38-4641-9e97-993e8dde8ad7">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="b658cc8f-669d-459e-be9e-785341f9e70a"
+        source="379e2183-8e38-4641-9e97-993e8dde8ad7"
+        target="fc7f3c0e-d315-4a52-ab5c-eac462a8b378">
+      <bendpoints
+          startX="84"
+          startY="-3"
+          endX="24"
+          endY="-159"/>
+      <archimateRelationship
+          xsi:type="archimate:AssignmentRelationship"
+          href="AssignmentRelationship_1bc50d0c-001b-4e5b-8dd5-45fc992075b0.xml#1bc50d0c-001b-4e5b-8dd5-45fc992075b0"/>
+    </sourceConnections>
+    <bounds
+        x="36"
+        y="420"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessActor"
+        href="BusinessActor_c45f0ad9-e6d9-4c0f-8884-38ef138e062b.xml#c45f0ad9-e6d9-4c0f-8884-38ef138e062b"/>
+  </children>
   <properties
       key="Publiceren"
-      value="GEMMA Online en redactie"/>
+      value="Niet"/>
 </archimate:ArchimateDiagramModel>
