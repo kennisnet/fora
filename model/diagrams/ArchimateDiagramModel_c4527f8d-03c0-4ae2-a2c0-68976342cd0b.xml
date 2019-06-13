@@ -380,6 +380,15 @@
         xsi:type="archimate:DiagramModelArchimateObject"
         id="d45f2118-ac10-4411-9a5d-cb6357829730"
         targetConnections="4b1e4691-8caa-4ed6-b6c0-64f9fbbd7e54">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="17fb1d5e-2580-463c-930d-6745a8412b6f"
+          source="d45f2118-ac10-4411-9a5d-cb6357829730"
+          target="cffcfd9b-6840-490c-bf1c-cde02161d807">
+        <archimateRelationship
+            xsi:type="archimate:AccessRelationship"
+            href="AccessRelationship_5321ac9f-e96f-42c5-a0e0-0212beb1645c.xml#5321ac9f-e96f-42c5-a0e0-0212beb1645c"/>
+      </sourceConnections>
       <bounds
           x="1152"
           y="24"
@@ -626,6 +635,19 @@
     <archimateElement
         xsi:type="archimate:BusinessFunction"
         href="BusinessFunction_88a68236-e166-47d2-96f7-a8e1501c50c7.xml#88a68236-e166-47d2-96f7-a8e1501c50c7"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="cffcfd9b-6840-490c-bf1c-cde02161d807"
+      targetConnections="17fb1d5e-2580-463c-930d-6745a8412b6f">
+    <bounds
+        x="1236"
+        y="408"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_97bcc029-b876-49fe-aee6-153e6b781ddc.xml#97bcc029-b876-49fe-aee6-153e6b781ddc"/>
   </children>
   <properties
       key="Publiceren"
