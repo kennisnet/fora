@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Leerlinggegevens"
+    name="Leerlingadministratiegegevens"
     id="039ca0b9-96ed-4d92-ba8d-634083489916">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -229,9 +229,45 @@
     </sourceConnections>
     <bounds
         x="660"
-        y="408"
+        y="372"
         width="205"
-        height="133"/>
+        height="199"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="f4cf0a39-8c86-4618-975a-de2f00f089d3">
+      <bounds
+          x="12"
+          y="24"
+          width="176"
+          height="46"/>
+      <archimateElement
+          xsi:type="archimate:ApplicationComponent"
+          href="ApplicationComponent_c64a7a54-f38e-487e-8148-01bc3d9c92fd.xml#c64a7a54-f38e-487e-8148-01bc3d9c92fd"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="3986d62a-dc8f-4693-bf91-c8ea25ed8cb8">
+      <bounds
+          x="12"
+          y="84"
+          width="176"
+          height="49"/>
+      <archimateElement
+          xsi:type="archimate:ApplicationComponent"
+          href="ApplicationComponent_57051d3b-9331-4f9e-90ea-2db2f57ed44d.xml#57051d3b-9331-4f9e-90ea-2db2f57ed44d"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="0cabbaf5-7553-4c26-9a1c-f96f2a0ff586">
+      <bounds
+          x="12"
+          y="144"
+          width="176"
+          height="46"/>
+      <archimateElement
+          xsi:type="archimate:ApplicationComponent"
+          href="ApplicationComponent_b2f7e030-ee3f-4943-9027-07beca5dd434.xml#b2f7e030-ee3f-4943-9027-07beca5dd434"/>
+    </children>
     <archimateElement
         xsi:type="archimate:BusinessRole"
         href="BusinessRole_58995af9-afb4-488e-914e-f4c06ef7078b.xml#58995af9-afb4-488e-914e-f4c06ef7078b"/>
@@ -705,7 +741,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="b16223f1-d65a-45e5-a6a8-e59dcc9aed54"
-      targetConnections="88643bfb-cf7b-47c9-86a5-2c831e4a8fa4"
+      targetConnections="88643bfb-cf7b-47c9-86a5-2c831e4a8fa4 f26f3ba3-c974-440e-9f34-f0f90464403e"
       fillColor="#ffff80">
     <bounds
         x="239"
@@ -763,11 +799,33 @@
       id="dea3022c-fc04-4e42-aaef-9a823ec9c2d3"
       font="1|Segoe UI|14.25|1|WINDOWS|1|-19|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
       textAlignment="1"
-      content="Informatiestromen &quot;Leerlinggegevens&quot;">
+      content="Informatiestromen &quot;Leerlingadministratiegegevens&quot;">
     <bounds
         x="42"
         y="342"
-        width="228"
+        width="307"
         height="67"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="8b717d76-8e5c-4188-9e26-2161833f9dfe"
+      fillColor="#ffff80">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="f26f3ba3-c974-440e-9f34-f0f90464403e"
+        source="8b717d76-8e5c-4188-9e26-2161833f9dfe"
+        target="b16223f1-d65a-45e5-a6a8-e59dcc9aed54">
+      <archimateRelationship
+          xsi:type="archimate:SpecializationRelationship"
+          href="SpecializationRelationship_3edb29b9-04b9-423c-8dce-4f93812154b0.xml#3edb29b9-04b9-423c-8dce-4f93812154b0"/>
+    </sourceConnections>
+    <bounds
+        x="48"
+        y="996"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessRole"
+        href="BusinessRole_988c6aaa-7e9d-4bfc-8978-beb840329366.xml#988c6aaa-7e9d-4bfc-8978-beb840329366"/>
   </children>
 </archimate:ArchimateDiagramModel>
