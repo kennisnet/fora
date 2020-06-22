@@ -391,11 +391,20 @@
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_2f46b191-0616-430e-89c2-bdb1cfd75275.xml#2f46b191-0616-430e-89c2-bdb1cfd75275"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="1f9da643-dc69-4f02-b629-70a9269f8cdc"
+        source="772e9d2a-0473-441c-81bc-4ad296372c39"
+        target="599d2801-755d-46f6-bbc7-d5a60b7581d4">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_bd091617-e865-44e5-85ba-8ba417272eca.xml#bd091617-e865-44e5-85ba-8ba417272eca"/>
+    </sourceConnections>
     <bounds
         x="48"
         y="600"
         width="637"
-        height="241"/>
+        height="289"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="632fd130-7539-45fb-a175-2b6dc38ca4e2"
@@ -513,6 +522,19 @@
           xsi:type="archimate:BusinessFunction"
           href="BusinessFunction_db22e513-ae42-475e-91a0-bd10a2f11d79.xml#db22e513-ae42-475e-91a0-bd10a2f11d79"/>
     </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="599d2801-755d-46f6-bbc7-d5a60b7581d4"
+        targetConnections="1f9da643-dc69-4f02-b629-70a9269f8cdc">
+      <bounds
+          x="24"
+          y="228"
+          width="169"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessFunction"
+          href="BusinessFunction_050ed188-786d-4e17-b963-958048751032.xml#050ed188-786d-4e17-b963-958048751032"/>
+    </children>
     <archimateElement
         xsi:type="archimate:Grouping"
         href="Grouping_6d37a16c-046b-438c-86ce-a699c0a0bb20.xml#6d37a16c-046b-438c-86ce-a699c0a0bb20"/>
@@ -570,7 +592,7 @@
         x="696"
         y="12"
         width="181"
-        height="829"/>
+        height="877"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="614419b1-4df9-4755-9528-ab26f1f5ff08"
