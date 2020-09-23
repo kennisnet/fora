@@ -318,7 +318,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="4b70dee2-0574-49cc-ae82-c299fd9de7cd"
-        targetConnections="be2a2715-3cde-4a4f-bb60-c200ed209ac7 b66a0d8c-7ffa-41f5-b726-360cbbe1f2ad 96573f46-8f95-44e4-8ffa-627713003835">
+        targetConnections="be2a2715-3cde-4a4f-bb60-c200ed209ac7 b66a0d8c-7ffa-41f5-b726-360cbbe1f2ad">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="62a5d100-1a99-40fb-93a4-6c7c86837d7e"
@@ -542,6 +542,15 @@
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_5d3053e0-f03c-4e62-b37f-79713e645133.xml#5d3053e0-f03c-4e62-b37f-79713e645133"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-050a481f5f1d4db88e7ffa8507ebb7cf"
+          source="4b70dee2-0574-49cc-ae82-c299fd9de7cd"
+          target="96379530-bef5-4178-afe3-9f824c9ca8d0">
+        <archimateRelationship
+            xsi:type="archimate:AggregationRelationship"
+            href="AggregationRelationship_id-7a3f905494124c26aa99a4f04ddd38ad.xml#id-7a3f905494124c26aa99a4f04ddd38ad"/>
       </sourceConnections>
       <bounds
           x="372"
@@ -821,21 +830,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="96379530-bef5-4178-afe3-9f824c9ca8d0">
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="96573f46-8f95-44e4-8ffa-627713003835"
-        source="96379530-bef5-4178-afe3-9f824c9ca8d0"
-        target="4b70dee2-0574-49cc-ae82-c299fd9de7cd">
-      <bendpoints
-          startX="48"
-          startY="-111"
-          endX="-36"
-          endY="117"/>
-      <archimateRelationship
-          xsi:type="archimate:ServingRelationship"
-          href="ServingRelationship_a21e9015-a202-4cc5-903c-d7966fd96024.xml#a21e9015-a202-4cc5-903c-d7966fd96024"/>
-    </sourceConnections>
+      id="96379530-bef5-4178-afe3-9f824c9ca8d0"
+      targetConnections="id-050a481f5f1d4db88e7ffa8507ebb7cf">
     <bounds
         x="504"
         y="108"
