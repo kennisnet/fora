@@ -81,7 +81,7 @@
         fillColor="#c9e7b7"
         content="BP Provisioning van leerling-, school- en klasgegevens voor Uitgevers en LIKAs&#xD;&#xA;">
       <bounds
-          x="10"
+          x="12"
           y="120"
           width="135"
           height="70"/>
@@ -96,7 +96,7 @@
         fillColor="#c9e7b7"
         content="BP Methode Product details voor Netwerkproviders">
       <bounds
-          x="166"
+          x="168"
           y="204"
           width="135"
           height="70"/>
@@ -115,7 +115,7 @@
           target="id-66b4bdd56e214e3299a0299d1d24eeb7"
           type="1"/>
       <bounds
-          x="10"
+          x="12"
           y="204"
           width="135"
           height="70"/>
@@ -130,7 +130,7 @@
         fillColor="#c9e7b7"
         content="Authenticatieservice&#xD;&#xA;">
       <bounds
-          x="12"
+          x="14"
           y="288"
           width="289"
           height="37"/>
@@ -149,7 +149,7 @@
           target="id-ae87fc63a29f4b328f6e32800af927e6"
           type="3"/>
       <bounds
-          x="166"
+          x="12"
           y="36"
           width="135"
           height="70"/>
@@ -168,7 +168,7 @@
           target="id-2432834492f541ffb7bd169d4ac5a682"
           type="1"/>
       <bounds
-          x="10"
+          x="168"
           y="36"
           width="135"
           height="70"/>
@@ -178,17 +178,13 @@
       xsi:type="archimate:SketchModelSticky"
       id="id-491c3e751dc34a03b1aaded731f58005"
       name="Sticky"
+      targetConnections="id-6d99880bc02b42a4a4f8b7c0b1697ab2"
       lineColor="#5c5c5c"
       textAlignment="1"
       fillColor="#c9e7b7"
       content="BP Provisioning van leerling-, school- en klasgegevens voor Netwerkproviders&#xD;&#xA;">
-    <sourceConnections
-        id="id-e214cf3d3fa6492d9a81ea348eb65292"
-        source="id-491c3e751dc34a03b1aaded731f58005"
-        target="id-29610135ca5d40648cf548d0ecb63bcf"
-        type="1"/>
     <bounds
-        x="502"
+        x="504"
         y="288"
         width="135"
         height="70"/>
@@ -216,7 +212,7 @@
         fillColor="#c9e7b7"
         content="Productcatalogus&#xD;&#xA;">
       <bounds
-          x="18"
+          x="168"
           y="24"
           width="135"
           height="70"/>
@@ -236,28 +232,18 @@
           target="id-a0fa8a3060da4ef2911dae40e208ad6e"
           type="1">
         <bendpoints
-            startX="95"
+            startX="-139"
             startY="1"
-            endX="259"
+            endX="-125"
             endY="-287"/>
         <bendpoints
-            startX="95"
-            startY="85"
-            endX="259"
-            endY="-203"/>
-        <bendpoints
-            startX="-289"
-            startY="85"
-            endX="-125"
-            endY="-203"/>
-        <bendpoints
-            startX="-289"
+            startX="-139"
             startY="289"
             endX="-125"
             endY="1"/>
       </sourceConnections>
       <bounds
-          x="174"
+          x="24"
           y="24"
           width="135"
           height="70"/>
@@ -311,7 +297,7 @@
         xsi:type="archimate:SketchModelSticky"
         id="id-29610135ca5d40648cf548d0ecb63bcf"
         name="Sticky"
-        targetConnections="id-e214cf3d3fa6492d9a81ea348eb65292 id-39c946a02fe34ad98c60755283c26c14"
+        targetConnections="id-39c946a02fe34ad98c60755283c26c14"
         lineColor="#5c5c5c"
         textAlignment="1"
         fillColor="#c9e7b7"
@@ -337,6 +323,11 @@
           source="id-29610135ca5d40648cf548d0ecb63bcf"
           target="id-6d752112f0af49a3a70a02c90ef2b36e"
           type="3"/>
+      <sourceConnections
+          id="id-6d99880bc02b42a4a4f8b7c0b1697ab2"
+          source="id-29610135ca5d40648cf548d0ecb63bcf"
+          target="id-491c3e751dc34a03b1aaded731f58005"
+          type="1"/>
       <bounds
           x="24"
           y="108"
