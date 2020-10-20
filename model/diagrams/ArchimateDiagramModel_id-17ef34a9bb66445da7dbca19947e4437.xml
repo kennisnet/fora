@@ -100,6 +100,20 @@
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-8f43b3a92c3342d992a7382c72250763.xml#id-8f43b3a92c3342d992a7382c72250763"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-cb41f8020c0443f2865745f387aa6dd4"
+        source="id-e483cbb1ff7b41cda6eb90317a086fc4"
+        target="id-aaf84789df384dd0b1d15a57c13f71a2">
+      <bendpoints
+          startX="684"
+          startY="-24"
+          endX="-49"
+          endY="69"/>
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-18a71c61e2e046b3aedfa78d1a1a25b9.xml#id-18a71c61e2e046b3aedfa78d1a1a25b9"/>
+    </sourceConnections>
     <bounds
         x="120"
         y="360"
@@ -365,7 +379,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-aaf84789df384dd0b1d15a57c13f71a2"
-      targetConnections="id-fb9a13e499a544b69e5d360e8c1511ee id-3857e1c727c34aa3a02890fd10d067bc id-7af4475c522d48d989c9dba84712350d id-2d55006f967a4777959e28598d07d989">
+      targetConnections="id-fb9a13e499a544b69e5d360e8c1511ee id-3857e1c727c34aa3a02890fd10d067bc id-7af4475c522d48d989c9dba84712350d id-2d55006f967a4777959e28598d07d989 id-cb41f8020c0443f2865745f387aa6dd4">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-fb9a13e499a544b69e5d360e8c1511ee"
@@ -808,7 +822,31 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-1efd03e228024391b2b47e668566339a"
-      targetConnections="id-695174634ef54b1189a1c652163ebdd6">
+      targetConnections="id-695174634ef54b1189a1c652163ebdd6 id-c3794310205e4fe188448ab1574b5898">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-c3794310205e4fe188448ab1574b5898"
+        source="id-1efd03e228024391b2b47e668566339a"
+        target="id-1efd03e228024391b2b47e668566339a">
+      <bendpoints
+          startX="24"
+          startY="57"
+          endX="24"
+          endY="57"/>
+      <bendpoints
+          startX="84"
+          startY="57"
+          endX="84"
+          endY="57"/>
+      <bendpoints
+          startX="84"
+          startY="-3"
+          endX="84"
+          endY="-3"/>
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-e0dad6b5e5ba4828a0c6f324cb23c431.xml#id-e0dad6b5e5ba4828a0c6f324cb23c431"/>
+    </sourceConnections>
     <bounds
         x="720"
         y="288"
@@ -820,7 +858,7 @@
   </children>
   <properties
       key="Publiceren"
-      value="Niet"/>
+      value="GEMMA Online en redactie"/>
   <properties
       key="Architectuurlaag"
       value="Totaal (meerlaags)"/>
