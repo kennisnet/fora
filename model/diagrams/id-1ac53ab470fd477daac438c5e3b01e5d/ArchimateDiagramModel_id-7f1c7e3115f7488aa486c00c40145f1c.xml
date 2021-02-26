@@ -484,7 +484,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-063b200f885c41ef83b041510295b0fd"
-          targetConnections="id-ffc8e24950e949fe8217ee1f02e03e53">
+          targetConnections="id-ffc8e24950e949fe8217ee1f02e03e53 id-7e5216429ee34e2c8cb4816416031a3a">
         <bounds
             x="24"
             y="324"
@@ -2476,5 +2476,49 @@
           xsi:type="archimate:BusinessObject"
           href="BusinessObject_id-b12fec666c9d4763a43e89bd89330bf6.xml#id-b12fec666c9d4763a43e89bd89330bf6"/>
     </children>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-66df91fcb8a048db810c9629f3342eb9">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-7e5216429ee34e2c8cb4816416031a3a"
+        source="id-66df91fcb8a048db810c9629f3342eb9"
+        target="id-063b200f885c41ef83b041510295b0fd">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-0e2d18dc12c745749bb83508e89e534c.xml#id-0e2d18dc12c745749bb83508e89e534c"/>
+    </sourceConnections>
+    <bounds
+        x="372"
+        y="-492"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-3547a14fded74bebaf7601aadb4ae2af.xml#id-3547a14fded74bebaf7601aadb4ae2af"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-f0853ca6a1b44d1f9aa85b51644dc248">
+    <bounds
+        x="516"
+        y="-492"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-0c25580c991d4c90b50de4a30238f7c7.xml#id-0c25580c991d4c90b50de4a30238f7c7"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-26a348f680274373951bf23560de9e00"
+      textAlignment="1"
+      content="Als attribuut bij bedrijfsobjecten opnemen: persoonsgegevens (ja/nee)">
+    <bounds
+        x="962"
+        y="-459"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>
