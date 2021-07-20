@@ -84,16 +84,12 @@
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-50a97af51ddc492ca3b64c77b4f6720d"
+        id="id-83d15c56523c4a00a8ce464f79aca126"
         source="id-be11a44f16dd41f5a57c29051c1b3224"
-        target="id-9953ff45d2b94953bc6cc4e4cd8eb535">
-      <bendpoints
-          startX="-228"
-          startY="-2"
-          endY="106"/>
+        target="id-4e7f997d9b834e68bbaa837a23f7195b">
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
-          href="AssociationRelationship_id-5e08d4fc42544c92a64780120cb925ec.xml#id-5e08d4fc42544c92a64780120cb925ec"/>
+          href="AssociationRelationship_id-8fe8a7053ab149d192a2df7cdcf3eaf8.xml#id-8fe8a7053ab149d192a2df7cdcf3eaf8"/>
     </sourceConnections>
     <bounds
         x="216"
@@ -107,7 +103,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-9953ff45d2b94953bc6cc4e4cd8eb535"
-      targetConnections="id-50a97af51ddc492ca3b64c77b4f6720d"
+      targetConnections="id-e1b004c2a08b4db68a51d0b449623920 id-50a97af51ddc492ca3b64c77b4f6720d"
       fontColor="#ffffff"
       fillColor="#007ac3">
     <sourceConnections
@@ -118,6 +114,15 @@
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-d5174ea5616e49c2907ae2964d9d3afd.xml#id-d5174ea5616e49c2907ae2964d9d3afd"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-c85f0474dc684dfcb00cc6be696a88bb"
+        source="id-9953ff45d2b94953bc6cc4e4cd8eb535"
+        target="id-5b8384eb1fa84687a5f3f2016306acef">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-86e553a1783c44e99b980e104563e9c1.xml#id-86e553a1783c44e99b980e104563e9c1"/>
     </sourceConnections>
     <bounds
         x="-11"
@@ -622,6 +627,105 @@
         y="875"
         width="130"
         height="48"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-4e7f997d9b834e68bbaa837a23f7195b"
+      targetConnections="id-e7b0413da0a947dcac828a51067db53f id-83d15c56523c4a00a8ce464f79aca126 id-ee60011817ec496f876492b6e187fcc1">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-50a97af51ddc492ca3b64c77b4f6720d"
+        source="id-4e7f997d9b834e68bbaa837a23f7195b"
+        target="id-9953ff45d2b94953bc6cc4e4cd8eb535">
+      <bendpoints
+          startY="-98"
+          endX="12"
+          endY="142"/>
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-5e08d4fc42544c92a64780120cb925ec.xml#id-5e08d4fc42544c92a64780120cb925ec"/>
+    </sourceConnections>
+    <bounds
+        y="888"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-9a0cc4f037b8413e821aec9a91f0825a.xml#id-9a0cc4f037b8413e821aec9a91f0825a"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-02118785b38945f5aafebef1e421c835"
+      targetConnections="id-83114cfe1a7e4165813d05d853846e13">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-e7b0413da0a947dcac828a51067db53f"
+        source="id-02118785b38945f5aafebef1e421c835"
+        target="id-4e7f997d9b834e68bbaa837a23f7195b">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-be626bd555854f349bcf557416019d1d.xml#id-be626bd555854f349bcf557416019d1d"/>
+    </sourceConnections>
+    <bounds
+        x="-192"
+        y="810"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-1c789528a7ee43f594002f7b96e0949c.xml#id-1c789528a7ee43f594002f7b96e0949c"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-5b8384eb1fa84687a5f3f2016306acef"
+      targetConnections="id-c85f0474dc684dfcb00cc6be696a88bb">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-83114cfe1a7e4165813d05d853846e13"
+        source="id-5b8384eb1fa84687a5f3f2016306acef"
+        target="id-02118785b38945f5aafebef1e421c835">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-52933663048c4bc6a4d2ee1de5988a1c.xml#id-52933663048c4bc6a4d2ee1de5988a1c"/>
+    </sourceConnections>
+    <bounds
+        x="-192"
+        y="648"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-d18e820848834ec6b0359db468eadb84.xml#id-d18e820848834ec6b0359db468eadb84"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-8e62a440f74f48ecb44b9a78f6b41748"
+      textAlignment="1"
+      content="= alleen 'onderwijsplanning' (kan bijv. trimester- of jaarplanning zijn; planning van onderwijstijd + inzet &amp; aanvullende activiteiten (ouderavonden, rapportgesprekken et cetera),">
+    <sourceConnections
+        id="id-e1b004c2a08b4db68a51d0b449623920"
+        source="id-8e62a440f74f48ecb44b9a78f6b41748"
+        target="id-9953ff45d2b94953bc6cc4e4cd8eb535"/>
+    <bounds
+        x="-180"
+        y="552"
+        width="121"
+        height="60"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-8de1315f89f04bf3aa238e5131fbb080"
+      textAlignment="1"
+      content="Verbinden aan wet">
+    <sourceConnections
+        id="id-ee60011817ec496f876492b6e187fcc1"
+        source="id-8de1315f89f04bf3aa238e5131fbb080"
+        target="id-4e7f997d9b834e68bbaa837a23f7195b"/>
+    <bounds
+        x="12"
+        y="972"
+        width="185"
+        height="80"/>
   </children>
   <properties
       key="Publiceren"
