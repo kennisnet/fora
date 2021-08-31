@@ -1,9 +1,9 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="DLO RC"
+    name="Informatievoorziening DLO"
     id="875afd1c-923f-47f7-9ff5-571723c20db8"
-    documentation="Overzicht van de bedrijfsfuncties en ondersteunende ict van de Digitale Leer- en werkOmgeving voor medewerkers en leerlingen&#xD;&#xA;&#xD;&#xA;Opmerking voor ontwikkelaars van deze views:&#xD;&#xA;&#xD;&#xA;In het metamodel liggen de relaties als volgt:&#xD;&#xA;Referentiecomponent Assign to Applicatiefunctie Serves Bedrijfsfunctie&#xD;&#xA;De Serves relatie is niet genoeg om de Applicatiefunctie te embedden in de Bedrijfsfunctie, volgens Archimate moet dat tenminste een Realize relatie zijn. Dit mag echter niet volgens het metamodel (en: breekt van alles in de softwarecatalogus). &#xD;&#xA;&#xD;&#xA;Voorstel: de Referentiecomponenten hebben *GEEN* expliciete relatie met de Bedrijfsfuncties. Embed Referentiecomponenten in deze view als er een link ligt via een applicatiefunctie, maar laat Archie hiervoor GEEN relatie aanmaken. &#xD;&#xA;">
+    documentation="Overzicht met de bedrijfsfuncties en de referentiecomponenten die deel uitmaken van de Digitale Leeromgeving (DLO).">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="49aa8803-8a52-43c1-9c12-a7a8e7e9901d"
@@ -1413,26 +1413,26 @@
   </children>
   <properties
       key="Titel view SWC"
-      value="DLWO"/>
+      value="DLO"/>
   <properties
       key="Publiceren"
       value="SWC en wiki"/>
   <properties
       key="Architectuurlaag"
-      value="Bedrijfsarchitectuur&#xD;"/>
+      value="Applicatiearchitectuur"/>
   <properties
       key="Domein"
       value="Onderwijs&#xD;"/>
   <properties
       key="Viewtype"
-      value="Positionering&#xD;"/>
+      value="Thematisch"/>
   <properties
       key="Scope"
       value="Instelling"/>
   <properties
       key="Viewdetail"
-      value="Detailnivo"/>
+      value="Detailniveau"/>
   <properties
       key="Thema"
-      value="Softwarecatalogus"/>
+      value="DLO"/>
 </archimate:ArchimateDiagramModel>
