@@ -1,9 +1,9 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="BF Instroom doorstroom uitstroom RC"
+    name="Informatievoorziening Instroom doorstroom uitstroom"
     id="b8a9145a-39c0-4337-b97d-3eb73fdbb402"
-    documentation="Een overzicht van bedrijfsfuncties en ondersteunende ict voor instroom, doorstroom en uitstroom van leerlingen&#xD;&#xA;&#xD;&#xA;">
+    documentation="Overzicht voor de hoofdbedrijfsfunctie &quot;Instroom, doorstroom en uitstroom&quot; met de bedrijfsfuncties en de referentiecomponenten die de bedrijfsfuncties ondersteunen.&#xD;&#xA;&#xD;&#xA;">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="e8ff1280-85f0-4b8d-ab0b-ed8f18242911"
@@ -55,9 +55,9 @@
           href="AggregationRelationship_fa467cb7-e7a8-4e31-b72b-e2f8e5701566.xml#fa467cb7-e7a8-4e31-b72b-e2f8e5701566"/>
     </sourceConnections>
     <bounds
-        x="228"
+        x="132"
         y="240"
-        width="1057"
+        width="1189"
         height="133"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -67,15 +67,15 @@
       <bounds
           x="636"
           y="24"
-          width="409"
-          height="91"/>
+          width="541"
+          height="97"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="ff3c6c7b-01a8-492c-af2c-7d568f5091ae"
-          fillColor="#d5d6e9">
+          fillColor="#ffffff">
         <bounds
-            x="12"
-            y="24"
+            x="13"
+            y="36"
             width="120"
             height="55"/>
         <archimateElement
@@ -85,10 +85,10 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="594aeb07-8ebf-4391-a497-f2cbb2865014"
-          fillColor="#d5d6e9">
+          fillColor="#ffffff">
         <bounds
-            x="143"
-            y="24"
+            x="144"
+            y="36"
             width="120"
             height="55"/>
         <archimateElement
@@ -98,15 +98,28 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="cee10b1c-1a3f-4a4a-8f47-c824feeb0d67"
-          fillColor="#d5d6e9">
+          fillColor="#ffffff">
         <bounds
-            x="275"
-            y="24"
+            x="276"
+            y="36"
             width="120"
             height="55"/>
         <archimateElement
             xsi:type="archimate:ApplicationComponent"
             href="ApplicationComponent_88714cd8-8010-4192-9231-c6da3e8a488a.xml#88714cd8-8010-4192-9231-c6da3e8a488a"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-d2ebe502b0634bb289c44813f5d56ad1"
+          fillColor="#ffffff">
+        <bounds
+            x="409"
+            y="36"
+            width="120"
+            height="55"/>
+        <archimateElement
+            xsi:type="archimate:ApplicationComponent"
+            href="ApplicationComponent_2e2da735-1b90-47c9-87ce-b38dd7cad38d.xml#2e2da735-1b90-47c9-87ce-b38dd7cad38d"/>
       </children>
       <archimateElement
           xsi:type="archimate:BusinessFunction"
@@ -121,14 +134,14 @@
           x="480"
           y="24"
           width="145"
-          height="91"/>
+          height="97"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="a9bae2c8-cfec-4aa1-8d6c-683b9b040662"
-          fillColor="#d5d6e9">
+          fillColor="#ffffff">
         <bounds
             x="12"
-            y="24"
+            y="36"
             width="120"
             height="55"/>
         <archimateElement
@@ -148,14 +161,14 @@
           x="168"
           y="24"
           width="145"
-          height="91"/>
+          height="97"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="87b338a2-780f-43a9-b7fb-a4e0ec9e171e"
-          fillColor="#d5d6e9">
+          fillColor="#ffffff">
         <bounds
             x="12"
-            y="24"
+            y="36"
             width="120"
             height="55"/>
         <archimateElement
@@ -173,13 +186,13 @@
         fillColor="#acacd3">
       <bounds
           x="12"
-          y="18"
+          y="24"
           width="144"
           height="97"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="8e7c092c-3445-4870-a675-b2fe79699432"
-          fillColor="#d5d6e9">
+          fillColor="#ffffff">
         <bounds
             x="12"
             y="36"
@@ -202,14 +215,14 @@
           x="324"
           y="24"
           width="145"
-          height="91"/>
+          height="97"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="1a6ab402-94ec-45a3-87d8-d0f5dd6dddb4"
-          fillColor="#d5d6e9">
+          fillColor="#ffffff">
         <bounds
             x="12"
-            y="24"
+            y="36"
             width="120"
             height="55"/>
         <archimateElement
@@ -226,7 +239,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="bf4ceea4-2705-4ebb-b8d3-be6523029046">
+      id="bf4ceea4-2705-4ebb-b8d3-be6523029046"
+      fillColor="#ffffff">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-499b9ba2a85f40779848e62867fbc3d6"
@@ -237,7 +251,7 @@
           href="AssignmentRelationship_id-20114565cc36462986fb6ca68fb9f363.xml#id-20114565cc36462986fb6ca68fb9f363"/>
     </sourceConnections>
     <bounds
-        x="720"
+        x="624"
         y="60"
         width="120"
         height="55"/>
@@ -248,7 +262,8 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-1d7ec64fa422470ba651511213c0facd"
-      targetConnections="id-499b9ba2a85f40779848e62867fbc3d6">
+      targetConnections="id-499b9ba2a85f40779848e62867fbc3d6"
+      fillColor="#c0c0c0">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="7b5416db-7276-4728-9858-bfd7df2b3e84"
@@ -259,7 +274,7 @@
           href="ServingRelationship_3f720820-0509-4e52-8062-581abc6b3ed4.xml#3f720820-0509-4e52-8062-581abc6b3ed4"/>
     </sourceConnections>
     <bounds
-        x="720"
+        x="624"
         y="156"
         width="120"
         height="55"/>
@@ -275,13 +290,13 @@
       value="Instroom, doorstroom, uitstroom"/>
   <properties
       key="Architectuurlaag"
-      value="Bedrijfsarchitectuur&#xD;"/>
+      value="Applicatiearchitectuur"/>
   <properties
       key="Domein"
-      value="Onderwijs&#xD;"/>
+      value="Onderwijsondersteuning"/>
   <properties
       key="Viewtype"
-      value="Positionering&#xD;"/>
+      value="Detail"/>
   <properties
       key="Scope"
       value="Instelling"/>
@@ -289,6 +304,8 @@
       key="Viewdetail"
       value="Detailniveau"/>
   <properties
-      key="Thema"
-      value="Softwarecatalogus"/>
+      key="Thema"/>
+  <properties
+      key="Viewpoint"
+      value="Informatievoorziening"/>
 </archimate:ArchimateDiagramModel>

@@ -1,9 +1,9 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Samenwerken communiceren"
+    name="ICT-ondersteuning Samenwerken communiceren"
     id="908f5f8b-65cc-415c-8866-d2403e527be2"
-    documentation="Bedrijfsfuncties en ondersteunende ict voor communicatie en samenwerking van leerlingen, medewerkers en verzorgers onderling of in andere verbanden">
+    documentation="Detailoverzicht met betrekking tot samenwerking en communicatie van leerlingen, medewerkers en verzorgers onderling of in andere verbanden voor wat betreft rollen, bedrijfsfuncties en ondersteunende ict (d.w.z. applicaties en functies).">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="b783c1d4-bba4-4f4f-89f9-6fc25de482f8"
@@ -562,7 +562,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-ecc9a8554a0a4c22b3f357c3bc6bc1fb"
-      targetConnections="id-5172d66ad807495bb85415872c6f484f id-850996fcbc944968be3f3b104baab380">
+      targetConnections="id-5172d66ad807495bb85415872c6f484f id-850996fcbc944968be3f3b104baab380 id-7782ef51671d4fc08735623312b20a92">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-a6c9c456769c4e998d98e6ce2ab9758b"
@@ -667,7 +667,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-fa9e6141e4b94d9994002a1cf7ae24c2"
-      targetConnections="id-6c85032c605a458aa8dbb2a2c3f04835 id-9dd6b59aae944ce1b21883f6ae1c38e5">
+      targetConnections="id-6c85032c605a458aa8dbb2a2c3f04835 id-9dd6b59aae944ce1b21883f6ae1c38e5 id-b469ac4bef5c4a9da47c72c7f1515ce5">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-c8637490ed554184a89a84f577b7feb6"
@@ -860,6 +860,15 @@
           xsi:type="archimate:AssignmentRelationship"
           href="AssignmentRelationship_id-c62f44ff12b546a1a95c4805f7ace8bd.xml#id-c62f44ff12b546a1a95c4805f7ace8bd"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-586933d67d6e43ec9fb1483c64d5c37f"
+        source="id-9c16c283ceb44f40996a4fcf82292025"
+        target="id-13dcb55f5b3b425283b167e08047f659">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-bb2d180394c148819333505f6e0ce9e4.xml#id-bb2d180394c148819333505f6e0ce9e4"/>
+    </sourceConnections>
     <bounds
         x="923"
         y="468"
@@ -965,6 +974,37 @@
         xsi:type="archimate:BusinessRole"
         href="BusinessRole_4dc813b3-b251-4155-a797-c23b11d666d7.xml#4dc813b3-b251-4155-a797-c23b11d666d7"/>
   </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-13dcb55f5b3b425283b167e08047f659"
+      targetConnections="id-586933d67d6e43ec9fb1483c64d5c37f">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-b469ac4bef5c4a9da47c72c7f1515ce5"
+        source="id-13dcb55f5b3b425283b167e08047f659"
+        target="id-fa9e6141e4b94d9994002a1cf7ae24c2">
+      <archimateRelationship
+          xsi:type="archimate:AssignmentRelationship"
+          href="AssignmentRelationship_6534562e-cc8e-453c-a857-b062458fbd6c.xml#6534562e-cc8e-453c-a857-b062458fbd6c"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-7782ef51671d4fc08735623312b20a92"
+        source="id-13dcb55f5b3b425283b167e08047f659"
+        target="id-ecc9a8554a0a4c22b3f357c3bc6bc1fb">
+      <archimateRelationship
+          xsi:type="archimate:AssignmentRelationship"
+          href="AssignmentRelationship_6534562e-cc8e-453c-a857-b062458fbd6c.xml#6534562e-cc8e-453c-a857-b062458fbd6c"/>
+    </sourceConnections>
+    <bounds
+        x="923"
+        y="264"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationComponent"
+        href="ApplicationComponent_6baf5b4e-3e71-4461-b41f-3bd6a3f41283.xml#6baf5b4e-3e71-4461-b41f-3bd6a3f41283"/>
+  </children>
   <properties
       key="Publiceren"
       value="SWC en wiki"/>
@@ -976,7 +1016,7 @@
       value="Algemeen&#xD;"/>
   <properties
       key="Viewtype"
-      value="Basis&#xD;"/>
+      value="Detail"/>
   <properties
       key="Scope"
       value="Instelling"/>
@@ -986,4 +1026,7 @@
   <properties
       key="Titel view SWC"
       value="Samenwerken en communiceren"/>
+  <properties
+      key="Viewpoint"
+      value="ICT-ondersteuning"/>
 </archimate:ArchimateDiagramModel>
