@@ -43,7 +43,6 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-be11a44f16dd41f5a57c29051c1b3224"
-      targetConnections="id-a1dde4ed731444eda38a8c13dbd59710"
       fontColor="#ffffff"
       fillColor="#007ac3">
     <sourceConnections
@@ -53,14 +52,14 @@
         target="id-8f344afb19e24ec4ae8de32972d4fe5c">
       <bendpoints
           startX="36"
-          startY="46"
+          startY="57"
           endX="-612"
-          endY="82"/>
+          endY="57"/>
       <bendpoints
           startX="600"
-          startY="58"
+          startY="57"
           endX="-48"
-          endY="58"/>
+          endY="57"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-743d282174734bf5834a8edcf2a275bd.xml#id-743d282174734bf5834a8edcf2a275bd"/>
@@ -363,29 +362,6 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-6465e0e2ead447e29fa7f02f8487452e"
-      fontColor="#ffffff"
-      fillColor="#007ac3">
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-a1dde4ed731444eda38a8c13dbd59710"
-        source="id-6465e0e2ead447e29fa7f02f8487452e"
-        target="id-be11a44f16dd41f5a57c29051c1b3224">
-      <archimateRelationship
-          xsi:type="archimate:AssociationRelationship"
-          href="AssociationRelationship_id-a56833679524434c84c91f1a946f35a5.xml#id-a56833679524434c84c91f1a946f35a5"/>
-    </sourceConnections>
-    <bounds
-        x="216"
-        y="864"
-        width="120"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:BusinessObject"
-        href="BusinessObject_id-66c119f5fcdb4b23bd887e95e9b6b2f4.xml#id-66c119f5fcdb4b23bd887e95e9b6b2f4"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
       id="id-99bd85ff50054be9af0147c85b794916"
       fontColor="#ffffff"
       fillColor="#007ac3">
@@ -550,6 +526,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-a9a3eafbe84f4fe9afc2b6810ba22a76"
+      targetConnections="id-c4e766dff310446ba10079be327950f0"
       fontColor="#ffffff"
       fillColor="#007ac3">
     <sourceConnections
@@ -713,9 +690,9 @@
     </sourceConnections>
     <bounds
         x="-144"
-        y="1002"
+        y="966"
         width="120"
-        height="55"/>
+        height="37"/>
     <archimateElement
         xsi:type="archimate:Driver"
         href="Driver_id-c9d75ac1b3134296be61175b9b3b78e6.xml#id-c9d75ac1b3134296be61175b9b3b78e6"/>
@@ -726,7 +703,7 @@
       targetConnections="id-8dfb904ef43b40d9a30ef0824cba6d92 id-96b212e9c9104ac0bc574861a4d1642a">
     <bounds
         x="-168"
-        y="925"
+        y="871"
         width="203"
         height="55"/>
     <archimateElement
@@ -739,7 +716,7 @@
       targetConnections="id-efcf56e7a0604083914711222bd1da4a id-9ad06ff10544439b827ad5316c4a2097">
     <bounds
         x="65"
-        y="925"
+        y="871"
         width="120"
         height="55"/>
     <archimateElement
@@ -760,9 +737,9 @@
     </sourceConnections>
     <bounds
         x="65"
-        y="1008"
+        y="966"
         width="120"
-        height="55"/>
+        height="37"/>
     <archimateElement
         xsi:type="archimate:Driver"
         href="Driver_id-517b7f5ff60d4809856ac1b75a3e6697.xml#id-517b7f5ff60d4809856ac1b75a3e6697"/>
@@ -814,6 +791,15 @@
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-3f1b4eba41794e17908cb5e27c91a55b.xml#id-3f1b4eba41794e17908cb5e27c91a55b"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-c4e766dff310446ba10079be327950f0"
+        source="id-04645fb5215d41deb49bf56058e5965b"
+        target="id-a9a3eafbe84f4fe9afc2b6810ba22a76">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-4e99b7b71ecf4f4e9bf4e6956ec123cb.xml#id-4e99b7b71ecf4f4e9bf4e6956ec123cb"/>
     </sourceConnections>
     <bounds
         x="1056"
