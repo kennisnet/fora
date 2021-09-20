@@ -670,8 +670,8 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-01d7177f194348d1bbd6343329273b27"
-      fontColor="#000000"
-      fillColor="#c0c0c0">
+      fontColor="#ffffff"
+      fillColor="#007ac3">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-9aeda387e3864fd09714e39e45e1be73"
@@ -680,6 +680,24 @@
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-a56833679524434c84c91f1a946f35a5.xml#id-a56833679524434c84c91f1a946f35a5"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-02454cab3ab94ce68281b20b425307eb"
+        source="id-01d7177f194348d1bbd6343329273b27"
+        target="id-ce7b5d100c6d45cd89763efd3ee12f17">
+      <archimateRelationship
+          xsi:type="archimate:InfluenceRelationship"
+          href="InfluenceRelationship_id-4e907bf0b4c04f608693757779148980.xml#id-4e907bf0b4c04f608693757779148980"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-eccf389931c84d4aa68f33a9e741509f"
+        source="id-01d7177f194348d1bbd6343329273b27"
+        target="id-7796ee29f10240a081e14378f7626c10">
+      <archimateRelationship
+          xsi:type="archimate:InfluenceRelationship"
+          href="InfluenceRelationship_id-ffff43c140d84302a3d28241ac86e8ab.xml#id-ffff43c140d84302a3d28241ac86e8ab"/>
     </sourceConnections>
     <bounds
         x="539"
@@ -835,6 +853,62 @@
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-1bb86ea4397c49959948faa8a3f80616.xml#id-1bb86ea4397c49959948faa8a3f80616"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-7796ee29f10240a081e14378f7626c10"
+      targetConnections="id-eccf389931c84d4aa68f33a9e741509f id-27e15db757b541698d0382da56df2f6f">
+    <bounds
+        x="624"
+        y="876"
+        width="181"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Driver"
+        href="Driver_id-243b8ece2d52433e8c102f62226cc126.xml#id-243b8ece2d52433e8c102f62226cc126"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-ce7b5d100c6d45cd89763efd3ee12f17"
+      targetConnections="id-02454cab3ab94ce68281b20b425307eb id-b659978114754a95b18da0893249d07d">
+    <bounds
+        x="444"
+        y="876"
+        width="181"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Driver"
+        href="Driver_id-cbff5364afb84ad5a7bfe5e722be1d6d.xml#id-cbff5364afb84ad5a7bfe5e722be1d6d"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-6145e3a1e8894863ac583414c6f5804e">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-b659978114754a95b18da0893249d07d"
+        source="id-6145e3a1e8894863ac583414c6f5804e"
+        target="id-ce7b5d100c6d45cd89763efd3ee12f17">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-8b88ab10bef844bda97da0ad80d71111.xml#id-8b88ab10bef844bda97da0ad80d71111"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-27e15db757b541698d0382da56df2f6f"
+        source="id-6145e3a1e8894863ac583414c6f5804e"
+        target="id-7796ee29f10240a081e14378f7626c10">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-c5f5e9983af54309b78a95190459a33a.xml#id-c5f5e9983af54309b78a95190459a33a"/>
+    </sourceConnections>
+    <bounds
+        x="552"
+        y="960"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Driver"
+        href="Driver_id-517b7f5ff60d4809856ac1b75a3e6697.xml#id-517b7f5ff60d4809856ac1b75a3e6697"/>
   </children>
   <properties
       key="Publiceren"
