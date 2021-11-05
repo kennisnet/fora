@@ -742,9 +742,10 @@
           source="id-f1075e1f141c4c8fa87d9cef52895a3d"
           target="id-99137d61c67a4c3b87ef4fb5cde1a1fa">
         <bendpoints
-            startX="656"
-            startY="30"
-            endY="-50"/>
+            startX="636"
+            startY="48"
+            endX="-36"
+            endY="-62"/>
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_id-45bea663d5964615bb63f567f60cb9f9.xml#id-45bea663d5964615bb63f567f60cb9f9"/>
@@ -1390,6 +1391,15 @@
           startY="-110"
           endX="24"
           endY="111"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-65af14026dce43bda9dfe734ad3eb700"
+        source="id-99137d61c67a4c3b87ef4fb5cde1a1fa"
+        target="id-8b8be18b817642ce92935e58db9ff3d3">
+      <archimateRelationship
+          xsi:type="archimate:InfluenceRelationship"
+          href="InfluenceRelationship_id-ff987ec6e68c447aae482aa8cdb7ffba.xml#id-ff987ec6e68c447aae482aa8cdb7ffba"/>
     </sourceConnections>
     <bounds
         x="721"
@@ -2345,7 +2355,7 @@
       targetConnections="id-f3cfa4412b8b4ecca9fc6e3c8547c558">
     <bounds
         x="577"
-        y="546"
+        y="564"
         width="120"
         height="55"/>
     <archimateElement
@@ -2363,8 +2373,8 @@
         source="id-3a16c99409b84fbfa7dce1ef6bc819aa"
         target="id-8c2eda1af2524fe3a4db61e43629d437"/>
     <bounds
-        x="732"
-        y="546"
+        x="641"
+        y="440"
         width="144"
         height="80"/>
   </children>
@@ -2544,6 +2554,19 @@
     <archimateElement
         xsi:type="archimate:Driver"
         href="Driver_id-71396b4c032143e69f4a1d950e84da3c.xml#id-71396b4c032143e69f4a1d950e84da3c"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-8b8be18b817642ce92935e58db9ff3d3"
+      targetConnections="id-65af14026dce43bda9dfe734ad3eb700">
+    <bounds
+        x="793"
+        y="588"
+        width="132"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Driver"
+        href="Driver_id-4c5db1f420e640448391b8f737e8adfa.xml#id-4c5db1f420e640448391b8f737e8adfa"/>
   </children>
   <properties
       key="Publiceren"
