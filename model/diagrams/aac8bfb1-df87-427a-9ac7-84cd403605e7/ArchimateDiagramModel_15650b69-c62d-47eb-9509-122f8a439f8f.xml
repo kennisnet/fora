@@ -8058,6 +8058,15 @@
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-36bda6ac29ae4cd0b74b578ff9d6a66b.xml#id-36bda6ac29ae4cd0b74b578ff9d6a66b"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-ecbc061416a346b298b689997a14570e"
+        source="88880e14-e5ac-408b-a5b5-06a751d4856a"
+        target="id-7ac02a05b8f64d2ba1f776ce502b4d04">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-2de7ba5935034505b785d40c06e2ae61.xml#id-2de7ba5935034505b785d40c06e2ae61"/>
+    </sourceConnections>
     <bounds
         x="12"
         y="384"
@@ -8353,7 +8362,7 @@
       <bounds
           x="780"
           y="122"
-          width="160"
+          width="144"
           height="96"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
@@ -8369,7 +8378,7 @@
               href="AssignmentRelationship_id-8da0c3a744974f1eb14ef77cbe954edd.xml#id-8da0c3a744974f1eb14ef77cbe954edd"/>
         </sourceConnections>
         <bounds
-            x="24"
+            x="12"
             y="36"
             width="120"
             height="55"/>
@@ -8484,9 +8493,9 @@
         fontColor="#ffffff"
         fillColor="#808080">
       <bounds
-          x="948"
+          x="936"
           y="121"
-          width="188"
+          width="156"
           height="96"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
@@ -8502,7 +8511,7 @@
               href="AssignmentRelationship_id-deb5a112b61d4947924ace94095f4288.xml#id-deb5a112b61d4947924ace94095f4288"/>
         </sourceConnections>
         <bounds
-            x="36"
+            x="12"
             y="36"
             width="120"
             height="55"/>
@@ -8550,6 +8559,47 @@
       <archimateElement
           xsi:type="archimate:ApplicationFunction"
           href="ApplicationFunction_id-c0ef2c6fc4014c81a91cc02a22a77a5b.xml#id-c0ef2c6fc4014c81a91cc02a22a77a5b"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-7ac02a05b8f64d2ba1f776ce502b4d04"
+        targetConnections="id-ecbc061416a346b298b689997a14570e"
+        fontColor="#ffffff"
+        fillColor="#808080">
+      <bounds
+          x="1098"
+          y="122"
+          width="272"
+          height="96"/>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-f5f84b28e6134c02847bee86bad2e915"
+          fillColor="#ffffff">
+        <bounds
+            x="12"
+            y="36"
+            width="120"
+            height="55"/>
+        <archimateElement
+            xsi:type="archimate:ApplicationComponent"
+            href="ApplicationComponent_c64a7a54-f38e-487e-8148-01bc3d9c92fd.xml#c64a7a54-f38e-487e-8148-01bc3d9c92fd"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-b1f0598f6e9f4eea917c50bc43b217cb"
+          fillColor="#ffffff">
+        <bounds
+            x="144"
+            y="36"
+            width="120"
+            height="55"/>
+        <archimateElement
+            xsi:type="archimate:ApplicationComponent"
+            href="ApplicationComponent_57051d3b-9331-4f9e-90ea-2db2f57ed44d.xml#57051d3b-9331-4f9e-90ea-2db2f57ed44d"/>
+      </children>
+      <archimateElement
+          xsi:type="archimate:ApplicationFunction"
+          href="ApplicationFunction_id-0020258299fc435b97e336f8ee1f2e42.xml#id-0020258299fc435b97e336f8ee1f2e42"/>
     </children>
     <archimateElement
         xsi:type="archimate:Grouping"
@@ -9574,7 +9624,7 @@
       fontColor="#ffffff"
       fillColor="#808080">
     <bounds
-        x="-168"
+        x="-236"
         y="48"
         width="145"
         height="97"/>
@@ -9611,7 +9661,7 @@
       fontColor="#ffffff"
       fillColor="#808080">
     <bounds
-        x="-165"
+        x="-233"
         y="151"
         width="144"
         height="96"/>
@@ -9648,7 +9698,7 @@
       fontColor="#ffffff"
       fillColor="#808080">
     <bounds
-        x="-169"
+        x="-237"
         y="259"
         width="147"
         height="96"/>
@@ -9744,7 +9794,7 @@
       fontColor="#ffffff"
       fillColor="#808080">
     <bounds
-        x="-210"
+        x="-246"
         y="588"
         width="181"
         height="97"/>
@@ -9781,7 +9831,7 @@
       fontColor="#ffffff"
       fillColor="#808080">
     <bounds
-        x="-167"
+        x="-235"
         y="372"
         width="144"
         height="96"/>
@@ -9818,7 +9868,7 @@
       fontColor="#ffffff"
       fillColor="#808080">
     <bounds
-        x="-168"
+        x="-240"
         y="732"
         width="145"
         height="96"/>
@@ -9855,7 +9905,7 @@
       fontColor="#ffffff"
       fillColor="#808080">
     <bounds
-        x="-163"
+        x="-235"
         y="840"
         width="140"
         height="96"/>
@@ -9892,7 +9942,7 @@
       fontColor="#ffffff"
       fillColor="#808080">
     <bounds
-        x="-166"
+        x="-238"
         y="948"
         width="145"
         height="97"/>
@@ -9929,7 +9979,7 @@
       fontColor="#ffffff"
       fillColor="#808080">
     <bounds
-        x="-192"
+        x="-240"
         y="1212"
         width="145"
         height="96"/>
