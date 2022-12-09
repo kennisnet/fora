@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Procesmodel Uitschrijving (NIEUW)"
+    name="Procesmodel Schorsing en verwijdering"
     id="id-a9a660a23192467585f8cfb4589b1d2e">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -175,6 +175,17 @@
               xsi:type="archimate:BusinessProcess"
               href="BusinessProcess_id-83dc7923d7114ea7bffd6ccf55870111.xml#id-83dc7923d7114ea7bffd6ccf55870111"/>
         </children>
+        <children
+            xsi:type="archimate:DiagramModelReference"
+            id="id-4d05da8097e546018d54a5aaf429ae9c">
+          <bounds
+              y="2"
+              width="23"
+              height="23"/>
+          <referencedModel
+              xsi:type="archimate:ArchimateDiagramModel"
+              href="ArchimateDiagramModel_id-c8bdd2b4f7894a19a746eca748f127b5.xml#id-c8bdd2b4f7894a19a746eca748f127b5"/>
+        </children>
         <archimateElement
             xsi:type="archimate:BusinessProcess"
             href="BusinessProcess_id-064017e183d347cf9cf86339d2cf425f.xml#id-064017e183d347cf9cf86339d2cf425f"/>
@@ -245,4 +256,25 @@
         xsi:type="archimate:BusinessEvent"
         href="BusinessEvent_id-87a0571120ec4802b9f9ff7ceed3c56b.xml#id-87a0571120ec4802b9f9ff7ceed3c56b"/>
   </children>
+  <properties
+      key="Publiceren"
+      value="Wiki"/>
+  <properties
+      key="Architectuurlaag"
+      value="Bedrijfsarchitectuur"/>
+  <properties
+      key="Domein"
+      value="Onderwijsondersteuning"/>
+  <properties
+      key="Viewpoint"
+      value="Procesmodel"/>
+  <properties
+      key="Viewtype"
+      value="Basis"/>
+  <properties
+      key="Scope"
+      value="Instelling"/>
+  <properties
+      key="Viewdetail"
+      value="Detailniveau"/>
 </archimate:ArchimateDiagramModel>
