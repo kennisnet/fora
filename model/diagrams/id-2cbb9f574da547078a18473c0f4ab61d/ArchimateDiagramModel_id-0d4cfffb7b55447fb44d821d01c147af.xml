@@ -7,7 +7,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-f670bc4fcf684282a16c705e0a3d3e86"
-      targetConnections="id-61e0267f01dd4326a7c84d996b905803 id-ddce31e1b12248c68bb356f9234b174c id-f44bb93b0ff04a4d8d8ac305fc426c65">
+      targetConnections="id-61e0267f01dd4326a7c84d996b905803 id-f44bb93b0ff04a4d8d8ac305fc426c65 id-ddce31e1b12248c68bb356f9234b174c">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-ed9ed92dd7db42fdbec0e27e953787eb"
@@ -156,15 +156,6 @@
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-ddce31e1b12248c68bb356f9234b174c"
-        source="id-dd4e7d4cc998471fa307766327f15cf9"
-        target="id-f670bc4fcf684282a16c705e0a3d3e86">
-      <archimateRelationship
-          xsi:type="archimate:ServingRelationship"
-          href="ServingRelationship_id-ca948899ea604da2a77ae8adb27e74f9.xml#id-ca948899ea604da2a77ae8adb27e74f9"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-5200c3d9008c4561aad5c3ba232135e8"
         source="id-dd4e7d4cc998471fa307766327f15cf9"
         target="id-dd4e7d4cc998471fa307766327f15cf9">
@@ -186,6 +177,15 @@
       <archimateRelationship
           xsi:type="archimate:TriggeringRelationship"
           href="TriggeringRelationship_id-d94ba477cd5e42e3b0a6e3b10f515d16.xml#id-d94ba477cd5e42e3b0a6e3b10f515d16"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-ddce31e1b12248c68bb356f9234b174c"
+        source="id-dd4e7d4cc998471fa307766327f15cf9"
+        target="id-f670bc4fcf684282a16c705e0a3d3e86">
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_id-ca948899ea604da2a77ae8adb27e74f9.xml#id-ca948899ea604da2a77ae8adb27e74f9"/>
     </sourceConnections>
     <bounds
         x="480"
