@@ -75,7 +75,7 @@
       targetConnections="id-35c57b8417b44634a9128368d92a2e56">
     <bounds
         x="1668"
-        y="342"
+        y="324"
         width="120"
         height="55"/>
     <archimateElement
@@ -168,6 +168,15 @@
       <archimateRelationship
           xsi:type="archimate:AssignmentRelationship"
           href="AssignmentRelationship_id-d180a6833df946ccb906660ed424bc2c.xml#id-d180a6833df946ccb906660ed424bc2c"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-4a17672f977d40018bdb0f8b86334f04"
+        source="id-6b119b71193c4caeafaf11e2841415f9"
+        target="id-1966dd4bdaaf438dafc2ad3ad4403fc1">
+      <archimateRelationship
+          xsi:type="archimate:AssignmentRelationship"
+          href="AssignmentRelationship_id-a2055507a6954dbbaa4e164e000fad93.xml#id-a2055507a6954dbbaa4e164e000fad93"/>
     </sourceConnections>
     <bounds
         x="24"
@@ -450,11 +459,20 @@
             xsi:type="archimate:AggregationRelationship"
             href="AggregationRelationship_id-044f82effc4f4273a6e74ce1359c17c3.xml#id-044f82effc4f4273a6e74ce1359c17c3"/>
       </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-875de37cc6e846c5b06f6218bad47e76"
+          source="id-2fbea4b764f54496869315b11e29766e"
+          target="id-1b24e35b79f640ac992528bf35a18b4a">
+        <archimateRelationship
+            xsi:type="archimate:AggregationRelationship"
+            href="AggregationRelationship_id-eaeb9f0dfbb541bcb669a0e7601d3b49.xml#id-eaeb9f0dfbb541bcb669a0e7601d3b49"/>
+      </sourceConnections>
       <bounds
           x="36"
           y="60"
           width="254"
-          height="274"/>
+          height="349"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-affc724aaa744e5d9c565cc8a7a14591"
@@ -471,7 +489,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-9849b513af0f46d8b5e771236922f941"
-          targetConnections="id-86f69865785c49b1b6cd4ee15a81c8ac id-aa732c5aa0e34c879ae4c8db10ee8ab8 id-2aefad262cef48c8a21c7168310d3b4c">
+          targetConnections="id-86f69865785c49b1b6cd4ee15a81c8ac id-2aefad262cef48c8a21c7168310d3b4c">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-8ddf17b9e29642bab9bc872b871979e1"
@@ -502,6 +520,19 @@
         <archimateElement
             xsi:type="archimate:BusinessProcess"
             href="BusinessProcess_id-9aa3fbd81e8a491a9d7a45e254fd285d.xml#id-9aa3fbd81e8a491a9d7a45e254fd285d"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-1b24e35b79f640ac992528bf35a18b4a"
+          targetConnections="id-875de37cc6e846c5b06f6218bad47e76 id-e61663e518c1464a839871d8ac5fb83b id-aa732c5aa0e34c879ae4c8db10ee8ab8">
+        <bounds
+            x="41"
+            y="264"
+            width="156"
+            height="61"/>
+        <archimateElement
+            xsi:type="archimate:BusinessProcess"
+            href="BusinessProcess_id-b9e75bff59114857a25c8894bc460a84.xml#id-b9e75bff59114857a25c8894bc460a84"/>
       </children>
       <archimateElement
           xsi:type="archimate:BusinessProcess"
@@ -720,9 +751,9 @@
             href="CompositionRelationship_id-df76fed3ee6246389a018c5362923970.xml#id-df76fed3ee6246389a018c5362923970"/>
       </sourceConnections>
       <bounds
-          x="732"
+          x="792"
           y="55"
-          width="347"
+          width="287"
           height="253"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
@@ -739,7 +770,7 @@
         </sourceConnections>
         <bounds
             x="12"
-            y="84"
+            y="30"
             width="120"
             height="55"/>
         <archimateElement
@@ -778,8 +809,8 @@
               href="InfluenceRelationship_id-f0a8647b15a64fa29f370aa0612cd9ea.xml#id-f0a8647b15a64fa29f370aa0612cd9ea"/>
         </sourceConnections>
         <bounds
-            x="168"
-            y="84"
+            x="156"
+            y="30"
             width="120"
             height="55"/>
         <archimateElement
@@ -791,8 +822,8 @@
           id="id-e9d860ea4f614662b2af15b67ca82289"
           targetConnections="id-0755ccaabefd4f2086002f1a60e8dd57 id-5463a340db7948a7bfc47bc1b31bd03c">
         <bounds
-            x="12"
-            y="180"
+            x="156"
+            y="108"
             width="120"
             height="55"/>
         <archimateElement
@@ -1088,8 +1119,8 @@
       id="id-474263ff2cc841768795bf131b9be048"
       targetConnections="id-1099400e07ca453b8971f3718b87a038">
     <bounds
-        x="1320"
-        y="96"
+        x="1488"
+        y="108"
         width="120"
         height="55"/>
     <archimateElement
@@ -1126,8 +1157,8 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-a15ce5ef4e984f59a4cccff33471cdba">
     <bounds
-        x="576"
-        y="697"
+        x="636"
+        y="684"
         width="120"
         height="55"/>
     <archimateElement
@@ -1168,12 +1199,12 @@
       xsi:type="archimate:DiagramModelNote"
       id="id-b32b9cc35c7b445095fbf7b72411ea5c"
       textAlignment="1"
-      content="Vragen: &#xD;&#xA;- Volgens mij worden er geen aanwezigheidsmeldingen gemaakt vanuit de wettelijke vertegenwoordiger&#xD;&#xA;&#xD;&#xA;Opmerkingen&#xD;&#xA;- Een mag ook bij minder dan 16 uur een melding doen onder 'overig verzuim'">
+      content="Vragen: &#xD;&#xA;- Volgens mij worden er geen aanwezigheidsmeldingen gemaakt vanuit de wettelijke vertegenwoordiger&#xD;&#xA;- Aan wie moet er gemeld worden? Aan de gemeente via duo of aan duo&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Werkgroep:&#xD;&#xA;> Verzuim melding (context) ">
     <bounds
         x="12"
-        y="624"
+        y="898"
         width="229"
-        height="145"/>
+        height="25"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -1224,7 +1255,7 @@
       id="id-d1aebc9eb7b4401297a41c91575d1170"
       targetConnections="id-2cef90d7537b4500bea6333fc4d5a043 id-0cc275b700764a91bd6b5715ea51928a">
     <bounds
-        x="332"
+        x="373"
         y="712"
         width="120"
         height="55"/>
@@ -1240,7 +1271,7 @@
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-aa732c5aa0e34c879ae4c8db10ee8ab8"
         source="id-554e6cf6ed024b1d84f07fe05988fd1c"
-        target="id-9849b513af0f46d8b5e771236922f941">
+        target="id-1b24e35b79f640ac992528bf35a18b4a">
       <archimateRelationship
           xsi:type="archimate:TriggeringRelationship"
           href="TriggeringRelationship_id-fa35c8d56d0445268c8bb8d22f91f9c3.xml#id-fa35c8d56d0445268c8bb8d22f91f9c3"/>
@@ -1261,8 +1292,131 @@
       content="Bronnen&#xD;&#xA;Methodische aanpak schoolverzuim (MAS) - > gericht op leerplicht ambtenaar&#xD;&#xA;https://ingrado.nl//media/files/kennisbank/aanwezigheid_in_het_onderwijs/verzuim_18_min/praktijk_en_instrumenten/Methodische%20Aanpak%20Schoolverzuim%20Halt%2C%20Raad%20voor%20de%20Kinderbescherming%2C%20OM%2C%20september%202022.pdf&#xD;&#xA;&#xD;&#xA;">
     <bounds
         x="12"
-        y="792"
+        y="972"
         width="229"
+        height="25"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-2f20adfda28d479999b3a4cc8e0d7672"
+      textAlignment="1"
+      content="Verzuimregistratie kan opgerekt worden.  Leerlingverzuimg / optie2 / optie 3">
+    <bounds
+        x="1324"
+        y="-15"
+        width="185"
         height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-70a7612667fa42b1b23843ade1a157d3"
+      textAlignment="1"
+      content="Registreren verzuim &amp; opvolgen verzuim valt binnen 1 functie - 13-03-2023&#xD;&#xA;">
+    <bounds
+        x="1536"
+        y="-15"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-999e1e24f0e440b7a6e9a0b32edeb43b"
+      textAlignment="1"
+      content="Opmerking: &#xD;&#xA;- Een mag ook bij minder dan 16 uur een melding doen onder 'overig verzuim'">
+    <bounds
+        x="12"
+        y="936"
+        width="229"
+        height="25"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-f2d72e688d9542f0a72ae2adcae7c443"
+      targetConnections="id-05148335752a42eab7d6397c7fd8cdc0">
+    <bounds
+        x="217"
+        y="712"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Driver"
+        href="Driver_id-e3a8e1fd8d384daba50128337b9b5100.xml#id-e3a8e1fd8d384daba50128337b9b5100"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-1966dd4bdaaf438dafc2ad3ad4403fc1"
+      targetConnections="id-4a17672f977d40018bdb0f8b86334f04">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-a7581d6e629947e6b25745fff107bdc1"
+        source="id-1966dd4bdaaf438dafc2ad3ad4403fc1"
+        target="id-784054565097492bbaa827b275f5a9f0">
+      <archimateRelationship
+          xsi:type="archimate:TriggeringRelationship"
+          href="TriggeringRelationship_id-852c16aeb0424fefa02f5f1aa3b967b5.xml#id-852c16aeb0424fefa02f5f1aa3b967b5"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-05148335752a42eab7d6397c7fd8cdc0"
+        source="id-1966dd4bdaaf438dafc2ad3ad4403fc1"
+        target="id-f2d72e688d9542f0a72ae2adcae7c443">
+      <archimateRelationship
+          xsi:type="archimate:InfluenceRelationship"
+          href="InfluenceRelationship_id-55a17da3b77e4dfd978b77ade002ac9b.xml#id-55a17da3b77e4dfd978b77ade002ac9b"/>
+    </sourceConnections>
+    <bounds
+        x="217"
+        y="636"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessProcess"
+        href="BusinessProcess_id-afc5f490828c4817bdf009e612482829.xml#id-afc5f490828c4817bdf009e612482829"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-784054565097492bbaa827b275f5a9f0"
+      targetConnections="id-a7581d6e629947e6b25745fff107bdc1">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-e61663e518c1464a839871d8ac5fb83b"
+        source="id-784054565097492bbaa827b275f5a9f0"
+        target="id-1b24e35b79f640ac992528bf35a18b4a">
+      <archimateRelationship
+          xsi:type="archimate:TriggeringRelationship"
+          href="TriggeringRelationship_id-84fbb9ea79974f7ba522c11e19e00cb4.xml#id-84fbb9ea79974f7ba522c11e19e00cb4"/>
+    </sourceConnections>
+    <bounds
+        x="373"
+        y="636"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessEvent"
+        href="BusinessEvent_id-b76173d0e3d14f2f837e34f334d5b61e.xml#id-b76173d0e3d14f2f837e34f334d5b61e"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-92811120162349bba54a125c49878b5c">
+    <bounds
+        x="1524"
+        y="721"
+        width="226"
+        height="217"/>
+    <archimateElement
+        xsi:type="archimate:BusinessProcess"
+        href="BusinessProcess_id-26294e2d7c9847b7bc964c3d14105332.xml#id-26294e2d7c9847b7bc964c3d14105332"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-bbd8bcbabdf347128c6dbfbbf71f7346"
+      textAlignment="1"
+      fillColor="#ff0000"
+      content="To do&#xD;&#xA;- Connectie legen -> verwerkingsgrondslag (in de naamgeving van bedrijfsfunctie aansluiten bij verwerkingsgrondslag/wet)">
+    <bounds
+        x="267"
+        y="898"
+        width="185"
+        height="25"/>
   </children>
 </archimate:ArchimateDiagramModel>
