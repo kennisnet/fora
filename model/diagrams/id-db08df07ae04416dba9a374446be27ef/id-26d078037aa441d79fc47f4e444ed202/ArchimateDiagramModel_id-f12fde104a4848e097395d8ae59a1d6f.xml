@@ -556,7 +556,7 @@
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-c59b7e781841489da345645bcc1e52c2"
             source="id-371846ee7db54a9c9494fcda79ad1adc"
-            target="id-2ad979d4ad954484892564bbfa296f75">
+            target="id-59f81053520d47dd8471b8bd232d4be8">
           <archimateRelationship
               xsi:type="archimate:TriggeringRelationship"
               href="TriggeringRelationship_id-4518ce5ba2ed4cfc9d3290104402771b.xml#id-4518ce5ba2ed4cfc9d3290104402771b"/>
@@ -576,8 +576,49 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-59f81053520d47dd8471b8bd232d4be8"
+        targetConnections="id-c59b7e781841489da345645bcc1e52c2">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-9b994adb12134f38807b6931ebdcfd4e"
+          source="id-59f81053520d47dd8471b8bd232d4be8"
+          target="id-49b2276e6f58499bbe0fda283647bf54">
+        <bendpoints
+            startX="29"
+            startY="-43"
+            endX="-108"
+            endY="14"/>
+        <archimateRelationship
+            xsi:type="archimate:TriggeringRelationship"
+            href="TriggeringRelationship_id-d58fbf71958945379fbf21eb7d6d998c.xml#id-d58fbf71958945379fbf21eb7d6d998c"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-5ce68be9a0e34691956190f27ec5593e"
+          source="id-59f81053520d47dd8471b8bd232d4be8"
+          target="id-215ef528637d456483cdf22fcf4cd2d2">
+        <bendpoints
+            startX="29"
+            startY="41"
+            endX="-108"
+            endY="2"/>
+        <archimateRelationship
+            xsi:type="archimate:TriggeringRelationship"
+            href="TriggeringRelationship_id-4a430c09ec424fb79c688f815a884409.xml#id-4a430c09ec424fb79c688f815a884409"/>
+      </sourceConnections>
+      <bounds
+          x="624"
+          y="156"
+          width="15"
+          height="15"/>
+      <archimateElement
+          xsi:type="archimate:Junction"
+          href="Junction_id-2551d268f30f45dda19edcc2324785e3.xml#id-2551d268f30f45dda19edcc2324785e3"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
         id="id-2ad979d4ad954484892564bbfa296f75"
-        targetConnections="id-13d96efa4cd2475ab5b44338d24e5963 id-c59b7e781841489da345645bcc1e52c2">
+        targetConnections="id-13d96efa4cd2475ab5b44338d24e5963">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-d56b0d13aa2f48bbb462fb52ebc9d9f6"
@@ -631,7 +672,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-49b2276e6f58499bbe0fda283647bf54"
-          targetConnections="id-d56b0d13aa2f48bbb462fb52ebc9d9f6">
+          targetConnections="id-9b994adb12134f38807b6931ebdcfd4e id-d56b0d13aa2f48bbb462fb52ebc9d9f6">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-bcbec6aba8684ffe83e3be2d04e95271"
@@ -693,7 +734,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-215ef528637d456483cdf22fcf4cd2d2"
-          targetConnections="id-8ae7b961390f4066bf0aa15b1af84605">
+          targetConnections="id-5ce68be9a0e34691956190f27ec5593e id-8ae7b961390f4066bf0aa15b1af84605">
         <bounds
             x="24"
             y="120"
@@ -1493,7 +1534,7 @@
       xsi:type="archimate:DiagramModelNote"
       id="id-bed6887c38af4d8a807feec6c833abb0"
       textAlignment="1"
-      content="BEGRIPPEN:&#xD;&#xA;Leerplicht&#xD;&#xA;Kwalificatieplicht &lt;== !&#xD;&#xA;Verzuim&#xD;&#xA;Relatief verzuim&#xD;&#xA;Absoluut verzuim&#xD;&#xA;Zorgverzuim&#xD;&#xA;Licht verzuim&#xD;&#xA;Luxe verzuim&#xD;&#xA;Geoorloofd verzuim&#xD;&#xA;Ongeoorloofd verzuim">
+      content="BEGRIPPEN:&#xD;&#xA;Leerplicht&#xD;&#xA;Kwalificatieplicht&#xD;&#xA;Verzuim&#xD;&#xA;Relatief verzuim&#xD;&#xA;Absoluut verzuim&#xD;&#xA;Zorgverzuim&#xD;&#xA;Licht verzuim&#xD;&#xA;Luxe verzuim&#xD;&#xA;Geoorloofd verzuim&#xD;&#xA;Ongeoorloofd verzuim">
     <bounds
         x="-96"
         y="576"
