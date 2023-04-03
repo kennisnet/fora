@@ -156,7 +156,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-ed9f69c38ea9445caab558322e7996cb"
-          targetConnections="id-b0d21341213f4db090f45ab36d59cc07 id-5bb28bffb38946d2bf1ab93f1c6fa307"
+          targetConnections="id-b0d21341213f4db090f45ab36d59cc07 id-5bb28bffb38946d2bf1ab93f1c6fa307 id-f6517e0c646f419b9aead781d7cc4796"
           fillColor="#ffffff">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
@@ -486,6 +486,49 @@
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-0364ff0943a04aa6a80c5e7715dc898b.xml#id-0364ff0943a04aa6a80c5e7715dc898b"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-ab38ff42ab754a748cf10b8fb6a8629e"
+      targetConnections="id-f68f8f6594f049ffb3b985624aedc81c"
+      textAlignment="1"
+      content="Zorgrichtlijn&#xD;&#xA;MAZL wellicht als VB toevoegen">
+    <sourceConnections
+        id="id-f68f8f6594f049ffb3b985624aedc81c"
+        source="id-ab38ff42ab754a748cf10b8fb6a8629e"
+        target="id-ab38ff42ab754a748cf10b8fb6a8629e">
+      <bendpoints
+          startY="60"
+          endY="60"/>
+      <bendpoints
+          startX="111"
+          startY="60"
+          endX="111"
+          endY="60"/>
+      <bendpoints
+          startX="111"
+          endX="111"/>
+    </sourceConnections>
+    <bounds
+        x="288"
+        y="576"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-bd80a991221742a2895981144e5f488f"
+      textAlignment="1"
+      content="Patroonherkenning">
+    <sourceConnections
+        id="id-f6517e0c646f419b9aead781d7cc4796"
+        source="id-bd80a991221742a2895981144e5f488f"
+        target="id-ed9f69c38ea9445caab558322e7996cb"/>
+    <bounds
+        x="698"
+        y="469"
+        width="185"
+        height="80"/>
   </children>
   <properties
       key="Publiceren"
