@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Procesmodel Verzuimcoördinatie - Analyseren verzuim"
-    id="id-e594978db202434ca51e261699fd723b">
+    id="id-e594978db202434ca51e261699fd723b"
+    documentation="Het analyseren van het verzuim heeft als doel de vervolgacties te bepalen op basis van de verzuim melding. Tevens vind er in dit proces de monitoring van aanhoudend verzuim plaats. Dit proces is onderdeel van de verzuim PDCA waarin bijgehouden wordt wat de resultaten zijn van de acties die op een verzuim melding plaatsvinden.">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-b55988bc57be4c52b06191bf0c02b1f2"
@@ -20,7 +21,7 @@
         x="324"
         y="144"
         width="301"
-        height="385"/>
+        height="457"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-f65d636eae38434689ea609cee4f7056"
@@ -51,7 +52,7 @@
           target="id-acefed87200d4a369178220a3b3a111a">
         <bendpoints
             startX="-174"
-            startY="102"
+            startY="60"
             endX="115"
             endY="-63"/>
         <bendpoints
@@ -70,7 +71,7 @@
           target="id-1d331c61e6a5482ca0041da62aac5b32">
         <bendpoints
             startX="-174"
-            startY="102"
+            startY="60"
             endX="103"
             endY="-3"/>
         <archimateRelationship
@@ -84,7 +85,7 @@
           target="id-bd1ece3ce44749bebb1bf5a591bf17e8">
         <bendpoints
             startX="-174"
-            startY="102"
+            startY="60"
             endX="103"
             endY="-123"/>
         <bendpoints
@@ -157,7 +158,7 @@
           x="24"
           y="36"
           width="253"
-          height="325"/>
+          height="409"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-ed9f69c38ea9445caab558322e7996cb"
@@ -190,15 +191,37 @@
               xsi:type="archimate:AccessRelationship"
               href="AccessRelationship_id-afe149b90dd14e6fbe0937fc4c5a825a.xml#id-afe149b90dd14e6fbe0937fc4c5a825a"/>
         </sourceConnections>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-472f3f1f12ba4f5694eff522580ce976"
+            source="id-ed9f69c38ea9445caab558322e7996cb"
+            target="id-45215251e19d48738965acc3e4e1c28b">
+          <archimateRelationship
+              xsi:type="archimate:AggregationRelationship"
+              href="AggregationRelationship_id-1b31e37696d24a18be6df9817a8cedf5.xml#id-1b31e37696d24a18be6df9817a8cedf5"/>
+        </sourceConnections>
         <bounds
             x="29"
             y="216"
             width="164"
-            height="97"/>
+            height="169"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-fc9d9c503a57414ea83d392f2088ee1d"
             targetConnections="id-a131e885d4d7470e9b63e1883c9f1278">
+          <bounds
+              x="24"
+              y="96"
+              width="120"
+              height="55"/>
+          <archimateElement
+              xsi:type="archimate:BusinessProcess"
+              href="BusinessProcess_id-01a277ef40944cffade28dd91c4a7da7.xml#id-01a277ef40944cffade28dd91c4a7da7"/>
+        </children>
+        <children
+            xsi:type="archimate:DiagramModelArchimateObject"
+            id="id-45215251e19d48738965acc3e4e1c28b"
+            targetConnections="id-472f3f1f12ba4f5694eff522580ce976">
           <bounds
               x="24"
               y="24"
@@ -206,7 +229,7 @@
               height="55"/>
           <archimateElement
               xsi:type="archimate:BusinessProcess"
-              href="BusinessProcess_id-01a277ef40944cffade28dd91c4a7da7.xml#id-01a277ef40944cffade28dd91c4a7da7"/>
+              href="BusinessProcess_id-f260b651248e4e63bb4f926ff1d150e3.xml#id-f260b651248e4e63bb4f926ff1d150e3"/>
         </children>
         <archimateElement
             xsi:type="archimate:BusinessProcess"
@@ -491,12 +514,24 @@
       id="id-fabbef3ef2824ece876f4c0ab9b26ea6">
     <bounds
         x="408"
-        y="552"
+        y="612"
         width="157"
         height="55"/>
     <referencedModel
         xsi:type="archimate:ArchimateDiagramModel"
         href="ArchimateDiagramModel_id-ad9c2b9935d241458074d701fc340083.xml#id-ad9c2b9935d241458074d701fc340083"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-eb8ab3a9418245b685eb904d82ff5448"
+      textAlignment="1"
+      content="Ga naar:"
+      borderType="2">
+    <bounds
+        x="348"
+        y="625"
+        width="61"
+        height="29"/>
   </children>
   <properties
       key="Publiceren"
