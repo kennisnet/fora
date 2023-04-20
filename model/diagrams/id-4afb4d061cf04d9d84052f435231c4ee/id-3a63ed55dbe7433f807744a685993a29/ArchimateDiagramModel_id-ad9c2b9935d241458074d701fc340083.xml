@@ -3,7 +3,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Procesmodel Verzuimcoördinatie - HOOFDMODEL"
     id="id-ad9c2b9935d241458074d701fc340083"
-    documentation="In deze weergave is de functie verzuimcoordinatie uitgewerkt in de 3 bedrijfsprocessen. Vanuit een absentie, een melding of een vrijstelling verzoek wordt er invulling gegeven aan de registratie van een verzuim melding. Daar waar er nog geen classificatie is gedaan van het soort afwezigheid wordt de term afwezigheid gebruikt. Daar waar de classificatie van de afwezigheids(melding) al heeft plaatsgevonden spreken we van verzuim. &#xD;&#xA;&#xD;&#xA;Het registratie proces richt zich op het bepalen van de 'soort' afwezigheid waarna er vanuit een afwezigheidsmelding een verzuim melding gemaakt kan worden. &#xD;&#xA;&#xD;&#xA;In de analyserende processen wordt er bepaald welke vervolgacties passen op het soort verzuimt. Tevens wordt hier bepaald welke verplichtingen er zijn rondom een verzuim melding (bijv. het moeten melden bij de gemeente). Binnen de analyse van verzuim vind ook de monitoring van de verzuim situatie plaats. &#xD;&#xA;&#xD;&#xA;In de opvolging van de verzuimmelding vind de opvolging plaats die vanuit de analyse is voorbereid en gepland. &#xD;&#xA;&#xD;&#xA;Tussen analyseren en opvolgen zit een PDCA cyclus. Dit betekend dat er binnen analyseren acties voorbereid worden (plan) in de opvolging worden de acties uitgevoerd (do) en gecontroleerd (check) en binnen de analyse, via monitoring wordt de effectiviteit gemeten van de acties (act). Tot het verzuim eindigd zal de verzuim PDCA cyclus blijven draaien. Ook wanneer er acties binnen andere bedrijfsfuncties of bij externe organisaties uitgevoerd worden. Wanneer het verzuim stopt zal de melding gesloten worden en zal de PDCA cyclus stoppen.">
+    documentation="In deze weergave is de functie Verzuimcoordinatie uitgewerkt in drie bedrijfsprocessen. Vanuit een absentie, een melding of een vrijstellingsverzoek wordt invulling gegeven aan de registratie van een verzuimmelding. Daar waar er nog geen classificatie is gedaan van het soort afwezigheid wordt de term 'afwezigheid' gebruikt. Daar waar de classificatie van de afwezigheid(smelding) al heeft plaatsgevonden, spreken we van 'verzuim'. &#xD;&#xA;&#xD;&#xA;Het registratieproces richt zich op het bepalen van het 'soort' afwezigheid waarna er vanuit een afwezigheidsmelding een verzuimmelding gemaakt kan worden. &#xD;&#xA;&#xD;&#xA;In de analyserende processen wordt bepaald welke vervolgacties passen op het soort verzuim. Tevens wordt hier bepaald welke verplichtingen er zijn rondom een verzuimmelding (bijvoorbeeld het moeten melden bij de gemeente). Binnen de analyse van verzuim vindt ook de monitoring van de verzuimsituatie plaats. &#xD;&#xA;&#xD;&#xA;In de opvolging van de verzuimmelding vind de opvolging plaats die vanuit de analyse is voorbereid en gepland. &#xD;&#xA;&#xD;&#xA;Tussen analyseren en opvolgen zit een PDCA cyclus. Dit betekend dat er binnen analyseren acties voorbereid worden (plan) in de opvolging worden de acties uitgevoerd (do) en gecontroleerd (check) en binnen de analyse, via monitoring wordt de effectiviteit gemeten van de acties (act). Tot het verzuim eindigd zal de verzuim PDCA cyclus blijven draaien. Ook wanneer er acties binnen andere bedrijfsfuncties of bij externe organisaties uitgevoerd worden. Wanneer het verzuim stopt zal de melding gesloten worden en zal de PDCA cyclus stoppen.">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-15ca01e0e4b045a4973eea9acf0c3711"
@@ -293,9 +293,6 @@
             id="id-e7c0c48b8eef439b9be47b808a335ee9"
             source="id-5a800c2e2d7545f1a4a9498165a1527f"
             target="id-7ac36e19996146cfbec3d32a997b39b4">
-          <bendpoints
-              startY="34"
-              endY="-50"/>
           <archimateRelationship
               xsi:type="archimate:TriggeringRelationship"
               href="TriggeringRelationship_id-83703b61d9d949a7af9b02060b759183.xml#id-83703b61d9d949a7af9b02060b759183"/>
@@ -488,9 +485,9 @@
           href="TriggeringRelationship_id-7a7cffa07d074c2eb8229bed56007f8d.xml#id-7a7cffa07d074c2eb8229bed56007f8d"/>
     </sourceConnections>
     <bounds
-        x="300"
+        x="288"
         y="108"
-        width="132"
+        width="144"
         height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessEvent"
@@ -510,7 +507,7 @@
           href="AggregationRelationship_id-de524a693eb2409ba98093608f745f38.xml#id-de524a693eb2409ba98093608f745f38"/>
     </sourceConnections>
     <bounds
-        x="120"
+        x="108"
         y="81"
         width="139"
         height="109"/>
@@ -555,9 +552,9 @@
           href="TriggeringRelationship_id-72d2f488c84544e2b90a527b10a49cb3.xml#id-72d2f488c84544e2b90a527b10a49cb3"/>
     </sourceConnections>
     <bounds
-        x="300"
+        x="288"
         y="318"
-        width="132"
+        width="144"
         height="91"/>
     <archimateElement
         xsi:type="archimate:BusinessEvent"
@@ -577,9 +574,9 @@
           href="TriggeringRelationship_id-416de5db9a3b459480907b63f74fa71a.xml#id-416de5db9a3b459480907b63f74fa71a"/>
     </sourceConnections>
     <bounds
-        x="300"
+        x="288"
         y="168"
-        width="132"
+        width="144"
         height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessEvent"
