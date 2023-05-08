@@ -54,10 +54,19 @@
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_fa467cb7-e7a8-4e31-b72b-e2f8e5701566.xml#fa467cb7-e7a8-4e31-b72b-e2f8e5701566"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-ce913d32ca5e4a7a9924e442367aff67"
+        source="e8ff1280-85f0-4b8d-ab0b-ed8f18242911"
+        target="id-bb8283b6dbd045c6b8bc9c79e735406d">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-8c466789ea0a4ee887a613916c73ffa1.xml#id-8c466789ea0a4ee887a613916c73ffa1"/>
+    </sourceConnections>
     <bounds
         x="132"
         y="240"
-        width="1189"
+        width="1345"
         height="133"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -232,6 +241,33 @@
       <archimateElement
           xsi:type="archimate:BusinessFunction"
           href="BusinessFunction_1382d825-9f84-4d0a-a34a-815a152cfa0a.xml#1382d825-9f84-4d0a-a34a-815a152cfa0a"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-bb8283b6dbd045c6b8bc9c79e735406d"
+        targetConnections="id-ce913d32ca5e4a7a9924e442367aff67"
+        fillColor="#acacd3">
+      <bounds
+          x="1188"
+          y="24"
+          width="145"
+          height="97"/>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-a72b5e539d2c4e71bab20efb1bbc79bd"
+          fillColor="#ffffff">
+        <bounds
+            x="12"
+            y="36"
+            width="120"
+            height="55"/>
+        <archimateElement
+            xsi:type="archimate:ApplicationComponent"
+            href="ApplicationComponent_c64a7a54-f38e-487e-8148-01bc3d9c92fd.xml#c64a7a54-f38e-487e-8148-01bc3d9c92fd"/>
+      </children>
+      <archimateElement
+          xsi:type="archimate:BusinessFunction"
+          href="BusinessFunction_1ef325ca-d0b2-4ba3-a2b4-efccd91cd18c.xml#1ef325ca-d0b2-4ba3-a2b4-efccd91cd18c"/>
     </children>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
