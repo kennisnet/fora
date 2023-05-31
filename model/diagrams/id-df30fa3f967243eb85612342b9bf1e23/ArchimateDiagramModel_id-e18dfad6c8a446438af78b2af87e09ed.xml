@@ -1028,7 +1028,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-c076a51f4c2f40708066d1049a416441"
-      targetConnections="id-0ef0cd16093a42aa8d91e614abefdf88 id-8947b7eab3e34270ae0271dc24ee2bbc"
+      targetConnections="id-0ef0cd16093a42aa8d91e614abefdf88 id-8947b7eab3e34270ae0271dc24ee2bbc id-c080141a945c48449c2cc22053cdca56"
       fontColor="#ffffff"
       fillColor="#808080">
     <sourceConnections
@@ -1169,7 +1169,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-5c780efa4e2b48ec9a7a6ce22b5bfa70"
-      targetConnections="id-b42a15f02b7f4deebbc1ccffacc6ba26"
+      targetConnections="id-b42a15f02b7f4deebbc1ccffacc6ba26 id-da16742f11c64e0eaefd6ce083702506"
       fontColor="#ffffff"
       fillColor="#808080">
     <sourceConnections
@@ -1558,6 +1558,37 @@
     <archimateElement
         xsi:type="archimate:ApplicationComponent"
         href="ApplicationComponent_57051d3b-9331-4f9e-90ea-2db2f57ed44d.xml#57051d3b-9331-4f9e-90ea-2db2f57ed44d"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-040fe9b8d3d24874801407e47ea2e58c"
+      fillColor="#ffffff">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-c080141a945c48449c2cc22053cdca56"
+        source="id-040fe9b8d3d24874801407e47ea2e58c"
+        target="id-c076a51f4c2f40708066d1049a416441">
+      <archimateRelationship
+          xsi:type="archimate:AssignmentRelationship"
+          href="AssignmentRelationship_id-67b0fcacfaa64dee80e783d54631ba47.xml#id-67b0fcacfaa64dee80e783d54631ba47"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-da16742f11c64e0eaefd6ce083702506"
+        source="id-040fe9b8d3d24874801407e47ea2e58c"
+        target="id-5c780efa4e2b48ec9a7a6ce22b5bfa70">
+      <archimateRelationship
+          xsi:type="archimate:AssignmentRelationship"
+          href="AssignmentRelationship_id-880f0a2f5537497c967159384661d786.xml#id-880f0a2f5537497c967159384661d786"/>
+    </sourceConnections>
+    <bounds
+        x="815"
+        y="-72"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationComponent"
+        href="ApplicationComponent_3476eb2d-278a-4ecf-8931-f5d510a71b1b.xml#3476eb2d-278a-4ecf-8931-f5d510a71b1b"/>
   </children>
   <properties
       key="Publiceren"
