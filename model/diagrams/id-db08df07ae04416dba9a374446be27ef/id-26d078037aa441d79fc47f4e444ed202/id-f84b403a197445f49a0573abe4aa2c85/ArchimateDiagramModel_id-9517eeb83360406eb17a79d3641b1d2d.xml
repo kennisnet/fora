@@ -1602,6 +1602,15 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-11eedc61e0474e7bb6b7f26686cd58e3">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-56a510ba42fe417896df4ffec2ee721e"
+        source="id-11eedc61e0474e7bb6b7f26686cd58e3"
+        target="id-7c5827f7e5774a2f8e93bff6b9da347b">
+      <archimateRelationship
+          xsi:type="archimate:InfluenceRelationship"
+          href="InfluenceRelationship_id-4def293b341c4ba6a6431fda8b7a478f.xml#id-4def293b341c4ba6a6431fda8b7a478f"/>
+    </sourceConnections>
     <bounds
         x="1743"
         y="318"
@@ -2603,5 +2612,39 @@
     <archimateElement
         xsi:type="archimate:Driver"
         href="Driver_id-73118d4c6381461fb9946d647b394d9b.xml#id-73118d4c6381461fb9946d647b394d9b"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-5196b6ed44ad478e8b26a72aca4f1e0d">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-3a77b5d6031a407da8b680942070b1f0"
+        source="id-5196b6ed44ad478e8b26a72aca4f1e0d"
+        target="id-7c5827f7e5774a2f8e93bff6b9da347b">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-534193bf416a4b4ab3d0b1b3cadb2162.xml#id-534193bf416a4b4ab3d0b1b3cadb2162"/>
+    </sourceConnections>
+    <bounds
+        x="1992"
+        y="1224"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Driver"
+        href="Driver_id-7320dffe373c485788305f9bcfa7b0db.xml#id-7320dffe373c485788305f9bcfa7b0db"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-7c5827f7e5774a2f8e93bff6b9da347b"
+      targetConnections="id-3a77b5d6031a407da8b680942070b1f0 id-56a510ba42fe417896df4ffec2ee721e">
+    <bounds
+        x="1908"
+        y="1314"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Driver"
+        href="Driver_id-6389f5ce408e41d981debbaf377a7470.xml#id-6389f5ce408e41d981debbaf377a7470"/>
   </children>
 </archimate:ArchimateDiagramModel>
