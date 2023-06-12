@@ -389,7 +389,7 @@
           href="CompositionRelationship_id-fce1947a6b014ebb98c2ba56b158969a.xml#id-fce1947a6b014ebb98c2ba56b158969a"/>
     </sourceConnections>
     <bounds
-        x="528"
+        x="539"
         y="384"
         width="205"
         height="289"/>
@@ -608,8 +608,8 @@
           href="CompositionRelationship_id-ef781e2333714c349ab7561ecd0a9160.xml#id-ef781e2333714c349ab7561ecd0a9160"/>
     </sourceConnections>
     <bounds
-        x="1139"
-        y="249"
+        x="1104"
+        y="228"
         width="205"
         height="376"/>
     <children
@@ -850,9 +850,14 @@
         source="id-713be729a86d451dbd3620fb76a3762a"
         target="id-ef1f8ef9fa3145dd9535221d872002eb">
       <bendpoints
-          startX="-12"
+          startX="-60"
+          startY="250"
+          endX="282"
+          endY="-63"/>
+      <bendpoints
+          startX="-60"
           startY="310"
-          endX="330"
+          endX="282"
           endY="-3"/>
       <archimateRelationship
           xsi:type="archimate:InfluenceRelationship"
@@ -867,6 +872,10 @@
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-26c9173383bb48c28addc41c15ebd195.xml#id-26c9173383bb48c28addc41c15ebd195"/>
     </sourceConnections>
+    <sourceConnections
+        id="id-e71c6bf904184e499e403ee676e8e1d0"
+        source="id-713be729a86d451dbd3620fb76a3762a"
+        target="id-b2505498e95d4cdcb25140c00326d737"/>
     <bounds
         x="1692"
         y="228"
@@ -1562,7 +1571,7 @@
         x="1361"
         y="228"
         width="145"
-        height="364"/>
+        height="133"/>
     <archimateElement
         xsi:type="archimate:DataObject"
         href="DataObject_id-9c215fe829954d8087037c30f511ff50.xml#id-9c215fe829954d8087037c30f511ff50"/>
@@ -1589,12 +1598,24 @@
           href="AssociationRelationship_id-5ed71d7799a745bfb2f64e42ee74d94e.xml#id-5ed71d7799a745bfb2f64e42ee74d94e"/>
     </sourceConnections>
     <bounds
-        x="72"
-        y="264"
+        x="54"
+        y="249"
         width="169"
         height="217"/>
     <archimateElement
         xsi:type="archimate:DataObject"
         href="DataObject_id-09b653355200465e85474bcc68a1a16a.xml#id-09b653355200465e85474bcc68a1a16a"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-b2505498e95d4cdcb25140c00326d737"
+      targetConnections="id-e71c6bf904184e499e403ee676e8e1d0"
+      textAlignment="1"
+      content="minimaal 5 jaar">
+    <bounds
+        x="1740"
+        y="660"
+        width="109"
+        height="49"/>
   </children>
 </archimate:ArchimateDiagramModel>
