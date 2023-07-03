@@ -6,14 +6,25 @@
     documentation="Detailoverzicht van de informatie die een onderwijsinstelling beheert met betrekking tot de hoofdbedrijfsfunctie Onderwijsevaluatie in het bedrijfsdomein Onderwijs.">
   <children
       xsi:type="archimate:DiagramModelNote"
+      id="id-c1277382da6a46b092bc9daccd23a16c"
+      textAlignment="1"
+      fillColor="#fefb00">
+    <bounds
+        x="1211"
+        y="564"
+        width="254"
+        height="130"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
       id="id-ba8e5fdb870d4f3c98e09b66b04ae0fa"
       textAlignment="1"
       fillColor="#fefb00">
     <bounds
         x="960"
         y="636"
-        width="324"
-        height="313"/>
+        width="505"
+        height="253"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
@@ -932,7 +943,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-04d0d4468d7b426ca46094210dd9e090"
-      targetConnections="id-1b45b9b7b99048a69656d864b2cc0f8b"
+      targetConnections="id-1b45b9b7b99048a69656d864b2cc0f8b id-f830dad2ac15455494854af411da62f6"
       fontColor="#ffffff"
       fillColor="#007ac3">
     <sourceConnections
@@ -1402,8 +1413,8 @@
       textAlignment="1"
       content="Gewijzigde elementen en relaties t.o.v. de huidige versie van het informatiemodel vallen geheel binnen de gele blokken.">
     <bounds
-        x="1332"
-        y="636"
+        x="1440"
+        y="416"
         width="205"
         height="87"/>
   </children>
@@ -1455,20 +1466,11 @@
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-4057a1c6d6884d70a71d09a8bc345c82.xml#id-4057a1c6d6884d70a71d09a8bc345c82"/>
     </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-4b3e50e7f4384b40a59966f918839f33"
-        source="id-c3df911f964340e69779867a208b8779"
-        target="id-661c85650ce547c596ff124982e3102a">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-cb8c17249ba543828d3f800b937a1419.xml#id-cb8c17249ba543828d3f800b937a1419"/>
-    </sourceConnections>
     <bounds
         x="1091"
         y="708"
         width="170"
-        height="217"/>
+        height="157"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-c6fcb44d58664b42b8e127aa77e42745"
@@ -1487,7 +1489,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-cdf092bced5f4491989eb3f87d46077d"
-        targetConnections="id-9014157731d84f12bdf38fc0ae588875"
+        targetConnections="id-9014157731d84f12bdf38fc0ae588875 id-7a144efe7ad34357b14c441e9ab04a85"
         fontColor="#ffffff"
         fillColor="#007ac3">
       <bounds
@@ -1499,24 +1501,46 @@
           xsi:type="archimate:BusinessObject"
           href="BusinessObject_id-1aae56171f4643bf9151ddca93f3190d.xml#id-1aae56171f4643bf9151ddca93f3190d"/>
     </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-661c85650ce547c596ff124982e3102a"
-        targetConnections="id-4b3e50e7f4384b40a59966f918839f33"
-        fontColor="#ffffff"
-        fillColor="#007ac3">
-      <bounds
-          x="12"
-          y="144"
-          width="146"
-          height="55"/>
-      <archimateElement
-          xsi:type="archimate:BusinessObject"
-          href="BusinessObject_id-49b4afb7e00a4f1e935c8fb0e3b994dd.xml#id-49b4afb7e00a4f1e935c8fb0e3b994dd"/>
-    </children>
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-9c4fc68f1ad64484a73e9a52d64c6007.xml#id-9c4fc68f1ad64484a73e9a52d64c6007"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-661c85650ce547c596ff124982e3102a"
+      fontColor="#ffffff"
+      fillColor="#007ac3">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-7a144efe7ad34357b14c441e9ab04a85"
+        source="id-661c85650ce547c596ff124982e3102a"
+        target="id-cdf092bced5f4491989eb3f87d46077d">
+      <bendpoints
+          startX="-2"
+          startY="207"
+          endX="168"
+          endY="3"/>
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-f764d186f3f04209a4c9ab483676260a.xml#id-f764d186f3f04209a4c9ab483676260a"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-f830dad2ac15455494854af411da62f6"
+        source="id-661c85650ce547c596ff124982e3102a"
+        target="id-04d0d4468d7b426ca46094210dd9e090">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-71a2d39b8639497e85825c66d2892eb0.xml#id-71a2d39b8639497e85825c66d2892eb0"/>
+    </sourceConnections>
+    <bounds
+        x="1308"
+        y="594"
+        width="146"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-49b4afb7e00a4f1e935c8fb0e3b994dd.xml#id-49b4afb7e00a4f1e935c8fb0e3b994dd"/>
   </children>
   <properties
       key="Architectuurlaag"
