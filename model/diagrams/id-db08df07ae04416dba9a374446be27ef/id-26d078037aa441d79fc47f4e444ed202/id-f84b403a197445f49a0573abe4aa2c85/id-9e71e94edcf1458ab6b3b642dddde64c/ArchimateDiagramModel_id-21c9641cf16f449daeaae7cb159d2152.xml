@@ -309,7 +309,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-732b8ca833ab42dd85643484e2671027"
-      targetConnections="id-afd1825107384f17ae63c9bd188f48c0 id-62b6f8e7dcae4002a16e2077fa21ce90"
+      targetConnections="id-afd1825107384f17ae63c9bd188f48c0 id-62b6f8e7dcae4002a16e2077fa21ce90 id-434e47ae68f14b169d200e7415c6617f"
       fontColor="#ffffff"
       fillColor="#007ac3">
     <sourceConnections
@@ -1664,12 +1664,21 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-75c0f954f3e04fd382a345d13d7b099b"
-      targetConnections="id-761ccf6b9fad476e93558d501cdaf57e"
+      targetConnections="id-761ccf6b9fad476e93558d501cdaf57e id-98738d2d028a4b7481314ba97014ebdd"
       fontColor="#ffffff"
       fillColor="#007ac3">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-434e47ae68f14b169d200e7415c6617f"
+        source="id-75c0f954f3e04fd382a345d13d7b099b"
+        target="id-732b8ca833ab42dd85643484e2671027">
+      <archimateRelationship
+          xsi:type="archimate:SpecializationRelationship"
+          href="SpecializationRelationship_id-7e3c7229921f4ec49143fa75c35c5b35.xml#id-7e3c7229921f4ec49143fa75c35c5b35"/>
+    </sourceConnections>
     <bounds
-        x="2508"
-        y="732"
+        x="2472"
+        y="708"
         width="120"
         height="55"/>
     <archimateElement
@@ -1801,6 +1810,15 @@
       targetConnections="id-6782aae8269c46ad92af0e72eec79d62"
       fontColor="#ffffff"
       fillColor="#007ac3">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-98738d2d028a4b7481314ba97014ebdd"
+        source="id-cea43e9542a34ed5abe36c606a4b394d"
+        target="id-75c0f954f3e04fd382a345d13d7b099b">
+      <archimateRelationship
+          xsi:type="archimate:SpecializationRelationship"
+          href="SpecializationRelationship_id-bf82664fd24f432d964d4c03d9e6927d.xml#id-bf82664fd24f432d964d4c03d9e6927d"/>
+    </sourceConnections>
     <bounds
         x="2424"
         y="816"
@@ -2033,5 +2051,61 @@
         y="60"
         width="153"
         height="89"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-6f4c1b7dba324ab1a3ec849a9bf129f7">
+    <bounds
+        x="2496"
+        y="982"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-b227f35eb1fa40e2b1e93e1b2484b416.xml#id-b227f35eb1fa40e2b1e93e1b2484b416"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-ff10f8b0fff54ca1bbcac33447d2408b"
+      textAlignment="1"
+      content="Leerlingrapport ophalen bij de EA&#xD;&#xA;Na ontvangst van het Leerlingresultaat haalt het LAS het Leerlingrapport op bij de EA op basis van de unieke sleutel uit het Leerlingresultaat. Na ontvangst wordt het Leerlingrapport (PDF-bestand) bij de juiste leerling weggeschreven.&#xD;&#xA;De Schoolmedewerker beschikt nu in het LAS over de resultaten en het leerlingrapport bij iedere leerling die heeft deelgenomen aan de eindtoets.">
+    <bounds
+        x="2676"
+        y="888"
+        width="361"
+        height="130"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-d1d43bfe33e14606b1a17507572ca0b6"
+      textAlignment="1"
+      content="Eindtoetsresultaten inzien &#xD;&#xA;Na afronding en publicatie van de eindtoetsresultaten van de Onderwijsaanbieder, stuurt de Eindtoetsleverancier de eindtoetsresultaten in een rapportage naar de Onderwijsaanbieder en maakt bovendien de eindtoetsresultaten beschikbaar via een eigen portal van de eindtoetsapplicatie. Minimaal is voor de Schoolmedewerker de rapportages in te zien (rapportages per leerling en per groep).">
+    <bounds
+        x="2676"
+        y="603"
+        width="361"
+        height="136"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-de2c5a1c4ad64c81bde447300ec75afd"
+      textAlignment="1"
+      content="Eindtoetsresultaten versturen naar het LAS&#xD;&#xA;De eindtoetsapplicatie verstuurt de eindtoetsresultaten per deelnemer in een Leerlingresultaat naar het LAS. Ieder Leerlingresultaat wordt in de schooldatabase van het LAS verwerkt. Op basis van de unieke leerlingsleutel worden de eindtoetsresultaten (gestructureerde gegevens) bij de juiste leerling weggeschreven.">
+    <bounds
+        x="2676"
+        y="759"
+        width="361"
+        height="117"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-e00008aa626d4abca21269bf1cf020e9"
+      textAlignment="1"
+      content="Uitwisselen met ROD">
+    <bounds
+        x="2820"
+        y="132"
+        width="145"
+        height="48"/>
   </children>
 </archimate:ArchimateDiagramModel>
