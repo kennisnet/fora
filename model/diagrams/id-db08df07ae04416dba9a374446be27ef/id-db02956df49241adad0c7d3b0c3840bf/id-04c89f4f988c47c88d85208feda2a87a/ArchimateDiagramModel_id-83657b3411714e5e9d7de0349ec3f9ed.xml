@@ -47,7 +47,7 @@
     <bounds
         x="836"
         y="348"
-        width="581"
+        width="761"
         height="253"/>
   </children>
   <children
@@ -1354,7 +1354,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-dd105728d8d449d98066994d6456f143"
-      targetConnections="id-bb65fc8b648f43b6a6dcac3d66782ed6"
+      targetConnections="id-bb65fc8b648f43b6a6dcac3d66782ed6 id-4acfabcc67254267b06dcd26d7498286"
       fontColor="#ffffff"
       fillColor="#007ac3">
     <sourceConnections
@@ -1405,7 +1405,7 @@
       textAlignment="1"
       content="Gewijzigde elementen en relaties t.o.v. de huidige versie van het informatiemodel vallen geheel binnen de gele blokken.">
     <bounds
-        x="1524"
+        x="1608"
         y="416"
         width="205"
         height="87"/>
@@ -1825,6 +1825,28 @@
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-b908aae93d86491ca09d6ea423710fe5.xml#id-b908aae93d86491ca09d6ea423710fe5"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-423d5886c07b48168ae96e2691800568"
+      type="1">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-4acfabcc67254267b06dcd26d7498286"
+        source="id-423d5886c07b48168ae96e2691800568"
+        target="id-dd105728d8d449d98066994d6456f143">
+      <archimateRelationship
+          xsi:type="archimate:SpecializationRelationship"
+          href="SpecializationRelationship_id-5453dd12cab34379a99a62a48800867a.xml#id-5453dd12cab34379a99a62a48800867a"/>
+    </sourceConnections>
+    <bounds
+        x="1464"
+        y="576"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-5add52bf815e4addb78920450bea19c3.xml#id-5add52bf815e4addb78920450bea19c3"/>
   </children>
   <properties
       key="Architectuurlaag"
