@@ -376,15 +376,6 @@
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-7f55886815b546a5b7bd92424d35368a.xml#id-7f55886815b546a5b7bd92424d35368a"/>
       </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-4d8062e7574c44f1a5e3527911ab9c64"
-          source="id-925b45e493f54f6fbfc563a111ab0892"
-          target="id-449fd39d308f42979137da5eb7622021">
-        <archimateRelationship
-            xsi:type="archimate:AccessRelationship"
-            href="AccessRelationship_id-5044233553bb4c6cab67025bc5a09c66.xml#id-5044233553bb4c6cab67025bc5a09c66"/>
-      </sourceConnections>
       <bounds
           x="1008"
           y="48"
@@ -741,7 +732,6 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-12c0d1b853dd4e9191f92b230c431957"
-      targetConnections="id-d376234a59204f109a5f53075fe1d47a"
       type="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
@@ -791,7 +781,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-449fd39d308f42979137da5eb7622021"
-      targetConnections="id-8ab2c422a0694fba8044df74912152b5 id-4d8062e7574c44f1a5e3527911ab9c64"
+      targetConnections="id-8ab2c422a0694fba8044df74912152b5"
       type="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
@@ -806,7 +796,7 @@
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-d376234a59204f109a5f53075fe1d47a"
         source="id-449fd39d308f42979137da5eb7622021"
-        target="id-12c0d1b853dd4e9191f92b230c431957">
+        target="id-9b35524165c04c2282706faeeecd9c1e">
       <archimateRelationship
           xsi:type="archimate:SpecializationRelationship"
           href="SpecializationRelationship_id-5453dd12cab34379a99a62a48800867a.xml#id-5453dd12cab34379a99a62a48800867a"/>
@@ -994,6 +984,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-9b35524165c04c2282706faeeecd9c1e"
+      targetConnections="id-d376234a59204f109a5f53075fe1d47a"
       fontColor="#ffffff"
       fillColor="#007ac3">
     <sourceConnections
