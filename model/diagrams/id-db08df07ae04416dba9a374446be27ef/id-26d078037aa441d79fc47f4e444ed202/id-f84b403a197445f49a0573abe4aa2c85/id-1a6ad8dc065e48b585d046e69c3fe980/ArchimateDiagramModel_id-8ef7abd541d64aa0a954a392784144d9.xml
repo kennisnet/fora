@@ -100,6 +100,15 @@
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-77e155aa131a4b1abb06d35137c3055f.xml#id-77e155aa131a4b1abb06d35137c3055f"/>
       </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-3c8a716f6d9743e5801046212d56e57f"
+          source="id-7b2862191f7141f5aae3e3611866691a"
+          target="id-0f050f6dca0440cc9e438ffd72cfb5ad">
+        <archimateRelationship
+            xsi:type="archimate:InfluenceRelationship"
+            href="InfluenceRelationship_id-1310a23f71544911b955c520e4a89180.xml#id-1310a23f71544911b955c520e4a89180"/>
+      </sourceConnections>
       <bounds
           x="204"
           y="84"
@@ -317,5 +326,39 @@
     <archimateElement
         xsi:type="archimate:BusinessFunction"
         href="BusinessFunction_1eeb064e-a5ac-4242-84c8-2556fdda55b1.xml#1eeb064e-a5ac-4242-84c8-2556fdda55b1"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-7334b1e9fbd64593beac16ac4bb479b3">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-794090cf3e87451c8f4ef4beda8e2647"
+        source="id-7334b1e9fbd64593beac16ac4bb479b3"
+        target="id-0f050f6dca0440cc9e438ffd72cfb5ad">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-4aa873dc55c14b3e9be31c61ae246df0.xml#id-4aa873dc55c14b3e9be31c61ae246df0"/>
+    </sourceConnections>
+    <bounds
+        x="403"
+        y="486"
+        width="178"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Driver"
+        href="Driver_id-96005f3dbfb14dd3acecd41bb4b5580e.xml#id-96005f3dbfb14dd3acecd41bb4b5580e"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-0f050f6dca0440cc9e438ffd72cfb5ad"
+      targetConnections="id-794090cf3e87451c8f4ef4beda8e2647 id-3c8a716f6d9743e5801046212d56e57f">
+    <bounds
+        x="420"
+        y="360"
+        width="144"
+        height="84"/>
+    <archimateElement
+        xsi:type="archimate:Driver"
+        href="Driver_id-af3136987739434fb0d1ee8139b28a3f.xml#id-af3136987739434fb0d1ee8139b28a3f"/>
   </children>
 </archimate:ArchimateDiagramModel>
