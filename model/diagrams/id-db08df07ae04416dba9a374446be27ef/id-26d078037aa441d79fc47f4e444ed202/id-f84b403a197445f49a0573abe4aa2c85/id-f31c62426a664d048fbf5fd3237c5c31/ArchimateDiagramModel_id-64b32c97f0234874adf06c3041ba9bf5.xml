@@ -112,7 +112,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-258e1e00f2124d5d88e2c90f7d1192cb"
-          targetConnections="id-1f38176b2a944f2cacb89a69b8e2f801 id-3e9d692c19b14fb1a6e86dbec7e77f66 id-629e6c17d00a40e68269883b03a5ae63"
+          targetConnections="id-1f38176b2a944f2cacb89a69b8e2f801 id-3e9d692c19b14fb1a6e86dbec7e77f66 id-629e6c17d00a40e68269883b03a5ae63 id-fa265d9c935e4e749ba17a4a51aa4c2d"
           fillColor="#cce4f3">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
@@ -869,7 +869,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-6f34dcb5542243c5aaa1fd2fe9ae2c4e"
-          targetConnections="id-741cb795f6dd4b7ab6eed668c6ea2301 id-3d614baf0ae944a1983882e9314c9a7f"
+          targetConnections="id-741cb795f6dd4b7ab6eed668c6ea2301 id-3d614baf0ae944a1983882e9314c9a7f id-b832633d378944f7a80dfd74e1c7e5d1"
           fillColor="#cce4f3">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
@@ -1616,8 +1616,8 @@
         source="id-de0e08d5245a4be39a30fa7af43fa09a"
         target="id-d84f2135b1d64af1a0d70011b438ed40"/>
     <bounds
-        x="2682"
-        y="-564"
+        x="2688"
+        y="-636"
         width="185"
         height="80"/>
   </children>
@@ -1626,7 +1626,7 @@
       id="id-5307b8427ffe4c5fb578f421f9ac0290"
       targetConnections="id-e968934e768943439ef96e0df4be1823"
       textAlignment="1"
-      content="Deze kunnen wellicht ook korter; &quot;inzage examinering&quot; ">
+      content="Deze kunnen wellicht ook korter; &quot;Bieden inzage uitslag examinering&quot; ">
     <bounds
         x="1704"
         y="-452"
@@ -1674,5 +1674,35 @@
         y="-532"
         width="249"
         height="113"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-aa2df19165be4cc5b10d94aad02c8169"
+      textAlignment="1"
+      content="Opstellen schooladvies&#xD;&#xA; - Opstellen schooladvies PO&#xD;&#xA;- Opstellen niveau advies VO &#xD;&#xA;&#xD;&#xA;=> vragen bij werkgroep">
+    <sourceConnections
+        id="id-b832633d378944f7a80dfd74e1c7e5d1"
+        source="id-aa2df19165be4cc5b10d94aad02c8169"
+        target="id-6f34dcb5542243c5aaa1fd2fe9ae2c4e"/>
+    <bounds
+        x="2748"
+        y="-1003"
+        width="185"
+        height="92"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-c219dbb82e45460fbc3e4684fdb13854"
+      textAlignment="1"
+      content="Relatie leggen met Formatie, planning en personeelroostering t.b.v. het toekennen van rollen">
+    <sourceConnections
+        id="id-fa265d9c935e4e749ba17a4a51aa4c2d"
+        source="id-c219dbb82e45460fbc3e4684fdb13854"
+        target="id-258e1e00f2124d5d88e2c90f7d1192cb"/>
+    <bounds
+        x="-234"
+        y="-587"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>
