@@ -282,7 +282,7 @@
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-f8570794702a4e4491c02268cacac055"
-            targetConnections="id-75a6bbd9b2ee472e8ac55f4eaf339521"
+            targetConnections="id-75a6bbd9b2ee472e8ac55f4eaf339521 id-3fd692836d5446f3afdb2018ac95d8d4"
             fillColor="#ffffff">
           <bounds
               x="32"
@@ -989,7 +989,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-12d6b03531254f7ab757ec49b94e5119"
-          targetConnections="id-5ca767dfa95b4b9cbf1e49be8561c4ef id-55392a9f77d34678838235078730e512"
+          targetConnections="id-5ca767dfa95b4b9cbf1e49be8561c4ef id-55392a9f77d34678838235078730e512 id-6a735e18155e4f019b9c55ef8a13020d"
           fillColor="#ffe2d3">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
@@ -1409,7 +1409,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-177f8416571b43bfa64e8f273a906bc9"
-      targetConnections="id-dd7cdb1ee1c84730a2e1715abec41e53 id-6bf2c25630be4d93b5779de86ff1eada">
+      targetConnections="id-dd7cdb1ee1c84730a2e1715abec41e53 id-6bf2c25630be4d93b5779de86ff1eada id-bb8cc6704e1f47658904cff1f6d26e8f">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-266a415312ec4a22af2239e8dc5099af"
@@ -1571,5 +1571,50 @@
     <referencedModel
         xsi:type="archimate:ArchimateDiagramModel"
         href="ArchimateDiagramModel_id-8a804e54b2bb45559c7522ad941af4e4.xml#id-8a804e54b2bb45559c7522ad941af4e4"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-a8a16a5403b240fd86b9a3aaa068d303"
+      textAlignment="1"
+      content="zelfde opmerking m.b.t. junctions">
+    <sourceConnections
+        id="id-bb8cc6704e1f47658904cff1f6d26e8f"
+        source="id-a8a16a5403b240fd86b9a3aaa068d303"
+        target="id-177f8416571b43bfa64e8f273a906bc9"/>
+    <bounds
+        x="-448"
+        y="33"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-638af6a899bf40d59770a88508c2c3a0"
+      textAlignment="1"
+      content="Valt een toetslocatie in de categorie van een leermiddel? ">
+    <sourceConnections
+        id="id-3fd692836d5446f3afdb2018ac95d8d4"
+        source="id-638af6a899bf40d59770a88508c2c3a0"
+        target="id-f8570794702a4e4491c02268cacac055"/>
+    <bounds
+        x="-39"
+        y="111"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-6ffa772d7e444825a28df57398c151ca"
+      textAlignment="1"
+      content="Zelfde opmerking als in examineren model&#xD;&#xA;">
+    <sourceConnections
+        id="id-6a735e18155e4f019b9c55ef8a13020d"
+        source="id-6ffa772d7e444825a28df57398c151ca"
+        target="id-12d6b03531254f7ab757ec49b94e5119"/>
+    <bounds
+        x="2112"
+        y="127"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>

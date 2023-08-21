@@ -21,7 +21,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-9d87c182103f4d3eb8e7f253fb50a71b"
-      targetConnections="id-9c2ae02379be4ae19dfe3e2f504bd974"
+      targetConnections="id-9c2ae02379be4ae19dfe3e2f504bd974 id-07b1bfe7fe1e4832b45195c4ed8efea1"
       fillColor="#cce4f3">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
@@ -166,6 +166,7 @@
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-9667a1fd6e464be8944d22b0719f1f91"
+        targetConnections="id-d3840d6fd9004588ad64f65e5cd332c4"
         source="id-ba189903411c4aa7a62815bf0aa7a57d"
         target="id-c109a081b6ba45faa462855a18d937ab">
       <archimateRelationship
@@ -360,5 +361,35 @@
     <archimateElement
         xsi:type="archimate:Driver"
         href="Driver_id-af3136987739434fb0d1ee8139b28a3f.xml#id-af3136987739434fb0d1ee8139b28a3f"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-b87c44265b674c88814e57b0d4cae7e6"
+      textAlignment="1"
+      content="Gekoppeld aan verkeerde level">
+    <sourceConnections
+        id="id-d3840d6fd9004588ad64f65e5cd332c4"
+        source="id-b87c44265b674c88814e57b0d4cae7e6"
+        target="id-9667a1fd6e464be8944d22b0719f1f91"/>
+    <bounds
+        x="633"
+        y="276"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-b5ea719dee3b43759320a75dfc0c00c1"
+      textAlignment="1"
+      content="Is maken bezwaar niet een zelfstandig werkproces? ">
+    <sourceConnections
+        id="id-07b1bfe7fe1e4832b45195c4ed8efea1"
+        source="id-b5ea719dee3b43759320a75dfc0c00c1"
+        target="id-9d87c182103f4d3eb8e7f253fb50a71b"/>
+    <bounds
+        x="210"
+        y="275"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>

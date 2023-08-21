@@ -593,7 +593,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-bd1f9ff4b8e541169215e0e64a2faded"
-        targetConnections="id-ad5dd7853e844256bf458af608063f85 id-ef6fd9607ac24470a9bfe0288dd2a954"
+        targetConnections="id-ad5dd7853e844256bf458af608063f85 id-ef6fd9607ac24470a9bfe0288dd2a954 id-b83d7691ea41426384a8e0f09868a628"
         fillColor="#cce4f3">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
@@ -800,5 +800,20 @@
     <referencedModel
         xsi:type="archimate:ArchimateDiagramModel"
         href="ArchimateDiagramModel_id-d6745ff96aff4fc787c89b33a4d03f90.xml#id-d6745ff96aff4fc787c89b33a4d03f90"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-c2b61ec272db46ed8a44b24c71164239"
+      textAlignment="1"
+      content="Hier nog planning herexamen aan toevoegen? ">
+    <sourceConnections
+        id="id-b83d7691ea41426384a8e0f09868a628"
+        source="id-c2b61ec272db46ed8a44b24c71164239"
+        target="id-bd1f9ff4b8e541169215e0e64a2faded"/>
+    <bounds
+        x="912"
+        y="111"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>

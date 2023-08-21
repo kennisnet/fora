@@ -40,7 +40,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-4619a01e16844931ba1db0763eab90ee"
-      targetConnections="id-a57a4851ddc1432496f0305beb0b0602"
+      targetConnections="id-a57a4851ddc1432496f0305beb0b0602 id-5ef44e779fb8476d8c9680ac30984b2c"
       fontColor="#ffffff"
       fillColor="#007ac3"
       type="1">
@@ -201,6 +201,7 @@
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-ab24cc12c78046ad8b067a29fa077ef9"
+          targetConnections="id-dd2e33991a76495b96f5eccaa3ef0509"
           source="id-7f5f271b8ecf467796ccce3567a30def"
           target="id-ca4bd7c912374fffbf3d5844092490c1">
         <archimateRelationship
@@ -237,5 +238,35 @@
     <archimateElement
         xsi:type="archimate:BusinessFunction"
         href="BusinessFunction_id-23603837aa6a4660bff3eb3bcecfe9d9.xml#id-23603837aa6a4660bff3eb3bcecfe9d9"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-971837ef4af3488699d382bb2060cc11"
+      textAlignment="1"
+      content="Willen we examen los benoemen? Dit ivm dat we de onderdelen als toets zien">
+    <sourceConnections
+        id="id-5ef44e779fb8476d8c9680ac30984b2c"
+        source="id-971837ef4af3488699d382bb2060cc11"
+        target="id-4619a01e16844931ba1db0763eab90ee"/>
+    <bounds
+        x="617"
+        y="167"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-5345c7e99b1645daa07a12166882471c"
+      textAlignment="1"
+      content="Read relatie">
+    <sourceConnections
+        id="id-dd2e33991a76495b96f5eccaa3ef0509"
+        source="id-5345c7e99b1645daa07a12166882471c"
+        target="id-ab24cc12c78046ad8b067a29fa077ef9"/>
+    <bounds
+        x="32"
+        y="108"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>

@@ -246,7 +246,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-69e6b871b83243b1a50540bb658eb306"
-      targetConnections="id-ec9482768e8645f3bf5450952a5f3dde id-ec76251978d140c0854a466296c5b0e3">
+      targetConnections="id-ec9482768e8645f3bf5450952a5f3dde id-ec76251978d140c0854a466296c5b0e3 id-0fb0fbfe04f7466482d35c05b1512a30">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-af4d8e84e8d14c73828499779b141306"
@@ -334,5 +334,20 @@
     <archimateElement
         xsi:type="archimate:Driver"
         href="Driver_id-4a269444c46545cb8ec35fabd233ebac.xml#id-4a269444c46545cb8ec35fabd233ebac"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-a344711db36d4963afc0740d527cef37"
+      textAlignment="1"
+      content="Hier zou ik ook gewoon twee pijlen het bedrijfsproces in laten gaan">
+    <sourceConnections
+        id="id-0fb0fbfe04f7466482d35c05b1512a30"
+        source="id-a344711db36d4963afc0740d527cef37"
+        target="id-69e6b871b83243b1a50540bb658eb306"/>
+    <bounds
+        x="-238"
+        y="47"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>

@@ -109,6 +109,7 @@
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-878dde31b61042aabcf58ef01987d2d2"
+          targetConnections="id-15e27c0933744988858be90628b455b5"
           source="id-e13db18896324067ac2ee491ed312ec5"
           target="id-8c04a0e73500498686599b41b8219670">
         <archimateRelationship
@@ -127,5 +128,20 @@
     <archimateElement
         xsi:type="archimate:BusinessFunction"
         href="BusinessFunction_id-23603837aa6a4660bff3eb3bcecfe9d9.xml#id-23603837aa6a4660bff3eb3bcecfe9d9"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-c6cc76b32c8741969f0ba123ee63cc6e"
+      textAlignment="1"
+      content="Read relatie">
+    <sourceConnections
+        id="id-15e27c0933744988858be90628b455b5"
+        source="id-c6cc76b32c8741969f0ba123ee63cc6e"
+        target="id-878dde31b61042aabcf58ef01987d2d2"/>
+    <bounds
+        x="513"
+        y="160"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>
