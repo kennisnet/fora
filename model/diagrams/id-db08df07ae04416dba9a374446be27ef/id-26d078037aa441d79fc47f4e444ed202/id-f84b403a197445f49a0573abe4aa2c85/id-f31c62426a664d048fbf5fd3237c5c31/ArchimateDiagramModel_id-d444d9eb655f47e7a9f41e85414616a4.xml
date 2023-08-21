@@ -124,7 +124,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-48bbb71c2f304efb80149c1f39fe3a91">
+      id="id-48bbb71c2f304efb80149c1f39fe3a91"
+      targetConnections="id-179c8e69857b4251af271e879e587043">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-98d7c7618416428d91c1f6d949cf515e"
@@ -374,7 +375,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-3625d8a7c4c040899105485280834639"
-          targetConnections="id-2fda3333b2e54082b99ca27af11f2229"
+          targetConnections="id-2fda3333b2e54082b99ca27af11f2229 id-efb6d863ee5646b493dea1562db3e528"
           fontColor="#c0c0c0"
           fillColor="#ffffff">
         <bounds
@@ -389,7 +390,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-a2715ec5ee374e3293d4485fda0b0ded"
-          targetConnections="id-9a1df66574d6458ab7421cc5e16fd451"
+          targetConnections="id-9a1df66574d6458ab7421cc5e16fd451 id-7445c3cc29304d69932c616d36102595"
           fillColor="#ffffff">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
@@ -479,7 +480,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-7b303afb390048c381da6e704ce3e377"
-          targetConnections="id-a4c0b4ae5b1c46619d848cd4e1a5ff0d"
+          targetConnections="id-a4c0b4ae5b1c46619d848cd4e1a5ff0d id-3fd44368c63d41739bfdaf1fdda2f2a9"
           font="1|Segoe UI Semibold|9.0|0|WINDOWS|1|-12|0|0|0|600|0|0|0|0|3|2|1|34|Segoe UI Semibold"
           fillColor="#ffffff">
         <sourceConnections
@@ -517,5 +518,54 @@
     <archimateElement
         xsi:type="archimate:BusinessFunction"
         href="BusinessFunction_a421052f-cd71-43ed-a91b-82f8e175c673.xml#a421052f-cd71-43ed-a91b-82f8e175c673"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-aa3897ca682d4649bf8b7fd143527c11"
+      textAlignment="1"
+      content="Ik denk dat dit een eigen bedrijfsproces is. ">
+    <sourceConnections
+        id="id-3fd44368c63d41739bfdaf1fdda2f2a9"
+        source="id-aa3897ca682d4649bf8b7fd143527c11"
+        target="id-7b303afb390048c381da6e704ce3e377"/>
+    <bounds
+        x="108"
+        y="264"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-73127292afa04ed0b6c11ef390145e5d"
+      textAlignment="1"
+      content="Actor definitie">
+    <sourceConnections
+        id="id-179c8e69857b4251af271e879e587043"
+        source="id-73127292afa04ed0b6c11ef390145e5d"
+        target="id-48bbb71c2f304efb80149c1f39fe3a91"/>
+    <bounds
+        x="861"
+        y="12"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-3bda078ab4004702827a37e4ddd52038"
+      textAlignment="1"
+      content="Wellicht dat er een score van de doorstroomtoets wordt vastgesteld(?)">
+    <sourceConnections
+        id="id-efb6d863ee5646b493dea1562db3e528"
+        source="id-3bda078ab4004702827a37e4ddd52038"
+        target="id-3625d8a7c4c040899105485280834639"/>
+    <sourceConnections
+        id="id-7445c3cc29304d69932c616d36102595"
+        source="id-3bda078ab4004702827a37e4ddd52038"
+        target="id-a2715ec5ee374e3293d4485fda0b0ded"/>
+    <bounds
+        x="964"
+        y="312"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>

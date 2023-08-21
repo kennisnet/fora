@@ -249,7 +249,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-5cbb69266179417aa001e6e5164889a2"
-        targetConnections="id-4e0b47920df647699c6d4bfa4d24ca2b id-809dacfe18a94a15995bbacd47eb5c1f"
+        targetConnections="id-4e0b47920df647699c6d4bfa4d24ca2b id-809dacfe18a94a15995bbacd47eb5c1f id-cb41f22abbbc49e096d7d42d48999748 id-67f7a4fe070e48a396994d948c18d2b4"
         fillColor="#cce4f3">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
@@ -327,6 +327,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-4606ecd009ee4309883277da89319f48"
+      targetConnections="id-0e62ebe300d543bba7211a679abd590c"
       fillColor="#dbdbdb">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
@@ -382,5 +383,39 @@
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-500aa9b5042d44eb88fe7596eed220be.xml#id-500aa9b5042d44eb88fe7596eed220be"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-405c3de62f3b4d91b6ad8038db36dd45"
+      textAlignment="1"
+      content="Start wordt toch geregeld door het programma? Daarmee komt er een recurring relatie tussen het opstellen en het startmoment">
+    <sourceConnections
+        id="id-cb41f22abbbc49e096d7d42d48999748"
+        source="id-405c3de62f3b4d91b6ad8038db36dd45"
+        target="id-5cbb69266179417aa001e6e5164889a2"/>
+    <sourceConnections
+        id="id-0e62ebe300d543bba7211a679abd590c"
+        source="id-405c3de62f3b4d91b6ad8038db36dd45"
+        target="id-4606ecd009ee4309883277da89319f48"/>
+    <bounds
+        x="95"
+        y="438"
+        width="194"
+        height="115"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-f65e116711454267a8eb11e6115e39b9"
+      textAlignment="1"
+      content="Zit hier ook niet iets in als het vaststellen of formaliseren van het regelement? ">
+    <sourceConnections
+        id="id-67f7a4fe070e48a396994d948c18d2b4"
+        source="id-f65e116711454267a8eb11e6115e39b9"
+        target="id-5cbb69266179417aa001e6e5164889a2"/>
+    <bounds
+        x="768"
+        y="359"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>

@@ -112,7 +112,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-258e1e00f2124d5d88e2c90f7d1192cb"
-          targetConnections="id-1f38176b2a944f2cacb89a69b8e2f801 id-3e9d692c19b14fb1a6e86dbec7e77f66"
+          targetConnections="id-1f38176b2a944f2cacb89a69b8e2f801 id-3e9d692c19b14fb1a6e86dbec7e77f66 id-629e6c17d00a40e68269883b03a5ae63"
           fillColor="#cce4f3">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
@@ -304,6 +304,10 @@
             id="id-0228670c14cc4704a613e28ab4957cd5"
             targetConnections="id-73d7a7ea92fe434386f2ab4fc1efcb97"
             fillColor="#ffffff">
+          <sourceConnections
+              id="id-9e6784f4529d41b0b0d5b6b0861c0a58"
+              source="id-0228670c14cc4704a613e28ab4957cd5"
+              target="id-8dc5261591cc46408193e1fade7aa23c"/>
           <bounds
               x="31"
               y="96"
@@ -320,7 +324,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-d1599f3df9464aac8232dd40ddb423b1"
-          targetConnections="id-024051addc384fad999d985247b4c846">
+          targetConnections="id-024051addc384fad999d985247b4c846 id-da20bb5609bb4803886a9b83a59a5e50">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-c78a53dcedb74a1da47ef872359eb7ba"
@@ -596,6 +600,10 @@
                 xsi:type="archimate:TriggeringRelationship"
                 href="TriggeringRelationship_id-43f8c6bc3b89427a91d49984e3e51c81.xml#id-43f8c6bc3b89427a91d49984e3e51c81"/>
           </sourceConnections>
+          <sourceConnections
+              id="id-e968934e768943439ef96e0df4be1823"
+              source="id-c093c3eb924a4346a37ab52e54983baa"
+              target="id-5307b8427ffe4c5fb578f421f9ac0290"/>
           <bounds
               x="24"
               y="96"
@@ -889,7 +897,7 @@
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-d84f2135b1d64af1a0d70011b438ed40"
-            targetConnections="id-533b1fae0dce4ae596ae3ab006c7e1be"
+            targetConnections="id-533b1fae0dce4ae596ae3ab006c7e1be id-28a252c01c614320b0f12c5620552e4e"
             fillColor="#ffffff">
           <bounds
               x="24"
@@ -1208,7 +1216,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-d835f6eb0d8448fc81284b2214d4a0b4"
-          targetConnections="id-1410804bb4bc4c02b5f5441a9fa1ed88 id-0bf02505a44d406d960386a46849903c"
+          targetConnections="id-1410804bb4bc4c02b5f5441a9fa1ed88 id-0bf02505a44d406d960386a46849903c id-c461ff63db224815a6c91bac40656826 id-54b453b34a1c406d92813b647967ab49"
           fillColor="#ffe2d3">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
@@ -1468,6 +1476,10 @@
   <children
       xsi:type="archimate:DiagramModelReference"
       id="id-2452597c0a1441dbb8635f95b0210694">
+    <sourceConnections
+        id="id-02889153f5e845c7b04cf89c205b8a75"
+        source="id-2452597c0a1441dbb8635f95b0210694"
+        target="id-65648e968b21493d9177d9f749a91c5f"/>
     <bounds
         x="360"
         y="-318"
@@ -1480,6 +1492,10 @@
   <children
       xsi:type="archimate:DiagramModelReference"
       id="id-cff901ddc1b04fc2b7db14cc17b5ecaa">
+    <sourceConnections
+        id="id-349c46a1708c41fb808246cfacf4c277"
+        source="id-cff901ddc1b04fc2b7db14cc17b5ecaa"
+        target="id-65648e968b21493d9177d9f749a91c5f"/>
     <bounds
         x="360"
         y="-248"
@@ -1492,6 +1508,10 @@
   <children
       xsi:type="archimate:DiagramModelReference"
       id="id-26ce55ce497c4e76a7511e8f5b5cffb0">
+    <sourceConnections
+        id="id-d1155e57b8a1404fbb6cc55db8e412ec"
+        source="id-26ce55ce497c4e76a7511e8f5b5cffb0"
+        target="id-65648e968b21493d9177d9f749a91c5f"/>
     <bounds
         x="360"
         y="-176"
@@ -1504,6 +1524,10 @@
   <children
       xsi:type="archimate:DiagramModelReference"
       id="id-6329fbb6754543f2a7d3cf215b62502b">
+    <sourceConnections
+        id="id-eb7fee6a65f84dd49b0d160f4abd1ca3"
+        source="id-6329fbb6754543f2a7d3cf215b62502b"
+        target="id-65648e968b21493d9177d9f749a91c5f"/>
     <bounds
         x="360"
         y="-85"
@@ -1524,5 +1548,131 @@
     <referencedModel
         xsi:type="archimate:ArchimateDiagramModel"
         href="ArchimateDiagramModel_id-265690886d9f4de0b94ddf2ef1c92c6b.xml#id-265690886d9f4de0b94ddf2ef1c92c6b"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-7d26c8f006584717ae1db78998ef893f"
+      textAlignment="1"
+      content="Verkeerde level connectie">
+    <sourceConnections
+        id="id-c461ff63db224815a6c91bac40656826"
+        source="id-7d26c8f006584717ae1db78998ef893f"
+        target="id-d835f6eb0d8448fc81284b2214d4a0b4"/>
+    <bounds
+        x="2184"
+        y="-348"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-c7808f428b3d465ea60b61fb91511d2f"
+      textAlignment="1"
+      content="Junctions maakt de tekening complex. Niet gebruiken">
+    <sourceConnections
+        id="id-da20bb5609bb4803886a9b83a59a5e50"
+        source="id-c7808f428b3d465ea60b61fb91511d2f"
+        target="id-d1599f3df9464aac8232dd40ddb423b1"/>
+    <bounds
+        x="24"
+        y="-531"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-8dc5261591cc46408193e1fade7aa23c"
+      targetConnections="id-9e6784f4529d41b0b0d5b6b0861c0a58"
+      textAlignment="1"
+      content="Naamgevingen korter maken, max 3 a 4 woorden">
+    <bounds
+        x="551"
+        y="-1003"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-c672a8f5b3fe42618be95089262daa84"
+      textAlignment="1"
+      content="Wat gaan we hier mee doen? Er zitten nu geen werkprocerrssen in dit bedrijfsproces. Dat ziet er onlogisch uit tov de rest">
+    <sourceConnections
+        id="id-629e6c17d00a40e68269883b03a5ae63"
+        source="id-c672a8f5b3fe42618be95089262daa84"
+        target="id-258e1e00f2124d5d88e2c90f7d1192cb"/>
+    <bounds
+        x="-527"
+        y="-548"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-de0e08d5245a4be39a30fa7af43fa09a"
+      textAlignment="1"
+      content="Hier staat hetzelfde tussen bedrijfsproces en werkproces. ">
+    <sourceConnections
+        id="id-28a252c01c614320b0f12c5620552e4e"
+        source="id-de0e08d5245a4be39a30fa7af43fa09a"
+        target="id-d84f2135b1d64af1a0d70011b438ed40"/>
+    <bounds
+        x="2682"
+        y="-564"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-5307b8427ffe4c5fb578f421f9ac0290"
+      targetConnections="id-e968934e768943439ef96e0df4be1823"
+      textAlignment="1"
+      content="Deze kunnen wellicht ook korter; &quot;inzage examinering&quot; ">
+    <bounds
+        x="1704"
+        y="-452"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-65648e968b21493d9177d9f749a91c5f"
+      name="Group"
+      targetConnections="id-f143bec4c63145aab0ce91bb815923b3 id-02889153f5e845c7b04cf89c205b8a75 id-349c46a1708c41fb808246cfacf4c277 id-d1155e57b8a1404fbb6cc55db8e412ec id-eb7fee6a65f84dd49b0d160f4abd1ca3"
+      textAlignment="1">
+    <bounds
+        x="600"
+        y="-312"
+        width="565"
+        height="265"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-aefd8959fff7432f909258f3c29f5bfa"
+      textAlignment="1"
+      content="Groeping toepassen voor de verwijzingen">
+    <sourceConnections
+        id="id-f143bec4c63145aab0ce91bb815923b3"
+        source="id-aefd8959fff7432f909258f3c29f5bfa"
+        target="id-65648e968b21493d9177d9f749a91c5f"/>
+    <bounds
+        x="684"
+        y="-420"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-34f332ce6e1146a9813979d5905c71b0"
+      textAlignment="1"
+      content="Gaat deze connectie niet naar &quot;afhandelen bezwaar&quot; ? Ligt aan hoe het proces van behandelen bezwaar is ingericht. Voorwaarde hiervoor is of dat het aanmaken van een bezwaar onderdeel is van het behandelen van een bezwaar. ">
+    <sourceConnections
+        id="id-54b453b34a1c406d92813b647967ab49"
+        source="id-34f332ce6e1146a9813979d5905c71b0"
+        target="id-d835f6eb0d8448fc81284b2214d4a0b4"/>
+    <bounds
+        x="2434"
+        y="-532"
+        width="249"
+        height="113"/>
   </children>
 </archimate:ArchimateDiagramModel>

@@ -81,7 +81,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-08b0d25f05204c7093542fd51f56b699"
-          targetConnections="id-8bf94537950f49e1908cd7f480c50f36 id-478dfcbcb42d4dd88eceaad7dd9c46de id-e0db922a69074a8f92ff007835761fb8"
+          targetConnections="id-8bf94537950f49e1908cd7f480c50f36 id-478dfcbcb42d4dd88eceaad7dd9c46de id-e0db922a69074a8f92ff007835761fb8 id-64439ea4580741429b0ecc3c9740fa20 id-4188733036f54cf9a5b87371abac9c13"
           fillColor="#d5d6e9">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
@@ -459,5 +459,35 @@
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-67ec56ea6dbd4dd3a9ae8c851b642ee3.xml#id-67ec56ea6dbd4dd3a9ae8c851b642ee3"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-15967a84556f4f6e9bc9bdf1cb24593a"
+      textAlignment="1"
+      content="Hier moet ook nog iets bij van opdrachten/opdracht bepaling als object toch? ">
+    <sourceConnections
+        id="id-64439ea4580741429b0ecc3c9740fa20"
+        source="id-15967a84556f4f6e9bc9bdf1cb24593a"
+        target="id-08b0d25f05204c7093542fd51f56b699"/>
+    <bounds
+        x="817"
+        y="332"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-55d067d201ed41a8b6ee9fde25ac9fe0"
+      textAlignment="1"
+      content="zit er binnen dit bedrijfsproces nog niet iets als het verstrekken van informatie naar aanbieders o.i.d.?">
+    <sourceConnections
+        id="id-4188733036f54cf9a5b87371abac9c13"
+        source="id-55d067d201ed41a8b6ee9fde25ac9fe0"
+        target="id-08b0d25f05204c7093542fd51f56b699"/>
+    <bounds
+        x="754"
+        y="-83"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>

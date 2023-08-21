@@ -141,7 +141,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-e5c14a73897d49e4b2613a868c9d6a1b">
+      id="id-e5c14a73897d49e4b2613a868c9d6a1b"
+      targetConnections="id-9401cb54afeb4f8b90d7d875d5f13d9d">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-c1916fa30e4f4bd4b510f016d858e265"
@@ -349,5 +350,30 @@
     <archimateElement
         xsi:type="archimate:BusinessFunction"
         href="BusinessFunction_a421052f-cd71-43ed-a91b-82f8e175c673.xml#a421052f-cd71-43ed-a91b-82f8e175c673"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-27ae110c3d0a4831a90b10ba47dc6588"
+      textAlignment="1"
+      content="Wellicht is &quot;hoofd&quot; wat kort door de bocht? Hoofd is nu gerelateerd aan een menselijk ledemaat :-)">
+    <sourceConnections
+        id="id-9401cb54afeb4f8b90d7d875d5f13d9d"
+        source="id-27ae110c3d0a4831a90b10ba47dc6588"
+        target="id-e5c14a73897d49e4b2613a868c9d6a1b"/>
+    <bounds
+        x="888"
+        y="108"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-cb9b45237a08431daef0125b832f8de2"
+      textAlignment="1"
+      content="Willen we hier niet de rollen zoals beoordelaar o.i.d. nog in weergeven? ">
+    <bounds
+        x="792"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>

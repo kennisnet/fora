@@ -92,7 +92,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-d920e5ad79d84263b8a29e359232d358"
-        targetConnections="id-3a549e3ff8ef4a6c83a3b02a89e31a0e id-1e841ae890564c6da99fe27eae4bc171"
+        targetConnections="id-3a549e3ff8ef4a6c83a3b02a89e31a0e id-1e841ae890564c6da99fe27eae4bc171 id-9ecffa793adb4913aa8fb7b252549729"
         fillColor="#cce4f3">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
@@ -187,5 +187,20 @@
     <archimateElement
         xsi:type="archimate:BusinessEvent"
         href="BusinessEvent_id-b0525ec402be49a1924a4025c70824e3.xml#id-b0525ec402be49a1924a4025c70824e3"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-d36edf016442488cb21fc1eb2a926f30"
+      textAlignment="1"
+      content="Hier moet een object inkomen voor het programma? ">
+    <sourceConnections
+        id="id-9ecffa793adb4913aa8fb7b252549729"
+        source="id-d36edf016442488cb21fc1eb2a926f30"
+        target="id-d920e5ad79d84263b8a29e359232d358"/>
+    <bounds
+        x="459"
+        y="240"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>

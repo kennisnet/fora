@@ -227,7 +227,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-05c9853a7f904f60b05491aa38e23722"
-          targetConnections="id-51d4bba6ad4b4678b0348f6421c854de"
+          targetConnections="id-51d4bba6ad4b4678b0348f6421c854de id-ff19199e34f64bf99b24274518752f75"
           fillColor="#ffffff">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
@@ -242,7 +242,7 @@
             x="24"
             y="36"
             width="181"
-            height="169"/>
+            height="55"/>
         <archimateElement
             xsi:type="archimate:BusinessProcess"
             href="BusinessProcess_id-a1a600653adc433f860b2e7afdc2c714.xml#id-a1a600653adc433f860b2e7afdc2c714"/>
@@ -337,5 +337,20 @@
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-b003241f2d7a40f385e0938f70a21386.xml#id-b003241f2d7a40f385e0938f70a21386"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-ee06c58715ad4bd98ec3ba4f0415b2c2"
+      textAlignment="1"
+      content="Moet dit geroosterd worden? of is dit iets wat plaatsvind in het opstellen van het regelement? ">
+    <sourceConnections
+        id="id-ff19199e34f64bf99b24274518752f75"
+        source="id-ee06c58715ad4bd98ec3ba4f0415b2c2"
+        target="id-05c9853a7f904f60b05491aa38e23722"/>
+    <bounds
+        x="94"
+        y="-65"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>

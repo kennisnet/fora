@@ -325,7 +325,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-85f291dc45084a149ccae63dfb8e2eaa"
-        targetConnections="id-5dbfadc383be44f1a18e54889001a675 id-fffee5e44e604fff83179c22712c681a id-2205f369a0f5438fa5dfd3a35367a0b0"
+        targetConnections="id-5dbfadc383be44f1a18e54889001a675 id-fffee5e44e604fff83179c22712c681a id-2205f369a0f5438fa5dfd3a35367a0b0 id-1fa4ff0b43734fae9a3a34216340ac28"
         fillColor="#cce4f3">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
@@ -409,6 +409,7 @@
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-06afa8391a174f339316ae728577d105"
+            targetConnections="id-f46b6ad3284141a9bdac3999715676a4"
             source="id-d088f4511e9c420782c4a022538bdec7"
             target="id-4bc503e3b4c14c76b463905ca3a777bb">
           <archimateRelationship
@@ -469,5 +470,35 @@
     <archimateElement
         xsi:type="archimate:BusinessFunction"
         href="BusinessFunction_1a48eccf-8b46-42dc-9764-7f2a4dd39a6e.xml#1a48eccf-8b46-42dc-9764-7f2a4dd39a6e"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-54957618ece040bea7e2a4d0ab8d5918"
+      textAlignment="1"
+      content="De trigger moet uit het bedrijfsniveau komen">
+    <sourceConnections
+        id="id-f46b6ad3284141a9bdac3999715676a4"
+        source="id-54957618ece040bea7e2a4d0ab8d5918"
+        target="id-06afa8391a174f339316ae728577d105"/>
+    <bounds
+        x="1034"
+        y="361"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-c5e9d4e5f5e14818bca6182cb6bdb74f"
+      textAlignment="1"
+      content="Schrijven naar vorm van doorstroomtoets">
+    <sourceConnections
+        id="id-1fa4ff0b43734fae9a3a34216340ac28"
+        source="id-c5e9d4e5f5e14818bca6182cb6bdb74f"
+        target="id-85f291dc45084a149ccae63dfb8e2eaa"/>
+    <bounds
+        x="829"
+        y="53"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>

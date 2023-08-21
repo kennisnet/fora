@@ -71,7 +71,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-99ae6a332a784c889c1d38548a2dc72d"
-        targetConnections="id-1369aeedc80d44d29039dc39f76bc479 id-99854b21c5b84d84a5ba57dacb9e17cf"
+        targetConnections="id-1369aeedc80d44d29039dc39f76bc479 id-99854b21c5b84d84a5ba57dacb9e17cf id-823a392b13e74520832c721da0ca3421"
         fillColor="#cce4f3">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
@@ -161,5 +161,20 @@
     <archimateElement
         xsi:type="archimate:BusinessEvent"
         href="BusinessEvent_id-b0525ec402be49a1924a4025c70824e3.xml#id-b0525ec402be49a1924a4025c70824e3"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-cdc07cc8b25b47df91a23b988d4d729b"
+      textAlignment="1"
+      content="Willen we hier los het plannen van de leerlingen het plannen van de lokalen etc nog in zetten? ">
+    <sourceConnections
+        id="id-823a392b13e74520832c721da0ca3421"
+        source="id-cdc07cc8b25b47df91a23b988d4d729b"
+        target="id-99ae6a332a784c889c1d38548a2dc72d"/>
+    <bounds
+        x="490"
+        y="241"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>

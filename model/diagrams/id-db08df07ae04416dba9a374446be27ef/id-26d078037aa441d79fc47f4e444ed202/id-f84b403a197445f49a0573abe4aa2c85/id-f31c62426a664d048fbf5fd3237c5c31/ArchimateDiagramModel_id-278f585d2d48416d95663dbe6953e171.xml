@@ -130,7 +130,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-4e32975058c74e889a6b3b5b7b921371"
-        targetConnections="id-265c3104a4b94041914412e7aace71d5 id-a2e1f7607c214c3c8ad7de5eb30991ae id-2d6b75d4c55b4e4ea20d6ae3acbe11b5"
+        targetConnections="id-265c3104a4b94041914412e7aace71d5 id-a2e1f7607c214c3c8ad7de5eb30991ae id-2d6b75d4c55b4e4ea20d6ae3acbe11b5 id-b37343eada4f45df90b60c7efe439b7a"
         fillColor="#cce4f3">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
@@ -227,7 +227,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-fc42ef2a220a448794d8562c91144636"
-          targetConnections="id-815736f28fb54411965e6058accb6d9d"
+          targetConnections="id-815736f28fb54411965e6058accb6d9d id-8bc984bd28fa4621ab97ab28e87ad882"
           fillColor="#ffffff">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
@@ -383,5 +383,35 @@
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-b003241f2d7a40f385e0938f70a21386.xml#id-b003241f2d7a40f385e0938f70a21386"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-d947aa525c654811b880c78c65234346"
+      textAlignment="1"
+      content="Ik twijfel of dit niet plaatsvind bij het opstellen regelement">
+    <sourceConnections
+        id="id-8bc984bd28fa4621ab97ab28e87ad882"
+        source="id-d947aa525c654811b880c78c65234346"
+        target="id-fc42ef2a220a448794d8562c91144636"/>
+    <bounds
+        x="64"
+        y="-109"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-e1acc7f918b644f4b01d9c0c33fb83a3"
+      textAlignment="1"
+      content="Moet hier niet nog iets toegevoegd worden voor de planning van examenonderdelen die extern afgenomen worden? ">
+    <sourceConnections
+        id="id-b37343eada4f45df90b60c7efe439b7a"
+        source="id-e1acc7f918b644f4b01d9c0c33fb83a3"
+        target="id-4e32975058c74e889a6b3b5b7b921371"/>
+    <bounds
+        x="847"
+        y="-178"
+        width="234"
+        height="119"/>
   </children>
 </archimate:ArchimateDiagramModel>
