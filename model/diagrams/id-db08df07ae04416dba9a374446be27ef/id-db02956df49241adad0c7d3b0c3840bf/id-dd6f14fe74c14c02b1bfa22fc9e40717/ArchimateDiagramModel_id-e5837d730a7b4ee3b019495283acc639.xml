@@ -53,6 +53,24 @@
       fontColor="#000000"
       fillColor="#ff7023"
       type="1">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-db5cd05f5bb2427597a3be77ec0e3af5"
+        source="id-1ddde7c5e56749e086f57ff145b77d3b"
+        target="id-759c2186cbcd467e8df7512c4836d294">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-b1bb8c01ec1c4410825bfbe696f01f00.xml#id-b1bb8c01ec1c4410825bfbe696f01f00"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-2f01499ce8d34d0fbca217f9fbd4993c"
+        source="id-1ddde7c5e56749e086f57ff145b77d3b"
+        target="id-d89f54e4494444619b85f15ed7eb970f">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-bd5ba9f20abc42fba9b36fbf970db2cf.xml#id-bd5ba9f20abc42fba9b36fbf970db2cf"/>
+    </sourceConnections>
     <bounds
         x="996"
         y="57"
@@ -1093,6 +1111,32 @@
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_670af618-c1b8-4cb0-870f-80dab6f25cfd.xml#670af618-c1b8-4cb0-870f-80dab6f25cfd"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-759c2186cbcd467e8df7512c4836d294"
+      targetConnections="id-db5cd05f5bb2427597a3be77ec0e3af5">
+    <bounds
+        x="958"
+        y="504"
+        width="158"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-4ded769285b54a5d865bb8d00b0344ec.xml#id-4ded769285b54a5d865bb8d00b0344ec"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-d89f54e4494444619b85f15ed7eb970f"
+      targetConnections="id-2f01499ce8d34d0fbca217f9fbd4993c">
+    <bounds
+        x="1128"
+        y="504"
+        width="158"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-167aadfb63134aa3bbd02627cf0c28f1.xml#id-167aadfb63134aa3bbd02627cf0c28f1"/>
   </children>
   <properties
       key="Publiceren"
