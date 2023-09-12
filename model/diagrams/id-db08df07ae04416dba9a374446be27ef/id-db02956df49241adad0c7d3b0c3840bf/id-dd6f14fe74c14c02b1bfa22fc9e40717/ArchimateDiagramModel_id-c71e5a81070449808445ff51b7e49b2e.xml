@@ -22,7 +22,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-c72e97f9bebe455eaa2ddbf16f46f355"
-      targetConnections="id-a50ba00f505d42d7bf870346b6cab7b4"
+      targetConnections="id-a50ba00f505d42d7bf870346b6cab7b4 id-8d23eabd9bf346c28893817d9e71ff35"
       fillColor="#ff7023"
       type="1">
     <sourceConnections
@@ -564,7 +564,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-7bbd905ca8a04504b7b29fe0cf1abf5c"
-          targetConnections="id-a5ff97c59838427fb72da9c39bebea0b"
+          targetConnections="id-a5ff97c59838427fb72da9c39bebea0b id-7d7fa3077b4c41baad450d3725a75613"
           fillColor="#ffe2d3">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
@@ -652,7 +652,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-84454c15508a49e89ef0a4e9a49c06bd"
-          targetConnections="id-95112bf50d1044c7a0f0003624488f2d"
+          targetConnections="id-95112bf50d1044c7a0f0003624488f2d id-48c5406118b74d0ba09fcae661c844a7"
           fillColor="#ffe2d3">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
@@ -756,6 +756,29 @@
     <archimateElement
         xsi:type="archimate:Driver"
         href="Driver_id-2382dc2b1eee4cfc92e79e9175dd5b2e.xml#id-2382dc2b1eee4cfc92e79e9175dd5b2e"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-e5305cba73be44879ab76ae5ba89e783"
+      textAlignment="1"
+      content="Vervaardigen jaarverslag onderdeel van Verticale verantwoording?">
+    <sourceConnections
+        id="id-8d23eabd9bf346c28893817d9e71ff35"
+        source="id-e5305cba73be44879ab76ae5ba89e783"
+        target="id-c72e97f9bebe455eaa2ddbf16f46f355"/>
+    <sourceConnections
+        id="id-7d7fa3077b4c41baad450d3725a75613"
+        source="id-e5305cba73be44879ab76ae5ba89e783"
+        target="id-7bbd905ca8a04504b7b29fe0cf1abf5c"/>
+    <sourceConnections
+        id="id-48c5406118b74d0ba09fcae661c844a7"
+        source="id-e5305cba73be44879ab76ae5ba89e783"
+        target="id-84454c15508a49e89ef0a4e9a49c06bd"/>
+    <bounds
+        x="744"
+        y="-168"
+        width="158"
+        height="60"/>
   </children>
   <properties
       key="Publiceren"
