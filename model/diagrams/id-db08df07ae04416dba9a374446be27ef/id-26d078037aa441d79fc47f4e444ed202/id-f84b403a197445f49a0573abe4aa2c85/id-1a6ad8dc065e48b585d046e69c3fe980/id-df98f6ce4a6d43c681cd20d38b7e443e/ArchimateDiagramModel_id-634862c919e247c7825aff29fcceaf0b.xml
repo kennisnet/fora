@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Procesketen Afnemen toets (Doorstroomtoets) +details"
+    name="Procesmodel Afnemen toets (Doorstroomtoets) - Details"
     id="id-634862c919e247c7825aff29fcceaf0b">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -330,21 +330,6 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-7632fda767bc433fa3ad3b8261d0609f"
-      targetConnections="id-29b5a7ec98b6466c8396e0419bc1d949"
-      fontColor="#ffffff"
-      fillColor="#007ac3">
-    <bounds
-        x="-1392"
-        y="500"
-        width="120"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:BusinessObject"
-        href="BusinessObject_id-d18e820848834ec6b0359db468eadb84.xml#id-d18e820848834ec6b0359db468eadb84"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
       id="id-799c07b6542a4194b9b24b1e20b5fc69"
       fontColor="#ffffff"
       fillColor="#d1006e">
@@ -388,15 +373,6 @@
           fillColor="#ffffff">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
-            id="id-29b5a7ec98b6466c8396e0419bc1d949"
-            source="id-fa8c904499424b1f8b39ff80d540fd17"
-            target="id-7632fda767bc433fa3ad3b8261d0609f">
-          <archimateRelationship
-              xsi:type="archimate:AccessRelationship"
-              href="AccessRelationship_id-161c855ad8b64b5bb3d51d0187b15285.xml#id-161c855ad8b64b5bb3d51d0187b15285"/>
-        </sourceConnections>
-        <sourceConnections
-            xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-622e7ad1d9b54dac9f03142f81950263"
             source="id-fa8c904499424b1f8b39ff80d540fd17"
             target="id-7442a85669f3488ab55e9112967534ff">
@@ -428,6 +404,15 @@
               xsi:type="archimate:AccessRelationship"
               href="AccessRelationship_id-392fd689c1b64eb4887121e58e2c551c.xml#id-392fd689c1b64eb4887121e58e2c551c"/>
         </sourceConnections>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-29b5a7ec98b6466c8396e0419bc1d949"
+            source="id-fa8c904499424b1f8b39ff80d540fd17"
+            target="id-76945b7517ce49a08a2a8db05fe46169">
+          <archimateRelationship
+              xsi:type="archimate:AccessRelationship"
+              href="AccessRelationship_id-161c855ad8b64b5bb3d51d0187b15285.xml#id-161c855ad8b64b5bb3d51d0187b15285"/>
+        </sourceConnections>
         <bounds
             x="24"
             y="36"
@@ -448,11 +433,11 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-76945b7517ce49a08a2a8db05fe46169"
-      targetConnections="id-a7722e0700364a58a28d011ce51a4b78"
+      targetConnections="id-a7722e0700364a58a28d011ce51a4b78 id-29b5a7ec98b6466c8396e0419bc1d949"
       fontColor="#ffffff"
       fillColor="#007ac3">
     <bounds
-        x="-1524"
+        x="-1416"
         y="500"
         width="120"
         height="55"/>
@@ -575,6 +560,11 @@
             id="id-a7722e0700364a58a28d011ce51a4b78"
             source="id-0a4f11e9eb2f41d188392c1dfe965d16"
             target="id-76945b7517ce49a08a2a8db05fe46169">
+          <bendpoints
+              startX="2"
+              startY="380"
+              endX="-36"
+              endY="-370"/>
           <archimateRelationship
               xsi:type="archimate:AccessRelationship"
               href="AccessRelationship_id-d548a9cd17fb4dbf8ca907fa9e78f865.xml#id-d548a9cd17fb4dbf8ca907fa9e78f865"/>
