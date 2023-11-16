@@ -1273,15 +1273,6 @@
       </sourceConnections>
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-f7435efbcd424243a5a07ac8c99be96f"
-          source="id-6354a9fc173242b89c6c97eafd85bf06"
-          target="id-3ff0d69f1c0a4f90874705c03021a51e">
-        <archimateRelationship
-            xsi:type="archimate:AggregationRelationship"
-            href="AggregationRelationship_id-cb5866f13b164c84836ffb921b088d7d.xml#id-cb5866f13b164c84836ffb921b088d7d"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-1fd24f80761d4252b1c7964f9c11e824"
           source="id-6354a9fc173242b89c6c97eafd85bf06"
           target="id-556e0b96809d4e5985c2d835c7b9a611">
@@ -1306,19 +1297,6 @@
         <archimateElement
             xsi:type="archimate:BusinessProcess"
             href="BusinessProcess_id-5e11db7577414572b2f331c8a10f60e0.xml#id-5e11db7577414572b2f331c8a10f60e0"/>
-      </children>
-      <children
-          xsi:type="archimate:DiagramModelArchimateObject"
-          id="id-3ff0d69f1c0a4f90874705c03021a51e"
-          targetConnections="id-f7435efbcd424243a5a07ac8c99be96f">
-        <bounds
-            x="24"
-            y="96"
-            width="120"
-            height="55"/>
-        <archimateElement
-            xsi:type="archimate:BusinessProcess"
-            href="BusinessProcess_id-e1edf303a13a49f0938aa266fe2c0ce4.xml#id-e1edf303a13a49f0938aa266fe2c0ce4"/>
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
@@ -1521,6 +1499,34 @@
         y="991"
         width="185"
         height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-45882a2bf7424efe832c678cb8acb1e4"
+      textAlignment="1"
+      content="CAO bepaal dat er geen proeftijd is! ">
+    <sourceConnections
+        id="id-a3c1cd56d1604792884eca09bb17300d"
+        source="id-45882a2bf7424efe832c678cb8acb1e4"
+        target="id-3ff0d69f1c0a4f90874705c03021a51e"/>
+    <bounds
+        x="1896"
+        y="809"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-3ff0d69f1c0a4f90874705c03021a51e"
+      targetConnections="id-a3c1cd56d1604792884eca09bb17300d">
+    <bounds
+        x="1908"
+        y="744"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessProcess"
+        href="BusinessProcess_id-e1edf303a13a49f0938aa266fe2c0ce4.xml#id-e1edf303a13a49f0938aa266fe2c0ce4"/>
   </children>
   <properties
       key="Publiceren"
