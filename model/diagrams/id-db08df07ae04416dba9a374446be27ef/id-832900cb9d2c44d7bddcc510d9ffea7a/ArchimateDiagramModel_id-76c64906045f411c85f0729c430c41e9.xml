@@ -6,6 +6,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-3696cc7d4d5b4de29dacc2551381d316"
+      targetConnections="id-f5f4c456f47d4cb78a822ed24ccd55f2"
       fillColor="#ed99c5">
     <bounds
         x="347"
@@ -19,7 +20,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-3b3817b809c541eab2687d6f715169bf"
-      targetConnections="id-681c35d6c799400ea808f288e80c2b7d id-52e5b2bc080d490892edf1bc6bc5611e id-bd5829b2c34c499daffe04abf59b1b6e"
+      targetConnections="id-681c35d6c799400ea808f288e80c2b7d id-52e5b2bc080d490892edf1bc6bc5611e id-bd5829b2c34c499daffe04abf59b1b6e id-38bf157aaeec4968be8fc8f67215d21d"
       fillColor="#f6cce2">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
@@ -39,6 +40,10 @@
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-30fbe411924145ab83684783e2e6744d.xml#id-30fbe411924145ab83684783e2e6744d"/>
     </sourceConnections>
+    <sourceConnections
+        id="id-6f2a0371088a4a7b88f15bded1f47d60"
+        source="id-3b3817b809c541eab2687d6f715169bf"
+        target="id-ed2d48d5cbf0455a96b6e6e2f8accd89"/>
     <bounds
         x="528"
         y="264"
@@ -275,8 +280,8 @@
         <bounds
             x="24"
             y="180"
-            width="120"
-            height="55"/>
+            width="132"
+            height="61"/>
         <archimateElement
             xsi:type="archimate:BusinessProcess"
             href="BusinessProcess_id-7e0ae84e3b5a4e6fa9f2df33b8728304.xml#id-7e0ae84e3b5a4e6fa9f2df33b8728304"/>
@@ -292,6 +297,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-a3d5569e0a34444fa875f20dd68729e1"
+      targetConnections="id-9411063f4afe4570950e3caaeb09d218"
       fillColor="#f6cce2">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
@@ -401,7 +407,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-25acc7f5bc1349f18353535154b99f84"
-          targetConnections="id-acf255308e004023a7a044e13c0e0480">
+          targetConnections="id-acf255308e004023a7a044e13c0e0480 id-43242218280f4b9ca94dd38e7dde775a">
         <bounds
             x="36"
             y="217"
@@ -427,10 +433,10 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-8aa0bdaec3e0402c8faf9a8a3303387f"
-          targetConnections="id-2d930aa0d72c44c0a8b384156fc00cad">
+          targetConnections="id-2d930aa0d72c44c0a8b384156fc00cad id-18393d2341c14e9d9ff4ccc4e4e7275a">
         <bounds
-            x="32"
-            y="97"
+            x="36"
+            y="96"
             width="120"
             height="55"/>
         <archimateElement
@@ -440,7 +446,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-c7e4d8e8ff7a49f381c8196e9485ac6a"
-          targetConnections="id-2bb7af8c2e1b4095a154f4c8075a6e3e">
+          targetConnections="id-2bb7af8c2e1b4095a154f4c8075a6e3e id-e4166706f0b34226bde5f59264c78613">
         <bounds
             x="36"
             y="36"
@@ -457,7 +463,8 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-04337f0455da4b21a7df8d76f51267e9"
-        targetConnections="id-57f93f12ac5e451db6b4b67b5c9e2f20">
+        targetConnections="id-57f93f12ac5e451db6b4b67b5c9e2f20"
+        fillColor="#ffffff">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-fb88fef7d6e644559176916cad1db75f"
@@ -518,7 +525,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-bdfd92126e1d4767bca347f6a43df526"
-      targetConnections="id-e9c03c77525646199f19934e59ef8998"
+      targetConnections="id-e9c03c77525646199f19934e59ef8998 id-cfa3b4b8d8c24847921f34f2adbbbafa"
       fillColor="#f6cce2">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
@@ -661,7 +668,7 @@
           targetConnections="id-83b2bdef781e43269c39eb8c64f59249">
         <bounds
             x="12"
-            y="228"
+            y="216"
             width="168"
             height="55"/>
         <archimateElement
@@ -1304,7 +1311,7 @@
           targetConnections="id-1fd24f80761d4252b1c7964f9c11e824">
         <bounds
             x="24"
-            y="168"
+            y="84"
             width="120"
             height="55"/>
         <archimateElement
@@ -1367,7 +1374,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-4979775d5e6148088b0b426698997c53"
-      targetConnections="id-80b7c105cc9b4dfbb6e1a55b23dfb763"
+      targetConnections="id-80b7c105cc9b4dfbb6e1a55b23dfb763 id-c733a9d0e2cc4cc7acc0410014f536bb id-0ba2ec0f25a842cc8e9ee219c9bcd608"
       fillColor="#dbdbdb">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
@@ -1426,18 +1433,6 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
-      id="id-f1791b8dd8f94aff80f9b5ce35c26344"
-      textAlignment="1"
-      fillColor="#80ff80"
-      content="Geregistreerde werknemer?">
-    <bounds
-        x="1116"
-        y="312"
-        width="157"
-        height="76"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
       id="id-109f0d9e78af4f41bb53dc39c414e83d"
       textAlignment="1"
       fillColor="#ffff00"
@@ -1454,79 +1449,341 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
-      id="id-ea14abb99d164b02891b7547f7d2771a"
+      id="id-14350660b94046888f0eaf38247b542f"
       textAlignment="1"
-      fillColor="#80ff80"
-      content="Externe werving en selectie ook voor interne vacatures">
+      content="Opstellen functieprofiel. Waar zit dit? onder het functiehuis? ">
     <bounds
-        x="288"
-        y="456"
+        x="204"
+        y="401"
         width="185"
         height="80"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
-      id="id-47a1dfbd1ac74306b37c5097ac597ef7"
+      id="id-b58466f51c164c87907877fa2fc0094c"
       textAlignment="1"
-      fillColor="#80ff80"
-      content="Aanvragen facilitaire middelen">
-    <bounds
-        x="1140"
-        y="912"
-        width="185"
-        height="80"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-40fbed6ad60f4bc08f5a47642525c788"
-      textAlignment="1"
-      fillColor="#80ff80"
-      content="Uitzoeken: hoe zit het met de onderwijsbevoegdheid vs de inzetbaarheid">
-    <bounds
-        x="1140"
-        y="1039"
-        width="185"
-        height="80"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-a06318b3bf3540628fa27a2322c4a56a"
-      textAlignment="1"
-      fillColor="#80ff80"
-      content="Laptop ed? ">
-    <bounds
-        x="1620"
-        y="991"
-        width="185"
-        height="80"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-45882a2bf7424efe832c678cb8acb1e4"
-      textAlignment="1"
-      content="CAO bepaal dat er geen proeftijd is! ">
+      content="Screenen medewerker? Bijv. voor bestuursfuncties. Kan plaatsvinden.">
     <sourceConnections
-        id="id-a3c1cd56d1604792884eca09bb17300d"
-        source="id-45882a2bf7424efe832c678cb8acb1e4"
-        target="id-3ff0d69f1c0a4f90874705c03021a51e"/>
+        id="id-38bf157aaeec4968be8fc8f67215d21d"
+        source="id-b58466f51c164c87907877fa2fc0094c"
+        target="id-3b3817b809c541eab2687d6f715169bf"/>
     <bounds
-        x="1896"
-        y="809"
+        x="365"
+        y="741"
         width="185"
         height="80"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-3ff0d69f1c0a4f90874705c03021a51e"
-      targetConnections="id-a3c1cd56d1604792884eca09bb17300d">
+      id="id-a4b6da95e3434366b036a5daf0cf63fa"
+      targetConnections="id-e17c5205d6fd45c68ced720dbb765d21">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-c733a9d0e2cc4cc7acc0410014f536bb"
+        source="id-a4b6da95e3434366b036a5daf0cf63fa"
+        target="id-4979775d5e6148088b0b426698997c53">
+      <archimateRelationship
+          xsi:type="archimate:SpecializationRelationship"
+          href="SpecializationRelationship_id-ddb428ff44ec491791e90c6f2bdb18b9.xml#id-ddb428ff44ec491791e90c6f2bdb18b9"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-940418e14b2d4b12a5154900fb3ec323"
+        source="id-a4b6da95e3434366b036a5daf0cf63fa"
+        target="id-3a42fe0d6072494ab01b421eb4cc6c22">
+      <bendpoints
+          startX="66"
+          startY="-3"
+          endX="-126"
+          endY="-1181"/>
+      <bendpoints
+          startX="54"
+          startY="1125"
+          endX="-138"
+          endY="-53"/>
+      <archimateRelationship
+          xsi:type="archimate:TriggeringRelationship"
+          href="TriggeringRelationship_id-0f6e09a870ff4c53bd3c5d2b14b099c7.xml#id-0f6e09a870ff4c53bd3c5d2b14b099c7"/>
+    </sourceConnections>
     <bounds
-        x="1908"
-        y="744"
+        x="762"
+        y="372"
         width="120"
         height="55"/>
     <archimateElement
+        xsi:type="archimate:BusinessEvent"
+        href="BusinessEvent_id-c037d4e6c2d848ecb15fd800a5f9fb43.xml#id-c037d4e6c2d848ecb15fd800a5f9fb43"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-3a42fe0d6072494ab01b421eb4cc6c22"
+      targetConnections="id-940418e14b2d4b12a5154900fb3ec323"
+      fillColor="#f6cce2">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-877afc3d8b374cf195255a352072bf0e"
+        source="id-3a42fe0d6072494ab01b421eb4cc6c22"
+        target="id-4efaf3fe83684567b314511aa45cabdd">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-9db8d3e672e74e089e8644fbac13035d.xml#id-9db8d3e672e74e089e8644fbac13035d"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-aa700ac782104a3a95ea4d3da9488abb"
+        source="id-3a42fe0d6072494ab01b421eb4cc6c22"
+        target="id-d671f9533bf6489aada1554403d56d7e">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-13242d0a68774cd58cb43d895a68f2d6.xml#id-13242d0a68774cd58cb43d895a68f2d6"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-56f343302a7e4cf6a0047ec8111fb621"
+        source="id-3a42fe0d6072494ab01b421eb4cc6c22"
+        target="id-eb11ca8295f1483a8ff70fef1bff4a5b">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-74dfa9f1ebe04bb084f31ac762fae415.xml#id-74dfa9f1ebe04bb084f31ac762fae415"/>
+    </sourceConnections>
+    <bounds
+        x="900"
+        y="1392"
+        width="229"
+        height="371"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-4efaf3fe83684567b314511aa45cabdd"
+        targetConnections="id-877afc3d8b374cf195255a352072bf0e">
+      <bounds
+          x="36"
+          y="48"
+          width="157"
+          height="61"/>
+      <archimateElement
+          xsi:type="archimate:BusinessProcess"
+          href="BusinessProcess_id-8eefc05afb464bf98de429ee6dc5eb6c.xml#id-8eefc05afb464bf98de429ee6dc5eb6c"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-d671f9533bf6489aada1554403d56d7e"
+        targetConnections="id-aa700ac782104a3a95ea4d3da9488abb">
+      <bounds
+          x="36"
+          y="120"
+          width="157"
+          height="73"/>
+      <archimateElement
+          xsi:type="archimate:BusinessProcess"
+          href="BusinessProcess_id-c032709355184e7c8e37799bf194e05f.xml#id-c032709355184e7c8e37799bf194e05f"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-eb11ca8295f1483a8ff70fef1bff4a5b"
+        targetConnections="id-56f343302a7e4cf6a0047ec8111fb621 id-efbfcce1199b4864886ee42008d3e0d8">
+      <bounds
+          x="30"
+          y="204"
+          width="169"
+          height="145"/>
+      <archimateElement
+          xsi:type="archimate:BusinessProcess"
+          href="BusinessProcess_id-dd55224878504adab8080109f0fe58e4.xml#id-dd55224878504adab8080109f0fe58e4"/>
+    </children>
+    <archimateElement
         xsi:type="archimate:BusinessProcess"
-        href="BusinessProcess_id-e1edf303a13a49f0938aa266fe2c0ce4.xml#id-e1edf303a13a49f0938aa266fe2c0ce4"/>
+        href="BusinessProcess_id-9f4a1ea3e39c4b6f8d1048d9c90fac12.xml#id-9f4a1ea3e39c4b6f8d1048d9c90fac12"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-77569841e3914632b3a66f3e9ae264aa"
+      targetConnections="id-60b1672cc94643fdbf17c756b352eb0b">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-0ba2ec0f25a842cc8e9ee219c9bcd608"
+        source="id-77569841e3914632b3a66f3e9ae264aa"
+        target="id-4979775d5e6148088b0b426698997c53">
+      <bendpoints
+          startX="30"
+          startY="-51"
+          endX="30"
+          endY="141"/>
+      <archimateRelationship
+          xsi:type="archimate:SpecializationRelationship"
+          href="SpecializationRelationship_id-43a4dda24cf54496b189bcd797fbc5dc.xml#id-43a4dda24cf54496b189bcd797fbc5dc"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-efbfcce1199b4864886ee42008d3e0d8"
+        source="id-77569841e3914632b3a66f3e9ae264aa"
+        target="id-eb11ca8295f1483a8ff70fef1bff4a5b">
+      <bendpoints
+          startX="30"
+          startY="1149"
+          endX="-162"
+          endY="-6"/>
+      <archimateRelationship
+          xsi:type="archimate:TriggeringRelationship"
+          href="TriggeringRelationship_id-16ed4a80033b4d73b9c0f88f77861cd6.xml#id-16ed4a80033b4d73b9c0f88f77861cd6"/>
+    </sourceConnections>
+    <bounds
+        x="762"
+        y="456"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessEvent"
+        href="BusinessEvent_id-2da52e8b9aab42e3be904e07ef498e24.xml#id-2da52e8b9aab42e3be904e07ef498e24"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-c3e36e21f18a4e2e9973a1b97fa38296"
+      targetConnections="id-1cec0e1bc8d6402caf34d995468805af"
+      textAlignment="1"
+      fillColor="#ffff00"
+      content="Is het bepalen personeelsbeleid onderdeel van instroom personeel? Of valt dit onder bevoegd gezag">
+    <sourceConnections
+        id="id-f5f4c456f47d4cb78a822ed24ccd55f2"
+        source="id-c3e36e21f18a4e2e9973a1b97fa38296"
+        target="id-3696cc7d4d5b4de29dacc2551381d316"/>
+    <bounds
+        x="72"
+        y="84"
+        width="240"
+        height="132"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-8495ac1ece4f4bb08794274eb2ddf3da"
+      textAlignment="1"
+      fillColor="#ffff00"
+      content="Inhuur strategie is input. &#xD;&#xA;Kan wellicht onder bepalen (strategisch) personeelsbeleid?">
+    <sourceConnections
+        id="id-e4166706f0b34226bde5f59264c78613"
+        source="id-8495ac1ece4f4bb08794274eb2ddf3da"
+        target="id-c7e4d8e8ff7a49f381c8196e9485ac6a"/>
+    <sourceConnections
+        id="id-1cec0e1bc8d6402caf34d995468805af"
+        source="id-8495ac1ece4f4bb08794274eb2ddf3da"
+        target="id-c3e36e21f18a4e2e9973a1b97fa38296"/>
+    <bounds
+        x="348"
+        y="1140"
+        width="168"
+        height="119"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-52c5b8ae73bd48729fc920fb66b1167e"
+      textAlignment="1"
+      fillColor="#ffff00"
+      content="Leveranciers bepalen&#xD;&#xA;Relatie naar leveranciermanagement?">
+    <sourceConnections
+        id="id-18393d2341c14e9d9ff4ccc4e4e7275a"
+        source="id-52c5b8ae73bd48729fc920fb66b1167e"
+        target="id-8aa0bdaec3e0402c8faf9a8a3303387f"/>
+    <bounds
+        x="388"
+        y="1272"
+        width="140"
+        height="108"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-a8d6c357499043b0bf17362d7a289c3a"
+      textAlignment="1"
+      fillColor="#ffff00"
+      content="Financiele reserving moet vanuit finance komen">
+    <sourceConnections
+        id="id-43242218280f4b9ca94dd38e7dde775a"
+        source="id-a8d6c357499043b0bf17362d7a289c3a"
+        target="id-25acc7f5bc1349f18353535154b99f84"/>
+    <bounds
+        x="372"
+        y="1464"
+        width="144"
+        height="84"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-9e5de4a04e8c4e8cb2b94c855c3654b0"
+      textAlignment="1"
+      fillColor="#ffff00"
+      content="Inkoop moet ook betrokken zijn in dit proces">
+    <sourceConnections
+        id="id-9411063f4afe4570950e3caaeb09d218"
+        source="id-9e5de4a04e8c4e8cb2b94c855c3654b0"
+        target="id-a3d5569e0a34444fa875f20dd68729e1"/>
+    <bounds
+        x="347"
+        y="1644"
+        width="168"
+        height="72"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-b002d470b3584a7da06151b9f497901c"
+      textAlignment="1"
+      fillColor="#ffff00"
+      content="Als trigger schrijven">
+    <sourceConnections
+        id="id-e17c5205d6fd45c68ced720dbb765d21"
+        source="id-b002d470b3584a7da06151b9f497901c"
+        target="id-a4b6da95e3434366b036a5daf0cf63fa"/>
+    <sourceConnections
+        id="id-60b1672cc94643fdbf17c756b352eb0b"
+        source="id-b002d470b3584a7da06151b9f497901c"
+        target="id-77569841e3914632b3a66f3e9ae264aa"/>
+    <bounds
+        x="374"
+        y="576"
+        width="168"
+        height="72"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-942f402fe00845ac9f1ee469e039dedb"
+      textAlignment="1"
+      fillColor="#ffff00"
+      content="Externe medewerker moet een eigen pad krijgen tov vast personeel">
+    <bounds
+        x="625"
+        y="1728"
+        width="168"
+        height="72"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-ed2d48d5cbf0455a96b6e6e2f8accd89"
+      targetConnections="id-6f2a0371088a4a7b88f15bded1f47d60 id-9402681508744e6ba6ae4677b49f2824"
+      textAlignment="1"
+      fillColor="#ffff00"
+      content="Contracteren kandidaat als tussen bedrijfsproces">
+    <sourceConnections
+        id="id-cfa3b4b8d8c24847921f34f2adbbbafa"
+        source="id-ed2d48d5cbf0455a96b6e6e2f8accd89"
+        target="id-bdfd92126e1d4767bca347f6a43df526"/>
+    <bounds
+        x="738"
+        y="72"
+        width="168"
+        height="72"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-76938a5f13ef40089c992b38ff8f727c"
+      textAlignment="1"
+      fillColor="#ffff00"
+      content="Hoe werkt dit met een flexible schil (bijv. een medewerker tussen verschillende scholen) of met een &quot;pool&quot; van mensen die aangesloten kunnen worden (bijv. via een uitzendbureau)">
+    <sourceConnections
+        id="id-9402681508744e6ba6ae4677b49f2824"
+        source="id-76938a5f13ef40089c992b38ff8f727c"
+        target="id-ed2d48d5cbf0455a96b6e6e2f8accd89"/>
+    <bounds
+        x="720"
+        y="-48"
+        width="252"
+        height="96"/>
   </children>
   <properties
       key="Publiceren"
