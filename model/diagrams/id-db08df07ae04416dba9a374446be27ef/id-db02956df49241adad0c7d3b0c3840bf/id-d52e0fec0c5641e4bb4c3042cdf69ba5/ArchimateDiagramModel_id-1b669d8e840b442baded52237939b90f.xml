@@ -416,6 +416,15 @@
               xsi:type="archimate:AccessRelationship"
               href="AccessRelationship_id-e1b0128d34be430c8b8f73b9fe55a166.xml#id-e1b0128d34be430c8b8f73b9fe55a166"/>
         </sourceConnections>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-d692ce5fa7b5423595c6142516bf062d"
+            source="id-b777b0b09452486c954678e16b7dc2a1"
+            target="id-14ab8517170d43f19c2358bb340169b6">
+          <archimateRelationship
+              xsi:type="archimate:AccessRelationship"
+              href="AccessRelationship_id-a489b039e29040989ce9b49b01eda817.xml#id-a489b039e29040989ce9b49b01eda817"/>
+        </sourceConnections>
         <bounds
             x="24"
             y="36"
@@ -514,6 +523,8 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-f9d6ef6186dd48b59dc75cab75cac2fe"
       targetConnections="id-359c7aa5634945ddbd2ea4ed7f5e4643 id-8b3f40882c9b4480a3b79a34ad4205f1"
+      fontColor="#ffffff"
+      fillColor="#007ac3"
       type="1">
     <bounds
         x="144"
@@ -528,13 +539,28 @@
       xsi:type="archimate:DiagramModelNote"
       id="id-b0737f561f8043c2a6a4001972b2cdaa"
       textAlignment="1"
-      fillColor="#ffff00"
-      content="Status: Eerste versie voor review">
+      fillColor="#ff8040"
+      content="Status: Afgerond (met vervolgacties)&#xD;&#xA;&#xD;&#xA;Vervolgacties: &#xD;&#xA;- herzien 'opdrachten opstellen' als onderdeel van Uitvoeren les (lijkt meer te horen bij Lesvoorbereiding c.q. Ontwikkelen materiaal)">
     <bounds
         x="120"
         y="480"
-        width="185"
-        height="80"/>
+        width="313"
+        height="97"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-14ab8517170d43f19c2358bb340169b6"
+      targetConnections="id-d692ce5fa7b5423595c6142516bf062d"
+      fontColor="#ffffff"
+      fillColor="#007ac3">
+    <bounds
+        x="889"
+        y="84"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-e3536e05eec14e97912bb42063190707.xml#id-e3536e05eec14e97912bb42063190707"/>
   </children>
   <properties
       key="Publiceren"
