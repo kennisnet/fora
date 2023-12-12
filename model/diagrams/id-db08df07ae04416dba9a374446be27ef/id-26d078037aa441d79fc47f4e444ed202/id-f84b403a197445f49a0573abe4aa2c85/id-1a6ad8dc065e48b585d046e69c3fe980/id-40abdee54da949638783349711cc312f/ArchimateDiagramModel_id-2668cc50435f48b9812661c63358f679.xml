@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Procesmodel Organiseren toetsafname (Schoolexamen) - Details"
-    id="id-2668cc50435f48b9812661c63358f679">
+    id="id-2668cc50435f48b9812661c63358f679"
+    documentation="Dit detailprocesmodel toont voor het voorbereiden / organiseren van toetsafname in het kader van het Schoolexamen de betreffende processen met daarbij:&#xD;&#xA;* de informatie die door de processen wordt gebruikt en geproduceerd&#xD;&#xA;* de relevante wet- en regelgeving met betrekking tot processen en informatie&#xD;&#xA;* de partijen die bij de processen betrokken zijn voor de uitvoering dan wel verantwoordelijk zijn&#xD;&#xA;&#xD;&#xA;Het organiseren van de toetsafname in het kader van het Schoolexamen omvat:&#xD;&#xA;  - Registreren van de deelnemers aan de toetsafname, waarbij rekening wordt gehouden met speciale ondersteuningsbehoeften (afwijkende wijze van examineren) van leerlingen&#xD;&#xA;  - Roosteren van bij de toetsafname betrokken medewerkers&#xD;&#xA;  - Reserveren van benodigde toetsruimtes&#xD;&#xA;  - Inrichten van de technische infrastructuur (bij digitale toets)&#xD;&#xA;  - Autoriseren van gebruikers van het toetssyteem (bij digitale toets)&#xD;&#xA;  - Beschikbaar stellen van benodigde toetsmaterialen en hulpmiddelen op de toetslocatie">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-6a67b92b625d4b80ae7d8659199e68eb"
@@ -524,7 +525,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-8fcd03090578466fa362392dff2d9683"
-        targetConnections="id-c7c9904825384836848dfff3454f0c08 id-0ddaf67e9b5242ba9d92f057b0e0a0e1"
+        targetConnections="id-c7c9904825384836848dfff3454f0c08 id-0ddaf67e9b5242ba9d92f057b0e0a0e1 id-b9cd96b35a224c3097cc42877b190961"
         fillColor="#cce4f3">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
@@ -960,9 +961,9 @@
           href="TriggeringRelationship_id-48ccf56b1671440cafb1af1d9393a043.xml#id-48ccf56b1671440cafb1af1d9393a043"/>
     </sourceConnections>
     <bounds
-        x="-1876"
+        x="-1884"
         y="-176"
-        width="134"
+        width="142"
         height="72"/>
     <archimateElement
         xsi:type="archimate:BusinessEvent"
@@ -1211,6 +1212,28 @@
     <archimateElement
         xsi:type="archimate:BusinessRole"
         href="BusinessRole_id-d5d858dbebeb4828a44ae9810303a5a3.xml#id-d5d858dbebeb4828a44ae9810303a5a3"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-d96939c9552c40aca8c4602dca504d86"
+      fillColor="#dbdbdb">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-b9cd96b35a224c3097cc42877b190961"
+        source="id-d96939c9552c40aca8c4602dca504d86"
+        target="id-8fcd03090578466fa362392dff2d9683">
+      <archimateRelationship
+          xsi:type="archimate:TriggeringRelationship"
+          href="TriggeringRelationship_id-2179574c1d5e48e89cb5c4f1ff406c49.xml#id-2179574c1d5e48e89cb5c4f1ff406c49"/>
+    </sourceConnections>
+    <bounds
+        x="-1885"
+        y="-252"
+        width="144"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessEvent"
+        href="BusinessEvent_id-6ed5d7f7f7d54c57816bb91bbb41c7ce.xml#id-6ed5d7f7f7d54c57816bb91bbb41c7ce"/>
   </children>
   <properties
       key="Publiceren"
