@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Instroom personeel - Onboarding en afronden"
-    id="id-cd712afed44149c9b56358ff9fdb5800">
+    id="id-cd712afed44149c9b56358ff9fdb5800"
+    documentation="De onboardingfase binnen het instroomproces in de onderwijssector betekent de officiële verwelkoming van de nieuwe medewerker op de nieuwe werkplek. Tijdens deze fase ontvangt de medewerker niet alleen bedrijfsmiddelen zoals laptops en toegangspassen, maar wordt ook uitgebreide informatie verstrekt over de specifieke school waar de medewerker zal werken. Dit omvat een gedetailleerde introductie in de schoolcultuur, -missie en -visie, alsmede praktische zaken zoals de indeling van het gebouw en belangrijke contactpersonen. De focus ligt op het creëren van een positieve eerste indruk, het bevorderen van een gevoel van verbondenheid en het verstrekken van alle benodigde informatie om de nieuwe medewerker effectief te laten functioneren in hun nieuwe onderwijsomgeving. Een succesvolle onboarding legt de basis voor een productieve en bevredigende professionele ervaring.">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-f5bffe1fc18a47af993bafa0f37eb26a"
@@ -132,6 +133,15 @@
           id="id-220c758b1c9a440ba726552e9035f16c"
           targetConnections="id-e6f00fb98d444d27b8e8faa352475a44"
           fillColor="#ffffff">
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-3ddc061ad08a4dcc81bf4947e272926f"
+            source="id-220c758b1c9a440ba726552e9035f16c"
+            target="id-120b9693fe1e43d4a20e02cfb36a8d08">
+          <archimateRelationship
+              xsi:type="archimate:AccessRelationship"
+              href="AccessRelationship_id-931ceecc66324cbd8d77ff441d0a755f.xml#id-931ceecc66324cbd8d77ff441d0a755f"/>
+        </sourceConnections>
         <bounds
             x="24"
             y="216"
@@ -806,75 +816,16 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-381275e1374d432abb932b953ef140a6">
+      id="id-120b9693fe1e43d4a20e02cfb36a8d08"
+      targetConnections="id-3ddc061ad08a4dcc81bf4947e272926f">
     <bounds
-        x="792"
-        y="372"
-        width="157"
-        height="61"/>
-    <archimateElement
-        xsi:type="archimate:BusinessObject"
-        href="BusinessObject_id-dc4f581ff6224e95aeb1084c5e64732d.xml#id-dc4f581ff6224e95aeb1084c5e64732d"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-ea25167aad6d431999b6bb87dee97bd9">
-    <bounds
-        x="792"
-        y="452"
-        width="120"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:BusinessObject"
-        href="BusinessObject_id-24bf7f2a2d94443f8e28fcad17828080.xml#id-24bf7f2a2d94443f8e28fcad17828080"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-120b9693fe1e43d4a20e02cfb36a8d08">
-    <bounds
-        x="792"
-        y="516"
+        x="73"
+        y="713"
         width="120"
         height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-d9992e9bd33845b694cdcdc6155e75e7.xml#id-d9992e9bd33845b694cdcdc6155e75e7"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-66437b22633c4c0c9ef0ec3165597e4d">
-    <bounds
-        x="792"
-        y="576"
-        width="120"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:BusinessObject"
-        href="BusinessObject_id-6362122f86dd44e5a698af4d61e9bf67.xml#id-6362122f86dd44e5a698af4d61e9bf67"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-3ef47e29035548a0bbdd07f7198f3ac8">
-    <bounds
-        x="792"
-        y="636"
-        width="120"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:BusinessObject"
-        href="BusinessObject_id-38d5f71870e040cebe20e2f5ce93e010.xml#id-38d5f71870e040cebe20e2f5ce93e010"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-b0acf87f1f39476ab6adcf8deeccfdc3">
-    <bounds
-        x="792"
-        y="696"
-        width="120"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:BusinessObject"
-        href="BusinessObject_id-5e0c27499d2f4224b401e346a4aed8ab.xml#id-5e0c27499d2f4224b401e346a4aed8ab"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
