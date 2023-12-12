@@ -65,6 +65,24 @@
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-6fc90d5d5033430fa43f76db05948e94"
+        source="id-809f96f3a6e347d48504b006d3b97900"
+        target="id-c296aac9f52840b0993c2a2fe3bbecbb">
+      <bendpoints
+          startX="113"
+          endX="-161"
+          endY="-231"/>
+      <bendpoints
+          startX="113"
+          startY="228"
+          endX="-161"
+          endY="-3"/>
+      <archimateRelationship
+          xsi:type="archimate:TriggeringRelationship"
+          href="TriggeringRelationship_id-417ebe5574714114b74b322d0af8287b.xml#id-417ebe5574714114b74b322d0af8287b"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-49b293ac532d4b0193bea9b94c13ce7e"
         source="id-809f96f3a6e347d48504b006d3b97900"
         target="id-c0a67d979ada4f7d9127d0cc2ee82dca">
@@ -81,24 +99,6 @@
       <archimateRelationship
           xsi:type="archimate:TriggeringRelationship"
           href="TriggeringRelationship_id-09a11b5970734882905e933a4eae7f9e.xml#id-09a11b5970734882905e933a4eae7f9e"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-6fc90d5d5033430fa43f76db05948e94"
-        source="id-809f96f3a6e347d48504b006d3b97900"
-        target="id-c296aac9f52840b0993c2a2fe3bbecbb">
-      <bendpoints
-          startX="113"
-          endX="-161"
-          endY="-231"/>
-      <bendpoints
-          startX="113"
-          startY="228"
-          endX="-161"
-          endY="-3"/>
-      <archimateRelationship
-          xsi:type="archimate:TriggeringRelationship"
-          href="TriggeringRelationship_id-417ebe5574714114b74b322d0af8287b.xml#id-417ebe5574714114b74b322d0af8287b"/>
     </sourceConnections>
     <bounds
         x="-1080"
@@ -302,7 +302,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-97007594b7d544fa86483fd33d775dc9"
-          targetConnections="id-d32d477226f54c36b1092a9bbf129a72 id-edc37dae00224452bfc72c0fdb17a794 id-ddc2028fcb3f4272a979351b411fe9cd id-e531e0b99d7b44d19bb92c0109b0d481"
+          targetConnections="id-d32d477226f54c36b1092a9bbf129a72 id-edc37dae00224452bfc72c0fdb17a794 id-e531e0b99d7b44d19bb92c0109b0d481 id-ddc2028fcb3f4272a979351b411fe9cd"
           fillColor="#cce4f3">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
@@ -621,15 +621,6 @@
               xsi:type="archimate:AggregationRelationship"
               href="AggregationRelationship_id-cbbd4bf76d5c45509267a8a0a8c4070b.xml#id-cbbd4bf76d5c45509267a8a0a8c4070b"/>
         </sourceConnections>
-        <sourceConnections
-            xsi:type="archimate:DiagramModelArchimateConnection"
-            id="id-e43966b47d9545869d9933548652dba9"
-            source="id-e5831e8ceca746cfb3ee7be048159d41"
-            target="id-75ed98f7a55746afa46b6164dd90786b">
-          <archimateRelationship
-              xsi:type="archimate:TriggeringRelationship"
-              href="TriggeringRelationship_id-5cc9e86944004cb395e3e09108a3ef66.xml#id-5cc9e86944004cb395e3e09108a3ef66"/>
-        </sourceConnections>
         <bounds
             x="24"
             y="36"
@@ -827,6 +818,15 @@
           <archimateRelationship
               xsi:type="archimate:TriggeringRelationship"
               href="TriggeringRelationship_id-bcf0c2bf142a4e60bb2ebe1aaa6c4b10.xml#id-bcf0c2bf142a4e60bb2ebe1aaa6c4b10"/>
+        </sourceConnections>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-e43966b47d9545869d9933548652dba9"
+            source="id-d34cac1eeb1244e7ad79576cf90e0c91"
+            target="id-75ed98f7a55746afa46b6164dd90786b">
+          <archimateRelationship
+              xsi:type="archimate:TriggeringRelationship"
+              href="TriggeringRelationship_id-5cc9e86944004cb395e3e09108a3ef66.xml#id-5cc9e86944004cb395e3e09108a3ef66"/>
         </sourceConnections>
         <bounds
             x="24"
