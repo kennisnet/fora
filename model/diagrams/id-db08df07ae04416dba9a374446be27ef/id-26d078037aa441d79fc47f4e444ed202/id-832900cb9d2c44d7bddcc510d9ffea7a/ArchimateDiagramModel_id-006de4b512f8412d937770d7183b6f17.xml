@@ -6,32 +6,6 @@
     documentation="Het contracteringsproces binnen het model voor instroom van personeel in de onderwijssector is een kritieke fase. Na de werving en selectie volgt het formele vastleggen van arbeidsvoorwaarden en verplichtingen. Deze fase omvat het opstellen en onderhandelen van het arbeidscontract, waarin salaris, functiebeschrijving en andere relevante voorwaarden worden gespecificeerd. Het doel is helderheid te verschaffen over de rechten en verantwoordelijkheden van zowel de nieuwe medewerker als de onderwijsinstelling. Een zorgvuldig opgesteld contract is essentieel om een solide basis te bieden voor een succesvolle samenwerking en om mogelijke misverstanden te voorkomen, waardoor de nieuwe medewerker met vertrouwen aan zijn rol kan beginnen.&#xD;&#xA;">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-6843f517e83943548a878e522bd82d4c"
-      fillColor="#dbdbdb">
-    <bounds
-        x="180"
-        y="300"
-        width="120"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:BusinessEvent"
-        href="BusinessEvent_id-2da52e8b9aab42e3be904e07ef498e24.xml#id-2da52e8b9aab42e3be904e07ef498e24"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-8a6112a8244441a79ba9a6fc53cf9d1b"
-      fillColor="#dbdbdb">
-    <bounds
-        x="174"
-        y="228"
-        width="132"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:BusinessEvent"
-        href="BusinessEvent_id-e0336cb75e714d94bc09b1126d8e4931.xml#id-e0336cb75e714d94bc09b1126d8e4931"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
       id="id-61f23700e2aa498ebde830560fb4c04c"
       targetConnections="id-c0c10559dde84deabca3143405771d44">
     <sourceConnections
@@ -73,6 +47,15 @@
       <archimateRelationship
           xsi:type="archimate:InfluenceRelationship"
           href="InfluenceRelationship_id-188d3148884b46fa9e2f283c0c030bbb.xml#id-188d3148884b46fa9e2f283c0c030bbb"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-3f326334350542d3bd5365f981f01cdd"
+        source="id-9f3b6316fd0a40f2bb9af8dfbf5df33f"
+        target="id-ac3bc18d3cf4419a9a9826ccc77198ec">
+      <archimateRelationship
+          xsi:type="archimate:InfluenceRelationship"
+          href="InfluenceRelationship_id-1311928cae914b5b9e5fec2e7d81e67f.xml#id-1311928cae914b5b9e5fec2e7d81e67f"/>
     </sourceConnections>
     <bounds
         x="636"
@@ -249,6 +232,15 @@
       <archimateRelationship
           xsi:type="archimate:InfluenceRelationship"
           href="InfluenceRelationship_id-d1ecf98648bb49b09267b34fccb7ad19.xml#id-d1ecf98648bb49b09267b34fccb7ad19"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-6d98c6c6cb7545ef950686375826cc73"
+        source="id-8121d57c6a324beebe1ba6e71c21e11d"
+        target="id-ac3bc18d3cf4419a9a9826ccc77198ec">
+      <archimateRelationship
+          xsi:type="archimate:InfluenceRelationship"
+          href="InfluenceRelationship_id-9eecfcdc04f24a3bb83ece97b24c1eb4.xml#id-9eecfcdc04f24a3bb83ece97b24c1eb4"/>
     </sourceConnections>
     <bounds
         x="360"
@@ -456,7 +448,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-ac3bc18d3cf4419a9a9826ccc77198ec"
-      targetConnections="id-42d553e13f3343b7a76da4b594be88ce">
+      targetConnections="id-42d553e13f3343b7a76da4b594be88ce id-3f326334350542d3bd5365f981f01cdd id-37d1246398f64116b92eac7591d6f137 id-6d98c6c6cb7545ef950686375826cc73">
     <bounds
         x="984"
         y="259"
@@ -550,6 +542,15 @@
       <archimateRelationship
           xsi:type="archimate:InfluenceRelationship"
           href="InfluenceRelationship_id-4909772d3daa4421905703eed18f5ecf.xml#id-4909772d3daa4421905703eed18f5ecf"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-37d1246398f64116b92eac7591d6f137"
+        source="id-6adabe4259e74e89b9b6f5c5f40d4ecd"
+        target="id-ac3bc18d3cf4419a9a9826ccc77198ec">
+      <archimateRelationship
+          xsi:type="archimate:InfluenceRelationship"
+          href="InfluenceRelationship_id-e41c46b00ee0459a901f6e79953c4ade.xml#id-e41c46b00ee0459a901f6e79953c4ade"/>
     </sourceConnections>
     <bounds
         x="792"
