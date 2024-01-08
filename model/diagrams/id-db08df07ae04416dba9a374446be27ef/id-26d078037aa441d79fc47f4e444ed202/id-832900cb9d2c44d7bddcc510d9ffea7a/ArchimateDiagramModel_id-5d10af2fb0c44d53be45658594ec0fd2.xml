@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Instroom personeel - Registreren medewerker"
+    name="Instroom personeel - Registreren medewerker V2"
     id="id-5d10af2fb0c44d53be45658594ec0fd2"
     documentation=" Na contractondertekening worden alle vereiste gegevens en documenten formeel vastgelegd. Dit omvat persoonlijke informatie, identificatiedocumenten, benodigde certificaten en andere relevante papieren. Het doel van deze fase is om een nauwkeurige en complete administratieve registratie te waarborgen, essentieel voor wettelijke naleving en interne beleidsmaatregelen. Een grondige registratie legt niet alleen de basis voor effectieve personeelsbeheerprocessen, maar faciliteert ook een vlotte integratie van de nieuwe medewerker in de onderwijsinstelling, waardoor een solide basis wordt gelegd voor een succesvolle professionele relatie.">
   <children
@@ -67,7 +67,7 @@
         x="816"
         y="48"
         width="769"
-        height="637"/>
+        height="541"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-ce4a9bfc65804683a5c9bd28e71eef06"
@@ -264,7 +264,7 @@
           x="24"
           y="24"
           width="195"
-          height="577"/>
+          height="505"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-072662e1c6394806b40904848b028618"
@@ -373,15 +373,6 @@
         fillColor="#fff2ff">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-a7319011c9da4340af8a758c70cc9b15"
-          source="id-aae0ab27676d4330b9b05fca3a001cd9"
-          target="id-6f62841103aa4fa4a51ce747dfd8777f">
-        <archimateRelationship
-            xsi:type="archimate:AggregationRelationship"
-            href="AggregationRelationship_id-65dc5766f766453faafb03cc86826ec1.xml#id-65dc5766f766453faafb03cc86826ec1"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-4ff61c4a2ca7459692f7c402cd65e591"
           source="id-aae0ab27676d4330b9b05fca3a001cd9"
           target="id-3fac5a1856dd447086eae665c8de91b0">
@@ -402,30 +393,7 @@
           x="289"
           y="336"
           width="193"
-          height="265"/>
-      <children
-          xsi:type="archimate:DiagramModelArchimateObject"
-          id="id-6f62841103aa4fa4a51ce747dfd8777f"
-          targetConnections="id-a7319011c9da4340af8a758c70cc9b15"
-          fillColor="#ffffff">
-        <sourceConnections
-            xsi:type="archimate:DiagramModelArchimateConnection"
-            id="id-a45e318b74864f949cbbcf9083ba8002"
-            source="id-6f62841103aa4fa4a51ce747dfd8777f"
-            target="id-547262a64e4e44469319038c8afdf11a">
-          <archimateRelationship
-              xsi:type="archimate:AccessRelationship"
-              href="AccessRelationship_id-5b25d97289054641ad325eaea58a364e.xml#id-5b25d97289054641ad325eaea58a364e"/>
-        </sourceConnections>
-        <bounds
-            x="24"
-            y="108"
-            width="157"
-            height="73"/>
-        <archimateElement
-            xsi:type="archimate:BusinessProcess"
-            href="BusinessProcess_id-c032709355184e7c8e37799bf194e05f.xml#id-c032709355184e7c8e37799bf194e05f"/>
-      </children>
+          height="193"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-3fac5a1856dd447086eae665c8de91b0"
@@ -510,7 +478,7 @@
         </sourceConnections>
         <bounds
             x="24"
-            y="192"
+            y="120"
             width="157"
             height="55"/>
         <archimateElement
@@ -557,7 +525,7 @@
           x="528"
           y="27"
           width="192"
-          height="289"/>
+          height="502"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-d5a78b18cb81438c8c60b85ec7c15c03"
@@ -769,28 +737,6 @@
     <archimateElement
         xsi:type="archimate:Driver"
         href="Driver_id-d5489000606140908b2f3990dee65375.xml#id-d5489000606140908b2f3990dee65375"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-547262a64e4e44469319038c8afdf11a"
-      targetConnections="id-a45e318b74864f949cbbcf9083ba8002">
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-4ae0ca7fb6ea4e16bb512943e1685cc0"
-        source="id-547262a64e4e44469319038c8afdf11a"
-        target="id-3b29d43a89c04a4b8d70917fb9ba2b61">
-      <archimateRelationship
-          xsi:type="archimate:InfluenceRelationship"
-          href="InfluenceRelationship_id-2ca73529e0804760a854dc2ccb2d1519.xml#id-2ca73529e0804760a854dc2ccb2d1519"/>
-    </sourceConnections>
-    <bounds
-        x="648"
-        y="1186"
-        width="145"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:BusinessObject"
-        href="BusinessObject_id-e7123571ba2a44bd9c59d0bf70773f3d.xml#id-e7123571ba2a44bd9c59d0bf70773f3d"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -1374,7 +1320,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-3b29d43a89c04a4b8d70917fb9ba2b61"
-      targetConnections="id-4ae0ca7fb6ea4e16bb512943e1685cc0 id-e59ee4e6b10c4059b9d688f0a1aa2f3e">
+      targetConnections="id-e59ee4e6b10c4059b9d688f0a1aa2f3e">
     <bounds
         x="983"
         y="2106"
