@@ -3,7 +3,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Procesmodel Organiseren toetsafname (Schoolexamen) - Details"
     id="id-2668cc50435f48b9812661c63358f679"
-    documentation="Dit detailprocesmodel toont voor het voorbereiden / organiseren van toetsafname in het kader van het Schoolexamen de betreffende processen met daarbij:&#xD;&#xA;* de informatie die door de processen wordt gebruikt en geproduceerd&#xD;&#xA;* de relevante wet- en regelgeving met betrekking tot processen en informatie&#xD;&#xA;* de partijen die bij de processen betrokken zijn voor de uitvoering dan wel verantwoordelijk zijn&#xD;&#xA;&#xD;&#xA;Het organiseren van de toetsafname in het kader van het Schoolexamen omvat:&#xD;&#xA;  - Registreren van de deelnemers aan de toetsafname, waarbij rekening wordt gehouden met speciale ondersteuningsbehoeften (afwijkende wijze van examineren) van leerlingen&#xD;&#xA;  - Roosteren van bij de toetsafname betrokken medewerkers&#xD;&#xA;  - Reserveren van benodigde toetsruimtes&#xD;&#xA;  - Inrichten van de technische infrastructuur (bij digitale toets)&#xD;&#xA;  - Autoriseren van gebruikers van het toetssyteem (bij digitale toets)&#xD;&#xA;  - Beschikbaar stellen van benodigde toetsmaterialen en hulpmiddelen op de toetslocatie">
+    documentation="Dit detailprocesmodel toont voor het voorbereiden / organiseren van de afname van een onderdeel (toets) in het kader van het Schoolexamen de betreffende processen met daarbij:&#xD;&#xA;- de informatie die door de processen wordt gebruikt en geproduceerd&#xD;&#xA;- de relevante wet- en regelgeving met betrekking tot processen en informatie&#xD;&#xA;- de partijen die bij de processen betrokken zijn voor de uitvoering dan wel verantwoordelijk zijn&#xD;&#xA;&#xD;&#xA;Het organiseren van de afname van een onderdeel (toets) in het kader van het Schoolexamen omvat:&#xD;&#xA;  - het registreren van de deelnemers aan de toetsafname, waarbij rekening wordt gehouden met speciale ondersteuningsbehoeften (afwijkende wijze van examineren) van leerlingen&#xD;&#xA;  - het roosteren van bij de afname van het onderdeel (toets) betrokken medewerkers&#xD;&#xA;  - het reserveren van benodigde toetsruimtes&#xD;&#xA;  - het inrichten van de technische infrastructuur (bij digitale toets)&#xD;&#xA;  - het autoriseren van gebruikers van het toetssyteem (bij digitale toets)&#xD;&#xA;  - het beschikbaar stellen van benodigde toetsmaterialen en hulpmiddelen op de toetslocatie">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-6a67b92b625d4b80ae7d8659199e68eb"
@@ -16,14 +16,14 @@
         target="id-cbe00b94f794448b9fe906f2533dada9">
       <bendpoints
           startX="95"
-          startY="-2"
-          endX="-281"
-          endY="463"/>
+          startY="-14"
+          endX="-276"
+          endY="475"/>
       <bendpoints
           startX="95"
-          startY="-398"
-          endX="-281"
-          endY="67"/>
+          startY="-434"
+          endX="-276"
+          endY="55"/>
       <archimateRelationship
           xsi:type="archimate:TriggeringRelationship"
           href="TriggeringRelationship_id-300ae44df45947f59b8efc5d0aa4097f.xml#id-300ae44df45947f59b8efc5d0aa4097f"/>
@@ -723,8 +723,8 @@
     <bounds
         x="-360"
         y="-252"
-        width="493"
-        height="253"/>
+        width="481"
+        height="193"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-cbe00b94f794448b9fe906f2533dada9"
@@ -761,21 +761,12 @@
           x="24"
           y="36"
           width="432"
-          height="192"/>
+          height="132"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-84d7a303a7e44dd5a0778b008e8760dd"
           targetConnections="id-8aa5593603d04144a3855715a0a91775"
           fillColor="#ffffff">
-        <sourceConnections
-            xsi:type="archimate:DiagramModelArchimateConnection"
-            id="id-b72d570f96f0483da26db8cb4985a435"
-            source="id-84d7a303a7e44dd5a0778b008e8760dd"
-            target="id-d7ee1f8f8b52413db15becc1d99ea8d0">
-          <archimateRelationship
-              xsi:type="archimate:AggregationRelationship"
-              href="AggregationRelationship_id-a7173022141e44a69be22f8b7391ffa6.xml#id-a7173022141e44a69be22f8b7391ffa6"/>
-        </sourceConnections>
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-1163409e703848c0bd68abaec0f9efc5"
@@ -808,21 +799,7 @@
             x="204"
             y="36"
             width="192"
-            height="132"/>
-        <children
-            xsi:type="archimate:DiagramModelArchimateObject"
-            id="id-d7ee1f8f8b52413db15becc1d99ea8d0"
-            targetConnections="id-b72d570f96f0483da26db8cb4985a435"
-            fillColor="#ffffff">
-          <bounds
-              x="24"
-              y="72"
-              width="133"
-              height="55"/>
-          <archimateElement
-              xsi:type="archimate:BusinessProcess"
-              href="BusinessProcess_id-348a24284fef4766b64afd743c98a0a0.xml#id-348a24284fef4766b64afd743c98a0a0"/>
-        </children>
+            height="72"/>
         <archimateElement
             xsi:type="archimate:BusinessProcess"
             href="BusinessProcess_id-6335279c50654a059e60ba610fa24404.xml#id-6335279c50654a059e60ba610fa24404"/>
@@ -980,7 +957,7 @@
       targetConnections="id-515fad90804248b9b77b84109e8e049a"
       fillColor="#dbdbdb">
     <bounds
-        x="180"
+        x="156"
         y="-191"
         width="134"
         height="55"/>

@@ -3,7 +3,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Procesmodel Organiseren toetsafname (Centraal examen) - Details"
     id="id-03add6eab2a24d218595d55dbfe35d6e"
-    documentation="Dit detailprocesmodel toont voor het voorbereiden / organiseren van toetsafname in het kader van het Centraal examen de betreffende processen met daarbij:&#xD;&#xA;* de informatie die door de processen wordt gebruikt en geproduceerd&#xD;&#xA;* de relevante wet- en regelgeving met betrekking tot processen en informatie&#xD;&#xA;* de partijen die bij de processen betrokken zijn voor de uitvoering dan wel verantwoordelijk zijn&#xD;&#xA;&#xD;&#xA;Het organiseren van de toetsafname in het kader van het Centraal examen omvat:&#xD;&#xA;  - Registreren van de deelnemers aan de toetsafname, waarbij rekening wordt gehouden met speciale ondersteuningsbehoeften (afwijkende wijze van examineren) van leerlingen&#xD;&#xA;  - Roosteren van bij de toetsafname betrokken medewerkers&#xD;&#xA;  - Reserveren van benodigde toetsruimtes&#xD;&#xA;  - Inrichten van de technische infrastructuur (bij digitale toets)&#xD;&#xA;  - Autoriseren van gebruikers van het toetssyteem (bij digitale toets)&#xD;&#xA;  - Bestellen, ontvangen en opbergen&#xD;&#xA;  - Beschikbaar stellen van benodigde toetsmaterialen en hulpmiddelen op de toetslocatie">
+    documentation="Dit detailprocesmodel toont voor het voorbereiden / organiseren van de afname van een onderdeel (toets) in het kader van het Centraal examen de betreffende processen met daarbij:&#xD;&#xA;- de informatie die door de processen wordt gebruikt en geproduceerd&#xD;&#xA;- de relevante wet- en regelgeving met betrekking tot processen en informatie&#xD;&#xA;- de partijen die bij de processen betrokken zijn voor de uitvoering dan wel verantwoordelijk zijn&#xD;&#xA;&#xD;&#xA;Het organiseren van de afname van een onderdeel (toets) in het kader van het Centraal examen omvat:&#xD;&#xA;  - het registreren van de deelnemers aan het onderdeel (toets), waarbij rekening wordt gehouden met speciale ondersteuningsbehoeften (afwijkende wijze van examineren) van leerlingen&#xD;&#xA;  - het roosteren van bij de afname betrokken medewerkers&#xD;&#xA;  - het reserveren van benodigde toetsruimtes&#xD;&#xA;  - het inrichten van de technische infrastructuur (bij digitale toets)&#xD;&#xA;  - het autoriseren van gebruikers van het toetssyteem (bij digitale toets)&#xD;&#xA;  - het bestellen, ontvangen en opbergen van de toetsopgaven&#xD;&#xA;  - het beschikbaar stellen van benodigde toetsmaterialen en hulpmiddelen op de toetslocatie">
   <children
       xsi:type="archimate:DiagramModelNote"
       id="id-6589a5dd11b94d93bc92d7f750e6c2d4"
@@ -31,14 +31,14 @@
         source="id-86294bae955048449c9be29231f55e7b"
         target="id-5a8feca01a124263b882af9709024619">
       <bendpoints
-          startX="102"
-          startY="-1"
-          endX="-240"
-          endY="524"/>
+          startX="90"
+          startY="-8"
+          endX="-228"
+          endY="518"/>
       <bendpoints
-          startX="102"
+          startX="90"
           startY="-452"
-          endX="-240"
+          endX="-228"
           endY="74"/>
       <archimateRelationship
           xsi:type="archimate:TriggeringRelationship"
@@ -912,7 +912,7 @@
     <bounds
         x="948"
         y="167"
-        width="433"
+        width="385"
         height="240"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -958,7 +958,7 @@
       <bounds
           x="24"
           y="30"
-          width="385"
+          width="337"
           height="181"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
@@ -981,15 +981,6 @@
         </sourceConnections>
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
-            id="id-6e5f11a50ee74d11b9ad453eb4c2dea1"
-            source="id-1c67703440a14434af6a12ca34564a8a"
-            target="id-77ac8b5ba0a846e7b03eaf83f2cbcaf2">
-          <archimateRelationship
-              xsi:type="archimate:AggregationRelationship"
-              href="AggregationRelationship_id-4ce9dc9f31c047e8b8d2482042e70223.xml#id-4ce9dc9f31c047e8b8d2482042e70223"/>
-        </sourceConnections>
-        <sourceConnections
-            xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-2f043160ea0841d68fe5642bc1fdf1ae"
             source="id-1c67703440a14434af6a12ca34564a8a"
             target="id-5ab19bf90159422a8acdb0ae18474e58">
@@ -1003,24 +994,10 @@
               href="AccessRelationship_id-698501c0407a45afab7e1379e10a2d5b.xml#id-698501c0407a45afab7e1379e10a2d5b"/>
         </sourceConnections>
         <bounds
-            x="180"
-            y="34"
-            width="181"
-            height="132"/>
-        <children
-            xsi:type="archimate:DiagramModelArchimateObject"
-            id="id-77ac8b5ba0a846e7b03eaf83f2cbcaf2"
-            targetConnections="id-6e5f11a50ee74d11b9ad453eb4c2dea1"
-            fillColor="#ffffff">
-          <bounds
-              x="24"
-              y="70"
-              width="133"
-              height="55"/>
-          <archimateElement
-              xsi:type="archimate:BusinessProcess"
-              href="BusinessProcess_id-ff2fb64c22d24e329e6938230d5b5a79.xml#id-ff2fb64c22d24e329e6938230d5b5a79"/>
-        </children>
+            x="156"
+            y="96"
+            width="157"
+            height="75"/>
         <archimateElement
             xsi:type="archimate:BusinessProcess"
             href="BusinessProcess_id-977e84ca37c947cca1f8f68e08d5e6ea.xml#id-977e84ca37c947cca1f8f68e08d5e6ea"/>
@@ -1073,8 +1050,8 @@
           targetConnections="id-8a99659a62ec412fbfa6d4f9008fc407 id-622d9f25f362419196cd70077c77fdeb"
           fillColor="#ffffff">
         <bounds
-            x="36"
-            y="34"
+            x="84"
+            y="24"
             width="135"
             height="60"/>
         <archimateElement
@@ -1095,8 +1072,8 @@
       targetConnections="id-b1701f8fb822461a87d0c96a61652a21"
       fillColor="#dbdbdb">
     <bounds
-        x="1417"
-        y="239"
+        x="1368"
+        y="240"
         width="134"
         height="55"/>
     <archimateElement
@@ -1165,10 +1142,10 @@
           endX="-1254"
           endY="-176"/>
       <bendpoints
-          startX="1291"
+          startX="1351"
           startY="46"
-          endX="-18"
-          endY="-176"/>
+          endX="-6"
+          endY="-166"/>
       <archimateRelationship
           xsi:type="archimate:AssignmentRelationship"
           href="AssignmentRelationship_id-510ccc377910421d982619546f3ce1c5.xml#id-510ccc377910421d982619546f3ce1c5"/>
