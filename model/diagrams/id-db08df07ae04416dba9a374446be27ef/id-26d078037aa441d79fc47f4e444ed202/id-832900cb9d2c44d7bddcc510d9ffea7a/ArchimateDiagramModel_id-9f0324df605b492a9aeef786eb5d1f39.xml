@@ -1752,6 +1752,44 @@
           xsi:type="archimate:InfluenceRelationship"
           href="InfluenceRelationship_id-8f64d5ccfea34a68a348f1ec3a943426.xml#id-8f64d5ccfea34a68a348f1ec3a943426"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-a7d4f6e4f62f4b888350b1de9050255e"
+        source="id-9973691ff3344deabc573e77cdc1cdd0"
+        target="id-3977e157afc54ac49385bc598a886f5b">
+      <bendpoints
+          startX="96"
+          startY="-1"
+          endX="-305"
+          endY="-766"/>
+      <bendpoints
+          startX="96"
+          startY="767"
+          endX="-305"
+          endY="2"/>
+      <archimateRelationship
+          xsi:type="archimate:InfluenceRelationship"
+          href="InfluenceRelationship_id-77c02f9d683247f899356e128a879dc4.xml#id-77c02f9d683247f899356e128a879dc4"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-7579900fb543403c9e58f180faa8e387"
+        source="id-9973691ff3344deabc573e77cdc1cdd0"
+        target="id-8cb42c2865fd4e039e9b49f5a03cbf93">
+      <bendpoints
+          startX="96"
+          startY="-1"
+          endX="-305"
+          endY="-712"/>
+      <bendpoints
+          startX="96"
+          startY="707"
+          endX="-305"
+          endY="-4"/>
+      <archimateRelationship
+          xsi:type="archimate:InfluenceRelationship"
+          href="InfluenceRelationship_id-b5584a6d658f46a488dbb560702f628e.xml#id-b5584a6d658f46a488dbb560702f628e"/>
+    </sourceConnections>
     <bounds
         x="1080"
         y="684"
@@ -2127,7 +2165,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-8cb42c2865fd4e039e9b49f5a03cbf93">
+      id="id-8cb42c2865fd4e039e9b49f5a03cbf93"
+      targetConnections="id-7579900fb543403c9e58f180faa8e387">
     <bounds
         x="1452"
         y="1393"
@@ -2139,7 +2178,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-3977e157afc54ac49385bc598a886f5b">
+      id="id-3977e157afc54ac49385bc598a886f5b"
+      targetConnections="id-a7d4f6e4f62f4b888350b1de9050255e">
     <bounds
         x="1452"
         y="1453"
