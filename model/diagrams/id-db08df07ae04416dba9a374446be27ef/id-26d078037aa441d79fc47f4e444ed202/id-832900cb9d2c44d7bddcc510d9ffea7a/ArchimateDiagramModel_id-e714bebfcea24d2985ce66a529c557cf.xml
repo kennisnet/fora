@@ -467,7 +467,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-d387e9a16e7f4628bf9f52e3c47af2f1"
-      targetConnections="id-b0add07bf6584c0eab94496f86555d94">
+      targetConnections="id-b0add07bf6584c0eab94496f86555d94 id-c0bb830428474424aad9a9b76c8234d9">
     <bounds
         x="636"
         y="516"
@@ -476,6 +476,27 @@
     <archimateElement
         xsi:type="archimate:Driver"
         href="Driver_id-a8373e25ff844b54afba09f8f5757a6c.xml#id-a8373e25ff844b54afba09f8f5757a6c"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-bfbda9ded2c84a3fb169ef1c1a27c9ca">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-c0bb830428474424aad9a9b76c8234d9"
+        source="id-bfbda9ded2c84a3fb169ef1c1a27c9ca"
+        target="id-d387e9a16e7f4628bf9f52e3c47af2f1">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-66a3999e975d4a15b1da5d4c2fd55efd.xml#id-66a3999e975d4a15b1da5d4c2fd55efd"/>
+    </sourceConnections>
+    <bounds
+        x="673"
+        y="624"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Driver"
+        href="Driver_id-11310d6a5202419b91ed9ea0f96d94f2.xml#id-11310d6a5202419b91ed9ea0f96d94f2"/>
   </children>
   <properties
       key="Publiceren"
