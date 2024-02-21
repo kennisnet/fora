@@ -6,34 +6,6 @@
     documentation="De pre-boardingfase binnen het instroomproces in de onderwijssector richt zich op het voorbereiden en verwelkomen van de nieuwe medewerker. In deze fase ontvangt de medewerker essentiële informatie en een hartelijk welkom van de werkgever. Dit omvat details over de organisatie, cultuur, beleid en praktische informatie zoals werklocatie en benodigde voorbereidingen voor de eerste werkdag. Het doel is om de nieuwe medewerker zich vooraf vertrouwd te laten voelen met de werkomgeving en de verwachtingen, waardoor een soepele overgang naar de officiële onboarding wordt vergemakkelijkt. Een doeltreffend pre-boardingproces bevordert een positieve start van de nieuwe medewerker en draagt bij aan betrokkenheid en productiviteit.">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-393e1b9ab63c4a5e8d242202876e5599"
-      targetConnections="id-57fa69effe2541d4bbb0a3ac9ca0c0d3"
-      fillColor="#dbdbdb">
-    <bounds
-        x="1344"
-        y="270"
-        width="120"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:BusinessEvent"
-        href="BusinessEvent_id-efb0d1b58bbd4ddb9a71242fdb7788f6.xml#id-efb0d1b58bbd4ddb9a71242fdb7788f6"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-61e4b64ea21a4baa91bac8166a274abc"
-      targetConnections="id-3b872cfa1e32432a95b09f2284776d08"
-      type="1">
-    <bounds
-        x="372"
-        y="612"
-        width="120"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:BusinessObject"
-        href="BusinessObject_id-b2c685b2038d4345ba7cb4ed37c5b330.xml#id-b2c685b2038d4345ba7cb4ed37c5b330"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
       id="id-bdb340f48e8748fb897ad23f1fa1267a"
       targetConnections="id-8ade6c198316487c9a5929e342313cf2"
       type="1">
@@ -168,12 +140,12 @@
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-57fa69effe2541d4bbb0a3ac9ca0c0d3"
+        id="id-54be3bf1b0804dc8ba1ddd743c4e2189"
         source="id-e9acc36d76d9479c937aeca222eea802"
-        target="id-393e1b9ab63c4a5e8d242202876e5599">
+        target="id-7eefff9d124148c39684a394721653fb">
       <archimateRelationship
           xsi:type="archimate:TriggeringRelationship"
-          href="TriggeringRelationship_id-76accb4be505450c81e325f478d2be4d.xml#id-76accb4be505450c81e325f478d2be4d"/>
+          href="TriggeringRelationship_id-0cf2a7fcf08041bab011f759406c33e7.xml#id-0cf2a7fcf08041bab011f759406c33e7"/>
     </sourceConnections>
     <bounds
         x="280"
@@ -286,12 +258,12 @@
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-3b872cfa1e32432a95b09f2284776d08"
             source="id-5ded3df1df4749b3b20a0f74ace9ed94"
-            target="id-61e4b64ea21a4baa91bac8166a274abc">
+            target="id-8d01abcd26a74c339ba9f0620dbc3e2f">
           <bendpoints
               startX="80"
               startY="-3"
-              endX="60"
-              endY="-459"/>
+              endX="48"
+              endY="-375"/>
           <archimateRelationship
               xsi:type="archimate:AccessRelationship"
               href="AccessRelationship_id-dc1f67fb5dbb43c88979bf1586a6f826.xml#id-dc1f67fb5dbb43c88979bf1586a6f826"/>
@@ -529,6 +501,33 @@
     <archimateElement
         xsi:type="archimate:BusinessProcess"
         href="BusinessProcess_id-c1570b990dd64f4e85b5f75bc5ff7ea9.xml#id-c1570b990dd64f4e85b5f75bc5ff7ea9"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-7eefff9d124148c39684a394721653fb"
+      targetConnections="id-54be3bf1b0804dc8ba1ddd743c4e2189"
+      fillColor="#dbdbdb">
+    <bounds
+        x="1284"
+        y="228"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessEvent"
+        href="BusinessEvent_id-869b07774752436d814553e5ac8070cd.xml#id-869b07774752436d814553e5ac8070cd"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-8d01abcd26a74c339ba9f0620dbc3e2f"
+      targetConnections="id-3b872cfa1e32432a95b09f2284776d08">
+    <bounds
+        x="384"
+        y="600"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-01a13beabeca402b94b0a2d9f1f5739e.xml#id-01a13beabeca402b94b0a2d9f1f5739e"/>
   </children>
   <properties
       key="Publiceren"
