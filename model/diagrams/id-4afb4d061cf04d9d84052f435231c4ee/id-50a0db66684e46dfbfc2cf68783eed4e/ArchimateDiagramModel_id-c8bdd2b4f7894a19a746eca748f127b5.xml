@@ -1,9 +1,9 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Procesmodel Schorsing en verwijdering - Uitschrijven leerling"
+    name="Procesmodel Uitschrijving - Uitschrijven leerling"
     id="id-c8bdd2b4f7894a19a746eca748f127b5"
-    documentation="Detailoverzicht van de bedrijfsprocessen, gebeurtenissen en informatieobjecten met betrekking tot het bedrijfsproces &quot;Uitschrijven leerling&quot; binnen de bedrijfsfunctie &quot;Schorsing en verwijdering&quot;.">
+    documentation="Detailoverzicht van de bedrijfsprocessen, gebeurtenissen en informatieobjecten met betrekking tot het bedrijfsproces &quot;Uitschrijven leerling&quot; binnen de bedrijfsfunctie &quot;Uitschrijving&quot;.">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-5bc43998331242e49cc9105dcee689a6"
@@ -163,12 +163,12 @@
       fillColor="#2e3092">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-ca5768d675ab4ba39a96d5a1c92de86b"
+        id="id-983dd35b67614a55ac8ac16be8bc4f12"
         source="id-fc8f56aa10c0496a9588b2f01e736f96"
-        target="id-29917ae04e804923a9a4ef1ac11f1605">
+        target="id-d580eb869b1041e7a1fc466ad4580ad0">
       <archimateRelationship
           xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-ec82f5a68c2d424f9db5079c4cbe7e3d.xml#id-ec82f5a68c2d424f9db5079c4cbe7e3d"/>
+          href="AggregationRelationship_id-c8b72ffe8e1e4a3eac2abbd0eadbbb74.xml#id-c8b72ffe8e1e4a3eac2abbd0eadbbb74"/>
     </sourceConnections>
     <bounds
         x="-900"
@@ -177,17 +177,17 @@
         height="264"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-29917ae04e804923a9a4ef1ac11f1605"
-        targetConnections="id-ca5768d675ab4ba39a96d5a1c92de86b"
+        id="id-d580eb869b1041e7a1fc466ad4580ad0"
+        targetConnections="id-983dd35b67614a55ac8ac16be8bc4f12"
         fillColor="#acacd3">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-461fbc1fd33a4b0490108052b9054e2f"
-          source="id-29917ae04e804923a9a4ef1ac11f1605"
+          id="id-e06d6ed92de14917a22df9f0c94e8979"
+          source="id-d580eb869b1041e7a1fc466ad4580ad0"
           target="id-4511d8686e2347e4a47d867a6070600b">
         <archimateRelationship
             xsi:type="archimate:AggregationRelationship"
-            href="AggregationRelationship_id-bd371a2ad2ec403493014112419a43cc.xml#id-bd371a2ad2ec403493014112419a43cc"/>
+            href="AggregationRelationship_id-6d25b282506d4f0a9cdd6a198ee91274.xml#id-6d25b282506d4f0a9cdd6a198ee91274"/>
       </sourceConnections>
       <bounds
           x="12"
@@ -197,7 +197,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-4511d8686e2347e4a47d867a6070600b"
-          targetConnections="id-461fbc1fd33a4b0490108052b9054e2f id-ebebfc5270d04850a6b74227382ea83e id-1909540cee2340b68c4841d8f79b354b"
+          targetConnections="id-ebebfc5270d04850a6b74227382ea83e id-1909540cee2340b68c4841d8f79b354b id-e06d6ed92de14917a22df9f0c94e8979"
           fillColor="#d5d6e9">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
@@ -465,7 +465,7 @@
       </children>
       <archimateElement
           xsi:type="archimate:BusinessFunction"
-          href="BusinessFunction_1382d825-9f84-4d0a-a34a-815a152cfa0a.xml#1382d825-9f84-4d0a-a34a-815a152cfa0a"/>
+          href="BusinessFunction_id-e6dec4b6bcd14105aa7f394db12e2f9f.xml#id-e6dec4b6bcd14105aa7f394db12e2f9f"/>
     </children>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
