@@ -88,6 +88,15 @@
           xsi:type="archimate:AssignmentRelationship"
           href="AssignmentRelationship_id-fadb98e4f1c2478c8c929784fae9c93a.xml#id-fadb98e4f1c2478c8c929784fae9c93a"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-25bda02be6c04d02bb48fa9809a1a323"
+        source="add9a765-b92f-48f5-9a7b-a2e87f1de54c"
+        target="id-a0f011028832420c86fce9bce780c680">
+      <archimateRelationship
+          xsi:type="archimate:AssignmentRelationship"
+          href="AssignmentRelationship_id-a80d3d3a57974fc2ac4fb06d89ace05e.xml#id-a80d3d3a57974fc2ac4fb06d89ace05e"/>
+    </sourceConnections>
     <bounds
         x="1716"
         y="120"
@@ -444,6 +453,19 @@
       <archimateRelationship
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-994a7fb1f5e9481489a4cb533105ff11.xml#id-994a7fb1f5e9481489a4cb533105ff11"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-1fb389ac4fe24b9c879e4356b476e317"
+        source="69e3b445-ec8f-436f-b132-a46ba439d9ff"
+        target="id-a5846d8ba6434803bad9ad17ec97b3ea">
+      <bendpoints
+          startY="633"
+          endX="-168"
+          endY="3"/>
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-d7ada4e1ecb94b7280508137146e13dc.xml#id-d7ada4e1ecb94b7280508137146e13dc"/>
     </sourceConnections>
     <bounds
         x="564"
@@ -826,6 +848,41 @@
     <archimateElement
         xsi:type="archimate:BusinessFunction"
         href="BusinessFunction_id-0668f09afa8b4f52afa592a9b5cf5abe.xml#id-0668f09afa8b4f52afa592a9b5cf5abe"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-a5846d8ba6434803bad9ad17ec97b3ea"
+      targetConnections="id-1fb389ac4fe24b9c879e4356b476e317 id-323fe626222a4f61b274ee0c5548a593">
+    <bounds
+        x="732"
+        y="774"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessFunction"
+        href="BusinessFunction_id-27db1fa1eb6d49728888f46ca462ec5b.xml#id-27db1fa1eb6d49728888f46ca462ec5b"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-a0f011028832420c86fce9bce780c680"
+      targetConnections="id-25bda02be6c04d02bb48fa9809a1a323">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-323fe626222a4f61b274ee0c5548a593"
+        source="id-a0f011028832420c86fce9bce780c680"
+        target="id-a5846d8ba6434803bad9ad17ec97b3ea">
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_id-80f0f0721bf14975b81bfb8bb212033c.xml#id-80f0f0721bf14975b81bfb8bb212033c"/>
+    </sourceConnections>
+    <bounds
+        x="1524"
+        y="780"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationFunction"
+        href="ApplicationFunction_id-3ac8a9b93d7f4370acc89b49a9861da9.xml#id-3ac8a9b93d7f4370acc89b49a9861da9"/>
   </children>
   <properties
       key="Publiceren"
