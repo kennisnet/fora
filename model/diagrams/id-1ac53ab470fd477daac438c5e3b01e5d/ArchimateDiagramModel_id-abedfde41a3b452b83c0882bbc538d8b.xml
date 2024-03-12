@@ -101,7 +101,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-e50d371c37984747878ce3e9833012f2"
-      targetConnections="id-7fe7fcf0e280474880738af061886e5c id-367e25cd61924378b1dddce43d09afb4 id-f16c8a0127a14d3d8a2e8bdec1525c1d id-6fda85399b034fbab80171fc81cefa05"
+      targetConnections="id-7fe7fcf0e280474880738af061886e5c id-367e25cd61924378b1dddce43d09afb4 id-f16c8a0127a14d3d8a2e8bdec1525c1d id-6fda85399b034fbab80171fc81cefa05 id-07bdf56dbf6040838bb6227763b7ee92"
       fontColor="#ffffff"
       fillColor="#007ac3">
     <sourceConnections
@@ -509,7 +509,7 @@
           href="SpecializationRelationship_id-f6a8a26d3a49411291dd3359ed0a90fe.xml#id-f6a8a26d3a49411291dd3359ed0a90fe"/>
     </sourceConnections>
     <bounds
-        x="391"
+        x="325"
         y="-232"
         width="120"
         height="55"/>
@@ -774,6 +774,29 @@
     <archimateElement
         xsi:type="archimate:BusinessFunction"
         href="BusinessFunction_id-1e1b05dd7a7d49648579e262c7d422ec.xml#id-1e1b05dd7a7d49648579e262c7d422ec"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-e4b9598c316d43ecb6f2a701905004a4"
+      fontColor="#ffffff"
+      fillColor="#007ac3">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-07bdf56dbf6040838bb6227763b7ee92"
+        source="id-e4b9598c316d43ecb6f2a701905004a4"
+        target="id-e50d371c37984747878ce3e9833012f2">
+      <archimateRelationship
+          xsi:type="archimate:SpecializationRelationship"
+          href="SpecializationRelationship_id-5925e78141de466d85b6edcb3b13d8bb.xml#id-5925e78141de466d85b6edcb3b13d8bb"/>
+    </sourceConnections>
+    <bounds
+        x="456"
+        y="-232"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-b0b15d9bfccc4d14933f90b0c75baf90.xml#id-b0b15d9bfccc4d14933f90b0c75baf90"/>
   </children>
   <properties
       key="Publiceren"
