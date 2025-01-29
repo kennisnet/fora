@@ -1,9 +1,12 @@
 <archimate:TechnologyService
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Network Address Translation (NAT)"
+    name="Network / Port Address Translation (NAT/PAT)"
     id="id-692aa0fcb81643d39895f5093cffe051"
     documentation="Het vertalen van privé-IP-adressen (RFC1918) naar één openbaar IP-adres voor uitgaand verkeer om interne netwerkstructuren te verbergen en de behoefte aan IP-adressen te verminderen.">
   <properties
       key="FORA-type"
       value="Netwerkinfrastructuurservice"/>
+  <properties
+      key="Toelichting"
+      value="Network Address Translation (NAT) en Port Address Translation (PAT) zijn methodieken die samenwerken aan de beoogde functionaliteit: Private (interne) adressen bereiken met publieke toegang. Door NAT en PAT gecombineerd in te zetten wordt het mogelijk een mapping te maken tussen de schaarse publieke IP-adressen die de provider beschikbaar stelt, en het aanzienlijk grotere aantal adressen aan de private kant van het netwerk."/>
 </archimate:TechnologyService>
