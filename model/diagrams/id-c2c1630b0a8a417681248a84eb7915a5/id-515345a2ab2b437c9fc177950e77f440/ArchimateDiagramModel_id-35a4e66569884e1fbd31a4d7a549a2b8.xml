@@ -1,13 +1,22 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Procesmodel Personeel en Organisatie met informatieobjecten"
+    name="Procesmodel Personeel en organisatie met informatieobjecten"
     id="id-35a4e66569884e1fbd31a4d7a549a2b8">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-6caeef1141ad49ceada502e47503bac3"
       fontColor="#ffffff"
       fillColor="#d1006e">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-3d32bf49d3404f3f8f993637ef005b97"
+        source="id-6caeef1141ad49ceada502e47503bac3"
+        target="id-8d597c98fcb346029b35612e047713f2">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-611e15594d104e3ba1336d150821067f.xml#id-611e15594d104e3ba1336d150821067f"/>
+    </sourceConnections>
     <bounds
         x="-168"
         y="72"
@@ -99,14 +108,14 @@
           source="id-cac1c31cd21a4a148e8a3f29a61095ab"
           target="id-6b466225ff2d48299163af8fa389477f">
         <bendpoints
-            startX="72"
+            startX="60"
             startY="94"
-            endX="-84"
-            endY="-98"/>
+            endX="-96"
+            endY="-62"/>
         <bendpoints
             startX="156"
             startY="94"
-            endY="-98"/>
+            endY="-62"/>
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-2390d47ae3224567abcf27d676383e1a.xml#id-2390d47ae3224567abcf27d676383e1a"/>
@@ -117,14 +126,15 @@
           source="id-cac1c31cd21a4a148e8a3f29a61095ab"
           target="id-d7836ae4f8d7442a974f2e484e0dcd3e">
         <bendpoints
-            startY="-99"
-            endX="504"
-            endY="-291"/>
+            startX="-48"
+            startY="94"
+            endX="475"
+            endY="-62"/>
         <bendpoints
-            startX="-540"
-            startY="-99"
-            endX="-36"
-            endY="-291"/>
+            startX="-456"
+            startY="94"
+            endX="67"
+            endY="-62"/>
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-5c4679f504f54404b4fb94bf2e729a28.xml#id-5c4679f504f54404b4fb94bf2e729a28"/>
@@ -228,15 +238,14 @@
           source="id-0261e293a843492099ea61ff5c4c8b78"
           target="id-477d7a955b5f45229fb913427dafe396">
         <bendpoints
-            startX="-12"
-            startY="262"
-            endX="920"
-            endY="70"/>
+            startY="106"
+            endX="932"
+            endY="-50"/>
         <bendpoints
-            startX="-936"
-            startY="262"
-            endX="-4"
-            endY="70"/>
+            startX="-900"
+            startY="106"
+            endX="32"
+            endY="-50"/>
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-30b0c7f0a79e4c6abf89e3dd5f1e0be0.xml#id-30b0c7f0a79e4c6abf89e3dd5f1e0be0"/>
@@ -295,7 +304,7 @@
             href="AccessRelationship_id-eb0ad8461f54472cb7a2c09fa2ba22b2.xml#id-eb0ad8461f54472cb7a2c09fa2ba22b2"/>
       </sourceConnections>
       <bounds
-          x="1644"
+          x="1848"
           y="36"
           width="192"
           height="55"/>
@@ -306,9 +315,10 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-8d597c98fcb346029b35612e047713f2"
+        targetConnections="id-3d32bf49d3404f3f8f993637ef005b97"
         fillColor="#ed99c5">
       <bounds
-          x="1848"
+          x="1645"
           y="36"
           width="192"
           height="55"/>
@@ -329,7 +339,7 @@
       type="1">
     <bounds
         x="1320"
-        y="312"
+        y="264"
         width="120"
         height="55"/>
     <archimateElement
@@ -344,8 +354,8 @@
       fillColor="#d1006e"
       type="1">
     <bounds
-        x="1584"
-        y="312"
+        x="1788"
+        y="264"
         width="120"
         height="55"/>
     <archimateElement
@@ -369,7 +379,7 @@
     </sourceConnections>
     <bounds
         x="1260"
-        y="432"
+        y="360"
         width="120"
         height="55"/>
     <archimateElement
@@ -393,7 +403,7 @@
     </sourceConnections>
     <bounds
         x="1392"
-        y="432"
+        y="360"
         width="120"
         height="55"/>
     <archimateElement
@@ -409,7 +419,7 @@
       type="1">
     <bounds
         x="444"
-        y="300"
+        y="264"
         width="120"
         height="55"/>
     <archimateElement
@@ -425,7 +435,7 @@
       type="1">
     <bounds
         x="168"
-        y="300"
+        y="264"
         width="130"
         height="55"/>
     <archimateElement
@@ -441,7 +451,7 @@
       type="1">
     <bounds
         x="312"
-        y="300"
+        y="264"
         width="120"
         height="55"/>
     <archimateElement
@@ -457,7 +467,7 @@
       type="1">
     <bounds
         x="576"
-        y="300"
+        y="264"
         width="180"
         height="55"/>
     <archimateElement
@@ -472,8 +482,8 @@
       fillColor="#d1006e"
       type="1">
     <bounds
-        x="816"
-        y="300"
+        x="792"
+        y="264"
         width="180"
         height="55"/>
     <archimateElement
@@ -488,8 +498,8 @@
       fillColor="#d1006e"
       type="1">
     <bounds
-        x="1452"
-        y="312"
+        x="1656"
+        y="264"
         width="120"
         height="55"/>
     <archimateElement
@@ -505,7 +515,7 @@
       type="1">
     <bounds
         x="60"
-        y="300"
+        y="264"
         width="96"
         height="55"/>
     <archimateElement
@@ -520,7 +530,7 @@
       type="1">
     <bounds
         x="-84"
-        y="300"
+        y="264"
         width="132"
         height="55"/>
     <archimateElement
@@ -535,7 +545,7 @@
       type="1">
     <bounds
         x="-252"
-        y="300"
+        y="264"
         width="157"
         height="55"/>
     <archimateElement

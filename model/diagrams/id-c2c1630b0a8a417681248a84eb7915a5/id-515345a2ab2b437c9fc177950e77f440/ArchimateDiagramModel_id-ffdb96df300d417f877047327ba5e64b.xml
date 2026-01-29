@@ -8,15 +8,24 @@
       id="id-e83b39538d5344fbb54a5ddf0cbf7c2e"
       fontColor="#ffffff"
       fillColor="#d1006e">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-f4638a20acd34c1bb9c30841306047aa"
+        source="id-e83b39538d5344fbb54a5ddf0cbf7c2e"
+        target="id-3c64c1b8ee82477d8baae80f1f26d956">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-2211b7012ccc46bc8e5f9b7e6c9c6a5e.xml#id-2211b7012ccc46bc8e5f9b7e6c9c6a5e"/>
+    </sourceConnections>
     <bounds
         x="48"
         y="36"
-        width="853"
+        width="1045"
         height="121"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-3422f63de533435dad51f9081e29ff0e"
-        fillColor="#f6cce2">
+        fillColor="#ed99c5">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-8ec4d58d0bf34881a2c816ff822d4dfb"
@@ -38,7 +47,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-a1948686525c4c46a77dc2ef9b80dd8d"
-        fillColor="#f6cce2">
+        fillColor="#ed99c5">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-e36355ded46a4ff6a3c75d43612844fc"
@@ -60,7 +69,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-4b93f7df5edb4c60b3b602cbce44df91"
-        fillColor="#f6cce2">
+        fillColor="#ed99c5">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-b036740a668044d9979bf194cbca3003"
@@ -125,7 +134,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-5b8efa167e504a70b2a918ede1a3f41a"
-        fillColor="#f6cce2">
+        fillColor="#ed99c5">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-7f0706b62b5f4d5a98d752d4afcd4462"
@@ -174,13 +183,13 @@
           target="id-835fe483387d493a8940806a86aba0d4">
         <bendpoints
             startX="30"
-            startY="96"
+            startY="108"
             endX="-240"
-            endY="-87"/>
+            endY="-75"/>
         <bendpoints
             startX="270"
-            startY="96"
-            endY="-87"/>
+            startY="108"
+            endY="-75"/>
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-9b7f72a3ca2748e58cc1de3fcdb6a088.xml#id-9b7f72a3ca2748e58cc1de3fcdb6a088"/>
@@ -192,13 +201,14 @@
           target="id-bee2a2288e7f4e00bce975cad537ada9">
         <bendpoints
             startX="66"
-            startY="72"
+            startY="96"
             endX="-336"
-            endY="-111"/>
+            endY="-87"/>
         <bendpoints
-            startX="402"
-            startY="72"
-            endY="-111"/>
+            startX="378"
+            startY="96"
+            endX="-24"
+            endY="-87"/>
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-90b5e3ca81814824bbd3f6f15b55bc16.xml#id-90b5e3ca81814824bbd3f6f15b55bc16"/>
@@ -212,6 +222,39 @@
           xsi:type="archimate:BusinessProcess"
           href="BusinessProcess_id-201cbef9ad9c4c188177d6a51ac64086.xml#id-201cbef9ad9c4c188177d6a51ac64086"/>
     </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-3c64c1b8ee82477d8baae80f1f26d956"
+        targetConnections="id-f4638a20acd34c1bb9c30841306047aa"
+        fillColor="#ed99c5">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-43ca572a569141c6918555132314581f"
+          source="id-3c64c1b8ee82477d8baae80f1f26d956"
+          target="id-bee2a2288e7f4e00bce975cad537ada9">
+        <bendpoints
+            startX="6"
+            startY="84"
+            endX="-192"
+            endY="-99"/>
+        <bendpoints
+            startX="210"
+            startY="84"
+            endX="12"
+            endY="-99"/>
+        <archimateRelationship
+            xsi:type="archimate:AccessRelationship"
+            href="AccessRelationship_id-e5cc0dffe02f4fc097814f8934fe8160.xml#id-e5cc0dffe02f4fc097814f8934fe8160"/>
+      </sourceConnections>
+      <bounds
+          x="840"
+          y="36"
+          width="181"
+          height="49"/>
+      <archimateElement
+          xsi:type="archimate:BusinessProcess"
+          href="BusinessProcess_id-5eeba7a5eaee48f095de7806a52016d9.xml#id-5eeba7a5eaee48f095de7806a52016d9"/>
+    </children>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
         href="BusinessFunction_db22e513-ae42-475e-91a0-bd10a2f11d79.xml#db22e513-ae42-475e-91a0-bd10a2f11d79"/>
@@ -224,7 +267,7 @@
       fillColor="#d1006e"
       type="1">
     <bounds
-        x="324"
+        x="300"
         y="252"
         width="120"
         height="55"/>
@@ -331,7 +374,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-bee2a2288e7f4e00bce975cad537ada9"
-      targetConnections="id-58143e3b5ec84b718873e8f5798ab0a2"
+      targetConnections="id-58143e3b5ec84b718873e8f5798ab0a2 id-43ca572a569141c6918555132314581f"
       fontColor="#ffffff"
       fillColor="#d1006e"
       type="1">
@@ -343,6 +386,17 @@
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-ba46f2f8b1414c7d9b6fa3e3c255af02.xml#id-ba46f2f8b1414c7d9b6fa3e3c255af02"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-ef79ffbb50c24962ad2b439ab7d9298f"
+      textAlignment="1"
+      content="Nog toe te voegen informatieobjecten?&#xD;&#xA;- ict-incident&#xD;&#xA;- ict-probleem&#xD;&#xA;- ticket&#xD;&#xA;- product&#xD;&#xA;- dienst&#xD;&#xA;- ...">
+    <bounds
+        x="1116"
+        y="24"
+        width="205"
+        height="128"/>
   </children>
   <properties
       key="Publiceren"
