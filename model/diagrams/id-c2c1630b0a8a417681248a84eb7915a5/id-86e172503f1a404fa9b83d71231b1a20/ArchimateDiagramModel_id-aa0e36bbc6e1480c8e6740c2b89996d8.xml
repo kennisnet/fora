@@ -116,7 +116,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-6a11fd4e2d3c4c4caf42a6fc2201c324"
-        targetConnections="id-62801dd5ac7e4ff99db4cba152f33244 id-69e14f8adc8b49909d6a0b495aca7ab4"
+        targetConnections="id-62801dd5ac7e4ff99db4cba152f33244"
         fillColor="#ffe599">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
@@ -144,7 +144,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-ab89650cdfb242959f86ea8d2cbcde45"
-          targetConnections="id-9c0e2c4bd3dc477797ec098f18dda70e"
+          targetConnections="id-9c0e2c4bd3dc477797ec098f18dda70e id-69e14f8adc8b49909d6a0b495aca7ab4"
           fillColor="#fff2cc">
         <bounds
             x="12"
@@ -158,7 +158,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-6d866977a0b548acb20cc8e550028ecd"
-          targetConnections="id-2716876363164322b88f182aadd9ea3f"
+          targetConnections="id-2716876363164322b88f182aadd9ea3f id-3dc8b063966243c197010cb4d8122f87"
           fillColor="#fff2cc">
         <bounds
             x="168"
@@ -299,10 +299,19 @@
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-69e14f8adc8b49909d6a0b495aca7ab4"
         source="id-bb048d9f5bfa40aaa4351629b57c307e"
-        target="id-6a11fd4e2d3c4c4caf42a6fc2201c324">
+        target="id-ab89650cdfb242959f86ea8d2cbcde45">
       <archimateRelationship
           xsi:type="archimate:ServingRelationship"
           href="ServingRelationship_id-994f51f00a3c4d338137e416987ebea4.xml#id-994f51f00a3c4d338137e416987ebea4"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-3dc8b063966243c197010cb4d8122f87"
+        source="id-bb048d9f5bfa40aaa4351629b57c307e"
+        target="id-6d866977a0b548acb20cc8e550028ecd">
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_id-9e1328d49b1d40d6add075d2f48243ef.xml#id-9e1328d49b1d40d6add075d2f48243ef"/>
     </sourceConnections>
     <bounds
         x="672"
